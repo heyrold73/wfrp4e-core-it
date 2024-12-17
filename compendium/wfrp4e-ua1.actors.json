@@ -1,0 +1,315 @@
+{
+	"label": "Acteurs (Aventures à Ubersreik I)",
+  "mapping": {
+    "description": "system.details.biography.value",
+    "gmnotes": "system.details.gmnotes.value",
+    "items": {
+      "path": "items",
+      "converter": "bestiary_traits"
+      },
+    "characteristics": {
+      "path": "system.characteristics",
+      "converter": "npc_characteristics"
+    }
+  },
+  "folders": {
+    "Bait and Witch":"Appat à Sorcier",
+    "Heart of Glass":"Coeur de Verre",
+    "The Guilty Party":"Les Coupables",
+    "The Mad Men of Gotheim":"Les Fous de Gotheim",
+    "If Looks Could Kill":"Si un regard pouvait tuer",
+    "Slaughter in Spittlefeld":"Massacre à Spittlefeld"
+  },
+  "entries": {
+		"Alexander Grün": {
+			"name": "Alexander Grün",
+			"description": "",
+			"gmnotes": "<h4>Le sorcier traqué</h4>\n<p>Alexander a grandi dans une petite ferme aux abords de Stromdorf. C'était un enfant à la fois paresseux et curieux, ce qui a poussé sa famille à penser qu'il apportait plus d'ennuis qu'autre chose. Un jour, un herboriste itinérant vint à la ferme pour proposer son assortiment de soins et de breloques en échange d'un repas chaud et de l'autorisation de dormir dans la grange. L'étranger regarda Alexander avec intérêt, considérant qu'il avait le potentiel pour être l'un des \"heureux élus\", et devenir un sorcier de village. Lorsque l'herboriste proposa de prendre leur fils comme apprenti, les parents d'Alexander n'y virent aucune objection, mais ils ne savaient pas qu'il partait pour apprendre la magie.</p>\n<p>Alexander voyage désormais de ferme en village autour d'Ubersreik, en proposant ses services et en récoltant des herbes rares qu'il utilise dans ses potions, ou qu'il vend à @UUID[Actor.N3hGHrY2P51BNTYO]{Cordélia}. Il connait les meilleures routes pour parcourir la région, notamment pour ceux qui cherchent à éviter les autorités. Ce que Cordélia ignore, c'est qu'Alexander n'est pas difficile en matière de clientèle. Il a utilisé ses talents médicaux avec enthousiasme pour aider des bandits, des mutants, et même quelques hommes-bêtes. Cela lui vaut d'être considéré par tous comme un contact utile, et par conséquent de n'être que rarement ennuyé au cours de ses pérégrinations.</p>"
+		},
+		"Alexandra Giliani": {
+			"name": "Alexandra Giliani",
+			"description": "",
+			"gmnotes": "<h3>Médecin de génie</h3>\n<p>Alexandra Giliani est née et a grandi au sein d'une famille marchande aisée à Verezzo en Tilée. Comme ses huit frères et soeurs, elle a été encouragée à fréquenter l'université dès son plus jeune âge. La jeune fille s'est vite intéressée à la médecine, et à 16 ans elle avait déjà achevé l'une des meilleures formations médicales que la Tilée puisse offrir. Bien qu'elle soit manifestement un prodige, voire considérée par certains comme une émanation de Shallya, Gilliani n'était pas satisfaite.  Elle est partie à l'étranger pour apprendre les pratiques médicales des autres contrées du Vieux Monde, d'abord dans d'autres citées tiléennes, puis en Estalie, en Bretonnie via le port de l'Anguille, à Marienburg, puis en descendant le Reik. A 19 ans à peine, elle s'est retrouvée à Ubersreik, où, telle un li,ier, elle démasque les charlatans et les faux diagnostics, se déplaçant sans cesse avant de recevoir des éloges.</p>\n<p>Mais cette halte pourrait bien être sa dernière. Gilliani est tombée malade en enquêtant sur l'étrange épidémie qui sévit dans l'immeuble de Spittlefeld, juste avant qu'il ne soit confiné. A présent mourante, elle est peut-être la seule personne à connaitre la véritable cause de la maladie, même si elle manque d'énergie pour la révéler à qui que ce soit...</p>\n<p>Giliani est une jeune femme de 1m72, aux cheveux bouclés brun foncé et à la peau olivâtre. Elle porte des vêtements à la mode, mais simples, bien adaptés à sa profession et à sa modeste bourse. Son sac de fournitures médicales la suit partout. Il contient normalement son journal, écrit en tiléen, mais ce dernier a été volé.</p>"
+		},
+		"Andreas Wagenknecht": {
+			"name": "Andreas Wagenknecht",
+			"description": "",
+			"gmnotes": "<h3>Agent double</h3>\n<p>Andreas est un agent spécialisé dans l'investigation, le subterfuge et le combat. D'âge moyen, bronzé aux cheveux grisonnants, les yeux marron foncé et arborant une barbe poivre et sel bien taillée, il porte des vêtements plutôt ternes et informes ; une veste en cuir marron, un bonnet de feutre décoré de plumes bleues et rouges et des bottes sombres qui ont connu des jours meilleurs. Sous sa chemise, il porte une balance de la justice en pendentif qu'il ne fait aucun effort pour cacher et qui est repéré par quiconque lui prête attention et réussit un Test de <strong>Perception Facile (+40)</strong>. Andreas porte une épée à lame étroite et un pistolet.</p>\n<p>&nbsp;</p>"
+		},
+		"Annika Passerine": {
+			"name": "Annika Passerine",
+			"description": "",
+			"gmnotes": "<h3>Mère poule</h3><p>Gamine des rues à Marienburg, Passerine est venue à Ubersreik en tant que serveuse à bord d'un bateau à un très jeune âge et a trouvé du travail sur les docks. Elle a toujours été forte physiquement et a acquis la réputation de ne jamais commencer les combats, mais de toujours les terminer. Cette réputation a attiré sur elle l'attention de l'Eperon d'étain, où ses prouesses l'ont amené à la noble carrière boxeuse, et de nombreux experts ont proclamé qu'elle avait les \"meilleures poings de sa génération.\" Il y a plusieurs années, Passerine a quitté sa carrière pour fonder dans l'immeuble de Spittlefeld (sans permission) un refuge pour enfants abandonnés, lorsque le @UUID[Compendium.wfrp4e-ua2.actors.KHU4UeFIP5yokI6u]{Graf Sigismund von Jungfreud} a décrété la fermeture de plusieurs orphelinats dans le but officiel de \"réduire les risques d'incendie.\" Maintenant, elle protège ses enfants de ses poings primés.</p><p>Passerine est d'âge moyen, 1m75, extraordinairement musclée et large d'épaules. Ses cheveux bouclés sont couleur charbon de bois, et son teint est couleur noisette. Elle porte des vêtements pratiques, un pantalon de toile beige et une chemise en lin blanc avec un tablier noir par-dessus, et de solides bottes en cuir noir.</p>"
+		},
+		"Bruno Bäcker": {
+			"name": "Bruno Bäcker",
+			"description": "",
+			"gmnotes": "<p>Bruno est un homme gai et enthousiaste. Dans sa jeunesse, il a passé quelques temps avec une compagnie de mercenaires, et il a une plus grande expérience du monde que la plupart des autres habitants du village. Il est beau, avec des cheveux blonds, coupés court.</p>\n<p>Bruno souffre de tics involontaires et laisse parfois échapper des bribes de discours encourageants et des extraits de chansons. Il s'agit d'un trouble nerveux dont il souffrait déjà avant l'attaque, bien que cela ait empiré depuis.</p>"
+		},
+		"Carolus Entschlafen": {
+			"name": "Carolus Entschlafen",
+			"description": "",
+			"gmnotes": "<h4>Le Chantre de la Cabale</h4><p>Carolus Entschlafen a grandi dans les rues d'Altdorf, en courant avec d'autres gosses abandonnés, dont la jeune @UUID[Actor.UcCdrNkDrjGUXbj5]{Hagerdorn}. Tous deux étaient inséparables jusqu'à ce que leurs aptitudes magiques soient détectées et qu'ils soient emmenés aux Collèges de Magie. Alors que Hagerdorn a été orienté vers le Collège Céleste, les examinateurs d'Entschlafen ont jugé, à tort, que ses talents étaient trop épars et diffus. Au lieu d'exécuter l'enfant, ils l'ont attribué au Collège Lumineux, condamné à une vie de servitude en tant qu'apprenti subalterne. Mais Entschlafen a excellé dans ce rôle, devenant l'un des meilleures chantres que le Collège ait jamais connu, jusqu'à être nommé chantre personnel du nouveau Patriarche suprême, Egrimm van Horstmann.</p><p>Horstmann a immédiatement compris l'erreur des instructeurs d'Entschlafen, percevant en lui le potentiel de canaliser en toute sécurité plusieurs Vents de Magie. Le Patriarche suprême a commencé à préparer Entschlafen et, quand sa propre trahison a été révélée, ce dernier s'est enfui avec son nouveau maître.  Aujourd'hui, Entschlafen s'est tourné vers sa vieille amie, Hagerdorn, dans l'espoir de la gagner à la cause de Hortsmann et d'utiliser ses connaissances et ses ressources pour atteindre ses objectifs.</p><p>Derrière ses yeux gris pâle, Entschlafen entretient une haine brûlante envers ceux qui ont gaché sa vie. En-dehors de ses yeux, Entschlafen est un homme à l'aspect tout à fait quelconque, la cinquantaine, aux cheveux blonds grisonnants coupés courts. Il porte des vêtements de voyage simples dans des tons ternes, marron, gris et blancs. </p><blockquote class=\"sidebar\"><h3 style=\"text-align: center;\"><em>La Cabale d'Egrimm von Horstmann</em></h3><p><em>La Cabale d'@UUID[Compendium.wfrp4e-wom.actors.OtBqhr035Qdf3XNo]{Egrimm van Horstmann} (ou tout simplement \"la Cabale\") est sans aucun doute le culte de Tzeentch le plus influent et le plus puissant de l'Empire (et peut-être même au-delà). Cependant, comme il convient aux serviteurs du Changement, la Cabale est aussi le moins connu de tous.</em></p><p><em>Tous les membres de la Cabale sont des mages incroyablement puissants qui ont presque tous fui les Collèges de Magie lorsque leur maître, @UUID[Compendium.wfrp4e-wom.actors.OtBqhr035Qdf3XNo]{Egrimm van Horstmann}(le Patriarche suprême de l'époque) a été démasqué et contraint à l'exil. Ils oeuvrent à présent en secret à rassembler du pouvoir magique et à trouver de nouveaux acolytes dans les Collèges, avec pour objectif ultime la découverte des secrets de la Haute Magie des elfes, qu'aucun humain n'était jamais parvenu à focaliser jusqu'à ce que Hortsmann lui même réalise cet exploit.</em></p></blockquote>"
+		},
+		"Concerned Citizens": {
+			"name": "Citoyens engagés",
+			"description": "<section id=\"secret-MkLh8EqOiwnefC1l\" class=\"secret\"><p>S'il y a une chose que les gens de l'Empire apprécient plus que tout, c'est un bouc émissaire. Et s'il y a une chose sur laquelle les répurgateurs peuvent toujours compter, c'est une foule de \"citoyens engagés\" prête à faire le sale boulot. Ni les gens d'Ubersreik, ni @UUID[Actor.wNq1O1IoZ9CMdKGM]{Ursula Marbad} ne dérogent à la règle.</p></section>",
+			"gmnotes": ""
+		},
+		"Cordelia Wesselingh": {
+			"name": "Cordelia Wesselingh",
+			"description": "",
+			"gmnotes": "<p>Cordélia est une belle femme avec de longs cheveux d'un gris argenté. Elle arbore toujours un sourire accueillant, et aime passer ses après-midi à bavarder avec ses clients, pendant qu'elle prépare leurs baumes et remèdes à base de plantes médicinales. Ce que peu de gens savent, il y a quelques dizaines d'années Cordélia a été apprentie au @UUID[Compendium.wfrp4e-wom.journals.Q9sQhbDN8NUHXYdA.JournalEntryPage.MVwOuM2YKhUvA1E1#the-jade-college]{Collège de Magie de Jade} à Altdorf. Elle n'a jamais eu assez de talent pour devenir un Sorcier à part entière, mais elle ressent toujours une forme de loyauté ennvers les Collèges de Magie. Cachée dans sa cave se trouve une entrée secrète menant dans la @UUID[JournalEntry.TSyoR9nSk7cehypG.JournalEntryPage.tCh9vROs0eeTuEwA]{tour} du Seigneur Sorcier @UUID[Compendium.wfrp4e-rnhd.actors.7M5OJZbbtV6DKUvG]{Christoph Engel} de l'Ordre Gris, à qui elle raconte tout ce qu'elle a pu entreprendre d'intéressant en discutant. Cordélia dispose de toutes les herbes et concoctions listées dans la section @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.PYiffieXenZHBUAU]{Herbes et Potions}. Si le groupe l'interroge sur son nouveau breuvage de guérison, elle répond qu'elle travaille sur quelque chose de spécial, mais qu'elle ne l'a pas encore terminé. </p>"
+		},
+		"Unmarred Flesh Cultists": {
+			"name": "Cultistes de la Chair Immaculée",
+			"description": "<section id=\"secret-lBLfP9IX5AZSdHxI\" class=\"secret\"><p>@UUID[JournalEntry.d8nvgs2H5MmtKhdM.JournalEntryPage.L5gV9pgaWXB3floP#the-circle-of-unmarred-flesh]{Le Cercle de la Chair Immaculée} est un club de pugilat clandestin composé de membres de l'armée régulière d'Altdorf. Le cercle se présente comme inspiré par les \"Loges des guerriers Unberogen\", bien qu'il n'ait rien à voir avec elles (il n'y a d'ailleurs aucune preuve que de telles loges aient réellement existé). Ce mensonge offre aux chefs du culte la couverture dont ils ont besoin, vu que très peu de membres sont informés qu'ils font partie d'un culte. Bien que leurs actions, visant à acquérir un contrôle parfait sur leur esprit guerier, soient consacrées à Slaanesh, ils en sont totalement inconscients.</p><p>A Ubersreik, les cultistes ont été recrutés par le caporal @UUID[Actor.jXKDSrWjfW61Nfpa]{Tylo Vielfrass} ; ils suivent à présent le sergent @UUID[Actor.LhI9XQo9pkV9eJ2d]{Orban Geldrecht}, puisqu'il paraissait être le bras droit de Vielfrass. Tous (Geldrecht y compris) ignorent leur véritable allégeance.</p></section>",
+			"gmnotes": ""
+		},
+		"Eluharath Wavecrest": {
+			"name": "Eluharath Crêtedevague",
+			"description": "",
+			"gmnotes": "<h3>Le Haut elfe disgracié</h3>\n<p>Moults dramaturges tueraient pour écouter l'histoire d'Eluharath Crêtedevague, mais l'explorateur disgracié ne la contera jamais à personne. C'est une histoire qui parle d'ambition, d'orgueil, de trahison et de ruine, et qui a vu un jeune elfe s'élever bien au dessus de son statut social pour venir s'écraser au plus bas. Au cours de ses années d'errance, Eluharath a voyagé aux quatre coins du globe, des très lointaines Cathay, Nippon et Ind, aux Terres du Sud, en passant par la Tulée et l'Estalie, et tout en finissant par Naggaroth. Maintenant, le reclus ne fait rien d'autre que de s'asseoir parmi les restes de ses objets de collections, dans sa \"suite\" moisie de l'immeuble de Spittlefeld. Brisé, il souhaite rester seul.</p>\n<p>Eluharath fait mentir l'idée que les elfes ne font pas leur âge : ses yeux sont comme éteints et d'un vert pâle terne, ses cheveux couleur bois délavé sont rêches comme de la paille, et sa peau semble parcheminée, plus pâle que n'importe quel beau drap blanchi à l'excès. Il porte des robes cathayennes mal ajustées sur sa silhouette émaciée de 1m83.</p>"
+		},
+		"Emil Brauer": {
+			"name": "Emil Brauer",
+			"description": "",
+			"gmnotes": "<p>Emil est d'âge moyen, gras, petit, avec une barbe épaisse et mal entretenue, surmontée d'un nez qui ressemble à une grosse fraise bien mûre. Emil n'est un très grand brasseur, mais il a assemblé un alambic à coté de sa chaumière, à partir duquel il produit de temps en temps des cruchons de mauvais schnaps à l'aspect trouble.</p>"
+		},
+		"Emmanuelle Nacht": {
+			"name": "Emmanuelle Nacht",
+			"description": "",
+			"gmnotes": "<h4>Le Héraut impérial</h4><p>Fille d'un diplomate impérial à la cour de l'Empereur-Dragon, dame Emmanuelle Nacht a grandi dans les palais de la lointaine Cathay. C'est là qu'elle a appris une grande partie des voies de la diplomatie, du subterfuge et des arts martiaux. Adulte, elle est aujourd'hui une conseillère efficace et très considérée pour ses nombreux talents, gagnant en faveur dans la capitale impériale. Toutefois, fait inhabituel, elle a été démise de ses fonctions à Altdorf pour être envoyée à Ubersreik.</p><p>En tant que Héraut impérial, c'est elle qui détient la véritable autorité à Ubersreik. Habile meneuse d'hommes doublée d'une documentaliste et archiviste exigeante, la Dame gère un petit réseau d'espionnage dans toute la ville. Elle s'attelle aujourd'hui avant tout à prévenir une aggravation du conflit à Ubersreik, d'autant plus que l'attitude de son \"supérieur\", le général @UUID[Compendium.wfrp4e-rnhd.actors.gfSfXHgfqW5QiUxu]{Jendrik von Dabernick}, ne fait rien pour arranger les choses. Cepdendant, elle aspire surtout à retourner à Altdorf pour y poursuivre son enquête à laquelle elle consacre une grande partie de son temps libre. Bien qu'elle ne soit pas vraiment du genre à accomplir un travail autrement qu'à la perfection, elle ne permet pas que ce \"passe-temps\" entre en conflit avec ses fonctions actuelles.</p><p>Dame Nacht est une femme de haute taille de près de quarante ans, à la beauté stupéfiante, aux cheveux noirs bouclés, aux yeux verts perçants et au teint légèrement hâlé. Son maintien est d'une rare élégance, et elle dégage une aura de calme et de réconfort sans pour autant se départir de son attitude professionnelle et austère. Elle s'habille à la dernière mode, mais semble particulièrement attachée à un châle en velours vert qu'elle porte par dessus pratiquement toutes ses tenues, juste retenu par une broche.</p><blockquote class=\"foundry-note\"><p>Les statistiques fournies pour ce PNJ ne représentent pas réellement le personnage et devraient être revues.\"blank\"</p></blockquote>"
+		},
+		"Erwin Blucher": {
+			"name": "Erwin Blücher",
+			"description": "",
+			"gmnotes": "<h4>Le capitaine loyaliste du Guet</h4>\n<p>Le capitaine Erwin Blücher est l'une de ces personnes qui sont là depuis si longtemps que personne n'est surpris de les voir occuper un poste élevé. Il n'est pas le membre le plus agé du Guet d'Ubersreik, mais certainement celui qui compte le plus d'années de service. Les gens d'Ubersreik le connaissent et le tolèrent assez bien, mais il n'a guère de véritables amis. Bien qu'il soit de facto le chef des loyalistes restants à Ubersreik, il est loin d'être loyal envers les Jungfreud. En fait, Blücher profite plutôt bien de sa liberté, et considère la situation actuelle comme une occasion de s'assurer une retraite confortable, en prenant grand soin d'éviter que sa tête ne se retrouve au bout d'une pique. Il est actuellement à la recherche de la meilleure façon d'obtenir un statut de Freistadt pour Ubersreik, et de survivre, lui et ses hommes, à l'occupation.</p>\n<p>Blücher est un homme courtaud, aux cheveux bruns clairsemés et grisonnants. Suite à de trop nombreux combats, son nez est plat et sa forte consommation d'alcool est à l'origine de son teint rougeaud.</p>"
+		},
+		"Frederick Hynckel": {
+			"name": "Frederick Hynckel",
+			"description": "",
+			"gmnotes": "<p>Les trois hommes sont des habitants de la région de Grausee. Ils ont été engagés par @UUID[Actor.u5YaIA4ANwEtsDQn]{Johanna Stiegler} pour assassiner @UUID[Actor.bzK1Y37Fz1rOXxPl]{Rutger Reuter} et laisser une piste de fausses empreintes menant à ce lac de montagne. Ils ont découvert avec consternation que les histoires sur une bête étrange vivant dans le marais, qu'ils entendent depuis leur plus tendre enfance, est fondée sur des faits bien réels. Les vauriens se ressemblent : ils ont les cheveux sombres et raides, et une courte barbe irrégulière. Ils sont vêtus de modestes habits de paysans se déclinant en plusieurs teintes de vert, de gris et de brun. Leurs bottes, enveloppées de bandes de fourrure détrempée, sortent néanmoins de l'ordinaire.</p>\n<p>@UUID[Actor.gnDQygAX2pEdjp7h]{Hans} a un visage rude et est clairement accoutumé à la violence. Son nez est cassé et des balafres fraîches lacèrent son sourcil et sa joue gauche ainsi que son front. Il bégaie fortement et ponctue son discours de jurons et de blasphèmes. Les Personnages ont déjà pu apercevoir Hans s'ils ont été vigilants dans les scènes précédentes. C'était l'homme qui discutait avec @UUID[Actor.u5YaIA4ANwEtsDQn]{Stiegler} lorsqu'ils sont arrivés au camp après le naufrage. @UUID[Actor.skeZl9ovtgYPvtcb]{Gurdt} est plus petit et plus fin que ses comparses. C'est un suiveur-né qui n'a que peu d'opinions propres. Il se réfère à Hans pour toute chose. @UUID[Actor.JzZZAtkLIDDBKax3]{Frederick} est obèse et sue constamment, mais a tout de même une carrure imposante adaptée à la violence.</p>"
+		},
+		"Gerd Fleisher": {
+			"name": "Gerd Fleisher",
+			"description": "",
+			"gmnotes": "<p>Gerd est un grand homme truculent, massif, au nez cassé. Il lui manque la majeure partie de son oreille gauche et il est un peu sourd, bien qu'il soit trop fier pour l'admettre. En supposant que personne ne mentionne sa surdité partielle, il est d'un naturel amical et plus sensible. Cependant, il devient une terreur pour ceux qui suscitent sa colère, et il ne recule devant rien.</p>"
+		},
+		"Gino": {
+			"name": "Gino",
+			"description": "",
+			"gmnotes": "<h3>Le concierge de l'immeuble</h3>\n<p>Gino est un ogre massif aux cheveux noirs grisonnants, et à la fine moustache cendrée. Un patchwork de vieilles vestes et manteaux assemblés par @UUID[Actor.pFcCHVMUhgeOOS3l]{Annika}, pour le garder au chaud, peine à couvrir ses trois mètres de haut. En raison de sa taille et des conditions relativement exiguës de l'immeuble où il a passé la majeure partie de sa vie, son dos est voûté avec une bosse permanente, et il garde la tête constamment enfoncée dans ses épaules. Sa voix est grondante, et il n'utilise que des mots simples. Il a également quelques difficultés avec les concepts abstraits. Les conversations n'ayant aucun rapport avec la nourriture, la boisson, la collecte d'argent pour la propriétaire, ou la protection de ses amis en général, lui brouillent les idées.</p>\n<p>Gino s'est retrouvé dans le Reikland encore nourrisson, apparemment abandonné par ses parents à une société marchande de Tilée. Ces commerçants, incapables de soutenir financièrement son appétit vorace, finirent par abandonner Gino aux soins d'un orphelinat d'Ubersreik. Là; le jeune ogre fut immédiatement mis au travail. Gino a vite commencé à fréquenter de \"mauvaises personnes\" et, par conséquent, il a eu des relations conflictuelles avec le Guet presque toute sa vie. Après avoir quitté l'orphelinat, l'ogre a dû squatter l'immeuble de Spittlefeld. Lisle Beurin, la propriétaire, s'est retrouvée dans l'impossibilité d'évacuer cette masse. Donc, plutôt que d'affronter le problème, elle a essayé d'employer l'ogre comme concierge ; après tout, seul un imbécile refuserait de payer à l'heure son loyer à cet énorme monstre !</p>\n<p>Malheureusement pour Lisle, Gino n'est pas vraiment un bon concierge : d'abord, il ne peut pas monter ou descendre les escaliers, ensuite il laisse @UUID[Actor.pFcCHVMUhgeOOS3l]{Annika Passerine} et ses enfants y loger gratuitement car il a un faible pour les orphelins. Lisle a renoncé à se débarasser de l'ogre il y a plus de dix ans, car chaque tentative a provoqué sa rage, chose qu'il est préférable d'éviter. Gino perçoit désormais les loyers quand il s'en souvient, et garde ses immeubles en sécurité, tant que les menaces demeurent au rez-de-chaussée.</p>"
+		},
+		"Twisted Maw Goblin": {
+			"name": "Gobelins de la Gueule Tordue",
+			"description": "<section id=\"secret-17fW9DMavr6WgN65\" class=\"secret\"><p>La tribu de la Gueule Tordue est originaire des@UUID[JournalEntry.ozE2DMCMK64eE5pD.JournalEntryPage.w0YfGxsBuLoODCgc]{Montagnes Grises}, mais elle en a été chassée par une tribu d'orcs. Ce groupe s'est séparé de la tribu et a suivi son chef, @UUID[Actor.1aHdXQFcFsa8gbWd]{Gobrat}. </p><p>Les gobelins de la Gueule Tordue sont typiques de ceux qui hantent les Montagnes Grises, petits et maigres, la peau huileuse couleur olive, le visage à l'abri de cagoules qui ne cachent pas grand-chose des verrues et furoncles qui fleurissent leurs gueules garnies de crocs, de leurs nez courbes et de leurs petits yeux rouges luisants. Les gobelins portent un assortiment de cuirs bruts et sa les, de fourrures miteuses et de boucliers ornés d'enchevêtrement de dents pointues et crasseuses.</p></section>",
+			"gmnotes": ""
+		},
+		"Gobrat Yellownail": {
+			"name": "Gobrat Ongles-Jaunes",
+			"description": "<section id=\"secret-DTdrUxFk65tQEHi3\" class=\"secret\"><p>Le chef du groupe est un lieutenant mineur de @UUID[Compendium.wfrp4e-dotr.actors.5WdFdIexAZYHMCN0]{Gutbug}, chef de la tribu de la Gueule Tordue. Ce dernier a chargé Gobrat de collecter des fonds par le biais de vols et de pillages, et le coche s'est avéré être une proie juteuse.</p><p>Gobrat est plus grand et plus maigre que les autres gobelins du groupe. Sa main droite porte une malformation particulière : l'ongle de son index pousse dur comme de la corne, à l'origine de son surnom. Durant sa jeunesse, Gobrat s'est fait mordre et arracher une grande partie du nez lors d'une querelle. Il porte depuis une prothèse en métal rouillé. Son armure de cuir brut est composée de morceaux de cotte de mailles, et la possession dont il est le plus fier est son casque, pris sur le cadavre d'un mineur nain et doublé de fourrure de loup pour qu'il tienne correctement sur son crâne étroit.</p></section>",
+			"gmnotes": ""
+		},
+		"Gurdt": {
+			"name": "Gurdt",
+			"description": "",
+			"gmnotes": "<p>Les trois hommes sont des habitants de la région de Grausee. Ils ont été engagés par @UUID[Actor.u5YaIA4ANwEtsDQn]{Johanna Stiegler} pour assassiner @UUID[Actor.bzK1Y37Fz1rOXxPl]{Rutger Reuter} et laisser une piste de fausses empreintes menant à ce lac de montagne. Ils ont découvert avec consternation que les histoires sur une bête étrange vivant dans le marais, qu'ils entendent depuis leur plus tendre enfance, est fondée sur des faits bien réels. Les vauriens se ressemblent : ils ont les cheveux sombres et raides, et une courte barbe irrégulière. Ils sont vêtus de modestes habits de paysans se déclinant en plusieurs teintes de vert, de gris et de brun. Leurs bottes, enveloppées de bandes de fourrure détrempée, sortent néanmoins de l'ordinaire.</p>\n<p>@UUID[Actor.gnDQygAX2pEdjp7h]{Hans} a un visage rude et est clairement accoutumé à la violence. Son nez est cassé et des balafres fraîches lacèrent son sourcil et sa joue gauche ainsi que son front. Il bégaie fortement et ponctue son discours de jurons et de blasphèmes. Les Personnages ont déjà pu apercevoir Hans s'ils ont été vigilants dans les scènes précédentes. C'était l'homme qui discutait avec @UUID[Actor.u5YaIA4ANwEtsDQn]{Stiegler} lorsqu'ils sont arrivés au camp après le naufrage. @UUID[Actor.skeZl9ovtgYPvtcb]{Gurdt} est plus petit et plus fin que ses comparses. C'est un suiveur-né qui n'a que peu d'opinions propres. Il se réfère à Hans pour toute chose. @UUID[Actor.JzZZAtkLIDDBKax3]{Frederick} est obèse et sue constamment, mais a tout de même une carrure imposante adaptée à la violence.</p>"
+		},
+		"Hannah Baumann": {
+			"name": "Hannah Baumann",
+			"description": "",
+			"gmnotes": "<p>Hannah Baumann a grandi à Skeltheim, un petit village sous la coupe de \"Grand-mère Barbe-filoche\", un sorcier de village particulièrement retorse. Quand Hannah a eu 15 ans, Sepp Makkarti, un répurgateur avec une certaine réputation, est venu enquêter. Personne n'a osé dénoncer la détestée Grand-Mère, jusqu'à ce qu'Hannah se confie à lui. Le lendemain, Grand-mère Barbe-filoche brûlait sur le bûcher, et Hannah partait avec Makkarti sans un regret.</p><p>Pendant dix ans, Hannah a servi consciencieusement son nouveau maître. Elle a appris beaucoup de choses sur la chasse aux sorciers, leur capture, et la façon de briser leurs corps jusqu'à ce qu'elles confessent leurs crimes. Mais elle n'a jamais réussi à comprendre pourquoi les sorciers dotés d'une licence étaient tolérés. N'étaient-ils pas des pratiquants de cette ignoble magie, pactisant avec des forces au delà de la compréhension des mortels, et sans aucun doute des abominations aux yeux de Sigmar ? Pourtant, son maître insista pour qu'il ne leur soit fait aucun mal, et Hannah obéit.</p><p>Tout changea lorsque celui-ci fut assassiné par un Pyromancien corrompu du @UUID[Compendium.wfrp4e-wom.journals.wjJ2wq1bzzON74vV.JournalEntryPage.NR69EPiMhbeKPook#the-bright-college]{Collège de Magie Flamboyant}. Sa haine des magiciens devint alors une obsession à part entière. Elle jura de débarasser l'Empire de toute magie, quoi qu'il en coûte. Ayant tout à fait conscience que s'attaquer à des sorciers bien entraînés était extrêmement dangereux, elle a commencé par traquer des apprentis, d'anciens élèves des Collèges de Magie, leurs domestiques, les membres de leurs familles, et leurs associés.</p>"
+		},
+		"Hans Strahnig": {
+			"name": "Hans Strahnig",
+			"description": "",
+			"gmnotes": "<p>Les trois hommes sont des habitants de la région de Grausee. Ils ont été engagés par @UUID[Actor.u5YaIA4ANwEtsDQn]{Johanna Stiegler} pour assassiner @UUID[Actor.bzK1Y37Fz1rOXxPl]{Rutger Reuter} et laisser une piste de fausses empreintes menant à ce lac de montagne. Ils ont découvert avec consternation que les histoires sur une bête étrange vivant dans le marais, qu'ils entendent depuis leur plus tendre enfance, est fondée sur des faits bien réels. Les vauriens se ressemblent : ils ont les cheveux sombres et raides, et une courte barbe irrégulière. Ils sont vêtus de modestes habits de paysans se déclinant en plusieurs teintes de vert, de gris et de brun. Leurs bottes, enveloppées de bandes de fourrure détrempée, sortent néanmoins de l'ordinaire.</p>\n<p>@UUID[Actor.gnDQygAX2pEdjp7h]{Hans} a un visage rude et est clairement accoutumé à la violence. Son nez est cassé et des balafres fraîches lacèrent son sourcil et sa joue gauche ainsi que son front. Il bégaie fortement et ponctue son discours de jurons et de blasphèmes. Les Personnages ont déjà pu apercevoir Hans s'ils ont été vigilants dans les scènes précédentes. C'était l'homme qui discutait avec @UUID[Actor.u5YaIA4ANwEtsDQn]{Stiegler} lorsqu'ils sont arrivés au camp après le naufrage. @UUID[Actor.skeZl9ovtgYPvtcb]{Gurdt} est plus petit et plus fin que ses comparses. C'est un suiveur-né qui n'a que peu d'opinions propres. Il se réfère à Hans pour toute chose. @UUID[Actor.JzZZAtkLIDDBKax3]{Frederick} est obèse et sue constamment, mais a tout de même une carrure imposante adaptée à la violence.</p>"
+		},
+		"Heske Glazer": {
+			"name": "Heske Glazer",
+			"description": "",
+			"gmnotes": "<h4>Le Maître artisan</h4><p>Femme pleine de vie, âgée d'un peu plus de quarante ans, Heske Glazer était autrefois une simple fille de ferme travaillant dans les champs du @UUID[JournalEntry.ozE2DMCMK64eE5pD.JournalEntryPage.0Cmr0LZ3boLbNt6p]{Vorbergland}. Mais son destin a pris un tournant décisif le jour où elle a perdu l'oeil droit à cause d'un tir de pistolet accidentel. Fait inhabituel, le noble à l'origine du coup de feu a assumé les torts ainsi causés à la jeune fille en prenant en charge ses soins ainsi qu'une prothèse. C'est lors de longues heures passées assise à observer la vieille souffleuse qui lui a confectionné avec grand soin son nouvel oeil de verre qu'elle s'est initiée aux merveilles de ce métier. De son côté, la vieille dame a été si émue par l'enthousiasme de la jeune fille qu'elle a accepté de la prendre comme apprentie. Son talent est tel que même les maîtres artisans de @UUID[JournalEntry.TSyoR9nSk7cehypG.JournalEntryPage.A4x3cKwa1h875OlK]{Dawihafen} la consultent sur des oeuvres impliquant du verre, une marque de considération rarement affichée par les nains envers les humains. Bien considérée par les habitants d'Ubersreik, Glazer voit beaucoup de choses de son oeil unique, bien plus que ce qu'imaginent la plupart des gens. En fait, elle sert d'agent à des individus puissants, préoccupés par la situation de la ville ; il se pourrait qu'elle convoque les PJ pour leur confier une mission.</p><p>Vous trouverez plus d'informations sur Heske Glazer dans le scénario @UUID[Compendium.wfrp4e-starter-set.journals.1nxjKAYE9G3Nyk0o]{Pendant la ronde}.</p>"
+		},
+		"Undead Rat Swarm": {
+			"name": "Horde de rats morts-vivants",
+			"description": "<section id=\"secret-LMfZRDcLyDqMvXP5\" class=\"secret\"><p>Certains nécromanciens trouvent utile de ramener à la vie des âmes très simples, de rats et d'autres vermines, pour ratisser les champs de bataille, pour agir comme espions, ou pour harceler leurs ennemis. Ces créatures ne sont guères plus que des nuisances. Mais quand elles se rassemblent en nuées, elles glacent les sangs.</p></section>",
+			"gmnotes": ""
+		},
+		"Hugo Schmidt": {
+			"name": "Hugo Schmidt",
+			"description": "",
+			"gmnotes": "<p>Hugo est, de facto, le chef du groupe. Après tout, c'est sa forge. C'est un homme immense, musclé et bagarreur, originaire de la lointaine Altdorf. Après des années passées à frapper l'enclume, ses articulations le font souffrir. Hugo est de nature bavarde, et aime s'entendre refaire le monde lorsque personne d'autre n'a rien à dire.</p>"
+		},
+		"Ingrid Wenig": {
+			"name": "Ingrid Wenig",
+			"description": "",
+			"gmnotes": "<p>A 17 ans, Ingrid est trop jeune pour chasser les hors-la-loi. Elle compense en adoptant une attitude sévère et pragmatique, et a commencé à fumer la pipe de son père, car elle pense que cela la fait paraître plus vieille (ce qui n'est pas le cas). Elle fait équipe avec @UUID[Actor.FDHywOp4tT06Q5i9]{Jannik} parce qu'elle est sûre de ne pas pouvoir s'occuper de Hannah seule, mais elle a (à juste titre) l'impression qu'il ne la respecte pas. Elle est déterminée à ne pas avoir l'air faible devant lui, et refuse donc de se reposer pendant qu'il surveille l'apothicaire. Elle le soupçonne de vouloir capturer Hannah seul, et ainsi de garder toute récompense pour lui. Jusqu'à présent, les proies d'Ingrid ont été du menu freton. @UUID[Actor.tTr4p7mUl4gnEWiF]{Hannah Baumann} est sa première cible d'importance.</p>"
+		},
+		"Jabberslythe": {
+			"name": "Jabberslythe",
+			"description": "",
+			"gmnotes": ""
+		},
+		"Jan Harmar": {
+			"name": "Jan Harmar",
+			"description": "",
+			"gmnotes": "<h4><strong>Un vieux cocher</strong></h4>\n<p>Jan est un homme du Wasteland, d'âge moyen, doté d'un fort accent et d'une épaisse tignasse rebelle de cheveux argentés. Son visage est large et amical, buriné par les intempéries. Son nez est long et tordu, et ses grands yeux bruns sont légèrement décalés.</p>\n<p>D'un caractère flegmatique, insouciant et amical, mais aussi pessimiste, il réagit rarement avec passion, mais de manière directe et pragmatique.</p>"
+		},
+		"Jannik Fanger": {
+			"name": "Jannik Fanger",
+			"description": "",
+			"gmnotes": "<h4>Rôdeur morose</h4>\n<p>Homme grand et barbu faisant plus que ses 26 ans, Jannik est maussade dans ses bons jours. Et ce n'est pas un bon jour. Il a voyagé avec @UUID[Actor.Q2jL4bAZvAT3cpbV]{Ingrid} depuis Altdorf pour capturer @UUID[Actor.tTr4p7mUl4gnEWiF]{Hannah Baumann}. Mais sa jeune collègue chasseur de primes commence à l'agacer. Il ne lui fait pas confiance pour surveiller l'apothicaire seule, non pas qu'il craigne qu'elle cherche à le doubler pour toucher la prime, mais parce qu'il pense qu'elle est immature et incompétente. En vérité, Jannik n'est pas le grand chasseur de primes qu'il prétend être, et s'inquiète à l'idée qu'Ingrid s'en aperçoive.</p>"
+		},
+		"Young Stirpike": {
+			"name": "Jeune brochet du Stir",
+			"description": "<section id=\"secret-zq6KBm8ZIK3ZRnA3\" class=\"secret\"><p>Les brochets vivant dans les lacs et les voies fluviales de l'Empire sont réputés pour leur taille parfois titanesque et les pêcheurs connaissent tous des histoires de poissons pouvant atteindre 6 mètres de long. Ces géants sont appelés des brochets du Stir. Ils ont, en majorité, été péchés et éradiqués des grandes rivières et ne sont donc que rarement observés et ce, dans les eaux les plus isolées.</p>\n<p>Ce spécimen en particulier est un peu plus petit, à peine 3 mètres de long de la tête au bout de la queue. Il n'en demeure pas moins un redoutable prédateur. Il est vorace et se bat uniquement pour s'assurer un repas.</p></section>",
+			"gmnotes": ""
+		},
+		"Johanna Stiegler": {
+			"name": "Johanna Stiegler",
+			"description": "",
+			"gmnotes": "<p>Johanna est au bord du rouleau. Son partenariat avec le si charmant @UUID[Actor.bzK1Y37Fz1rOXxPl]{Reuter}, qui avait l'air si prometteur, s'est avéré être un désastre. Son partenaire ment, dépense et ment encore. Regarder l'argent gagné grâce à l'affaire @UUID[JournalEntry.FQW8EIplgUDGyVMj.JournalEntryPage.FNUQ8x5IRlHMNJQV#thulgrims-tale]{Thagga} disparaître, gaspillé par le jeune marchand, et n'avoir aucun moyen légal de retirer le jeune homme du partenariat, ont convaincu la marchande que l'aboutissement de la construction du moulin sera impossible tant que l'héritier Reuter sera impliqué. Elle a tenté de le charmer, de le supplier, de l'implorer et de le menacer, mais rien n'y fait. Reuter n'a pas changé. Pour elle, il ne reste plus qu'une solution pour éviter la faillite : le faire disparaître.</p><p>Au fond, Johanna est peut-être une femme d'affaires implacable ne ressentant aucune once d'empathie dans son âme noire, mais le meurtre n'est pas quelque chose qu'elle envisagerait normalement. Les cauchemars et l'atmosphère oppressante que génèrent les Pierres Noires de Grausee l'ont poussée ) bout, mais si cette influence est levée, l'horreur de ce qu'elle a ordonné lui apparaîtra aussitôt.</p><p>Faîtes-la paraître comme épuisée, agitée et un peu délirante, mais aussi énergique et sûre d'elle. Elle évitera tout contact direct durant la majeure partie du scénario, inquiète que l'on puisse réaliser d'une façon ou d'une autre ce qu'elle planifie de faire, puis honteuse de s'être fait duper par le nain et horrifiée d'avoir ordonné la mort de Reuter.</p>"
+		},
+		"Kai Bauerr": {
+			"name": "Kai Bauerr",
+			"description": "",
+			"gmnotes": "<p>Kai est un jeune homme énergique, la vingtaine, grand, beau et sombre, et surtout désireux de plaire. Il est plutôt simple d'esprit, et facilement influençable.</p>"
+		},
+		"Klara Kellner": {
+			"name": "Klara Kellner",
+			"description": "",
+			"gmnotes": "<p>Klara est une femme d'un peu plus de trente ans, vêtue d'un pourpoint en cuir, d'une culotte verte et d'un grand tablier blanc. Elle est corpulente et de petite taille, avec de courts cheveux noirs. En temps normal, c'est une personne à l'esprit pratique, espiègle, et dotée d'un grand sens de l'humour ; mais suite à l'attaque du jabberslythe, elle est effrayée et paniquée.</p>"
+		},
+		"The Beast of the Ortschlamm": {
+			"name": "La Bête de l'Ortschlamm",
+			"description": "<section id=\"secret-SHSoS27kgXDlyfwy\" class=\"secret\"><p>La Bête de l'Ortschlamm est un ancien basilic antique qui a fondé son antre dans le marais. Elle en parcourt les terres infectes depuis des millénaires. C'est une abjecte créature du Chaos, invoquée autrefois par les fimirs,  qui souille de sa présence les eaux stagnantes du marécage, rendant le lieu inhospitalier pour la majorité des formes de vie. Tout comme les autres basilics, c'est une imposante créature reptilienne à huit pattes qui représente un puissant ennemi. Celui-ci est cependant diminué par son âge et ses yeux sont ternes. Son infirmité toute relative est reflétée dans son profil bien moins impressionnant qu'un spécimen en bonne santé.</p></section>",
+			"gmnotes": ""
+		},
+		"Perle, Shneck, and Kal": {
+			"name": "Les gamins: Perle, Shneck, et Kal",
+			"description": "",
+			"gmnotes": "<p>Perle est une fille de sept ans aux longues nattes sombres et au visage en forme d'une lune gibbeuse. Schneck est un garçon de cinq ans dont le nez coule sans arrêt, avec sur la tête une touffe de cheveux roux. Kal est un garçon de douze ans à la peau pâle et anémiée, avec de longs cheveux blond filasses. Tous trois sont de vrais garnements, qui ne se soucient pas le moins du monde du massacre à l'extérieur.</p>"
+		},
+		"Maddened Villagers": {
+			"name": "Les villageois forcenés",
+			"description": "<section id=\"secret-Bzrq2Ag0IgaUy2uV\" class=\"secret\"><p>Les villageois forcenés attaquent avec des outils et des bâtons ramassés çà et là. Ils ne prêtent pas la moindre attention à leur propre sécurité, et sont déterminés à tuer chaque créature qu'ils perçoiventr comme une menace pour leur village, ou à mourir en essayant. Ils ignorent toute tentative de communication, se contentant de vociférer tout en chargeant. &laquo;<em>Nous vous voyons, démons !</em>&raquo;, &laquo;<em>Nous n&rsquo;écouterons pas vos mensonges ! Que Morr vous emporte !&raquo;</em> ou encore &laquo;<em>Voilà d&rsquo;autres rejetons des ténèbres ! Vite, abattons-les !</em>&raquo;</p></section>",
+			"gmnotes": ""
+		},
+		"Dwarf Travellers": {
+			"name": "Les voyageurs nains",
+			"description": "<section id=\"secret-LtSmqO2LtCzc3OEo\" class=\"secret\"><p>Les quatre nains sont venu de Karak Norn à Altdorf dans l'espoir de remporter un contrat de construction. Suite à leur échec, ils rentrent dans leur clan couverts de honte. Ici, ce soir, ils noient leur chagrin.</p>\n<p>Les nains portent des vêtements de voyage poussiéreux et des bottes de travail boueuses. Deux d'entre eux semblent frères, avec de longs cheveux noirs et une longue barbe. Le troisième est un individu plutôt dissipé, en état d'ébriété avancée, avec des cheveux bruns gras et emmêlés et une hygiène corporelle plus que douteuse. Le quatrième nain semble être le chef du groupe. Ses cheveux roux sont raides et ses sourcils ébouriffés ont vraiment besoin d'être taillés. Sa barbe laineuse est constellée de taches blanches.</p></section>",
+			"gmnotes": ""
+		},
+		"Thug (The Guilty Party)": {
+			"name": "Les voyous",
+			"description": "<section id=\"secret-OgRRu8lCu8jh93Uu\" class=\"secret\"><p>Mis à part Rolf, ces voyous d'Ubersreik ont des apparences plutôt typiques du Vobergland, c'est à dire de longs cheveux bruns et d'impressionnantes moustaches en guidon. Ils portent tous des armes à une main et de solides cuirs usés. Une fois qu'ils ont perdu collectivement la moitié de leurs Blessures ou plus, ils se retirent, crachant des jurons et promettant de se venger. Lorbeer ne se bat pas, mais si elle est attaquée, elle se défend (utilisez le même profil ; elle est robuste et très agressive pour sa petite taille). Il est important que Rolf et Lorbeer survivent à cette rencontre.</p></section>",
+			"gmnotes": ""
+		},
+		"Giant Wolf": {
+			"name": "Loup géant",
+			"description": "<section id=\"secret-3Rr060uVADjLSeNb\" class=\"secret\"><p>Les loups montés par les gobelins de la Gueule Tordue sont des brutes imposantes, spécialement élevées pour la monte et la guerre.&nbsp; Ils grognent et gémissent constamment à travers leurs dents pointues et jaunies.  Aucun fourreur ne paierait pour leurs peaux gris ardoise, car leur pelage sale et grossier est un vrai nid à vermine. Leurs corps émaciés sont recouverts de vieilles blessures, de cicatrices, d'escarres sanglantes et de plaques de gale.</p></section>",
+			"gmnotes": ""
+		},
+		"Jungfreud Loyalists": {
+			"name": "Loyalistes pro-Jungfreud",
+			"description": "<section id=\"secret-tZlmODNsZnH0EU4d\" class=\"secret\"><p>Lorsque l'armée régulière d'Altdorf a envahi Ubersreik, elle a exécuté tous les membres du Guet qui refusaient de se rendre, sauf les quelques rares chanceux qui tenaient la @UUID[JournalEntry.TSyoR9nSk7cehypG.JournalEntryPage.tCh9vROs0eeTuEwA]{Tour de Magnus}. Les \"loyalistes\" restants ne valent guère plus que de simples citadins enrôlés en tant que miliciens. Depuis, ils vivent dans la tour, comme pris au piège. A cause des défenses de la tour, les Altdorfers ne peuvent l'assaillir. Mais les loyalistes ne peuvent pas non plus la quitter. Cette situation a viré au cauchemar politique pour les deux camps, étant donné que la sympathie des habitants penche clairement pour ceux qui sont coincés dans la tour.</p></section>",
+			"gmnotes": ""
+		},
+		"Maria Bäcker": {
+			"name": "Maria Bäcker",
+			"description": "",
+			"gmnotes": "<p>Maria est une petite dame âgée avec une tignasse de cheveux roux bouclés virant au gris. Elle a le sourire facile, révélant des dents toutes de travers. Elle et Gerd sont de vieux amis, et elle le soutient dans ses projets, croyant tout ce que Gerd affirme, sans jamais le remettre en question. Maria n'a pas été témoin de l'attaque du jabberslythe, mais elle est une personne âgée et, même dans ses meilleurs jours, facilement confuse. La proximité du jabberslythe l'a rapprochée un peu plus de la folie.</p>"
+		},
+		"Maria Melone": {
+			"name": "Maria Melone",
+			"description": "<section id=\"secret-IlkWyEZolvNw4wlv\" class=\"secret\"><h3>Le vampire infecté</h3><p>Maria Melone n'était qu'une simple fermière du Wissenland qui aimait faire des tartes et cuisiner comme sa bretonienne de mère. Un noble voyageur d'Ubersreik, @UUID[Compendium.wfrp4e-rnhd.actors.b3Y1LZUKkptLu0sc]{Heinrich von Bruner}, a découvert ses extraordinaires talents culinaires en passant par son village. Après une poignée de main, et le paiement de quelques couronnes, Melone se retrouva à l'arrière d'une diligence en direction du @UUID[JournalEntry.TSyoR9nSk7cehypG.JournalEntryPage.U5fSG8wDw2ZCLIWG]{Palais Bruner} à Ubersreik. Par la suite, Melone a travaillé comme cuisinière des von Bruner, jusqu'à il y a quelques mois, lorsque von Bruner reçut un curieux visiteur de Sylvanie. Cette personne s'est intéressée, à son tour, à la pittoresque Wissenlander et lui a offert un cadeau : son état de vampire. Le visiteur, capricieux et facilement distrait comme tous ses semblables, a abandonné Melone nouvellement transformée quelques jours plus tard, et depuis elle a chassé dans les quartiers les plus pauvres d'Ubersreik, pour finir par se dénicher un abri dans les sous-sols de l'immeuble de Spittlefeld.</p><p>Melone est une femme mince d'à peine une vingtaine d'années, 1m62, des cheveux châtain, mi-longs et raides. Elle porte de coûteux vêtements bleus de serviteur, réduits en haillons, noircis par le sang séché et la saleté. Ses loques sont toujours ornées des armoiries des von Bruner, un indice pour les aventuriers avisés qui souhaiteraient retrouver d'où vient Melone.</p></section>",
+			"gmnotes": ""
+		},
+		"Martha Scheren": {
+			"name": "Martha Scheren",
+			"description": "",
+			"gmnotes": "<p>Martha est une dame âgée aux traits aimables, avec de longues mèches de cheveux gris. Originaire de Carroburg, elle a beaucoup voyagé, pratiquand la médecine dans tout le Reikland avant de s'installer à @UUID[JournalEntry.Df9aBQCcpj00vtYt.JournalEntryPage.wsRznlHSdeOFm5WX]{Gotheim}. Elle porte un arc et un carquois plein de flèches.</p>"
+		},
+		"Max Drensler": {
+			"name": "Max Drensler",
+			"description": "",
+			"gmnotes": "<p>Max est un ivrogne et une épave de brigand, qui n'écoutera personne sur l'erreur qu'il commet. De taille moyenne et peu corpulent, il arbore de hautes pommettes. Ses cheveux noirs tombent sur ses yeux en mêches désordonnées. Il porte un uniforme militaire de bonne facture sous sa cape, mais usé par le temps. Ses bottes ne sont pas à sa pointure et son bicorne est juste pathétique.</p>"
+		},
+		"Orban Geldrecht": {
+			"name": "Orban Geldrecht",
+			"description": "",
+			"gmnotes": "<h4>Le sergent endeuillé</h4><p>Bien que Geldrecht soit né à Ubersreik, il a déménagé à Altdorf, suite au décès de sa mère, pour y rester auprès de son père, officier dans l'armée régulière d'Altdorf. Après une jeunesse entourée d'affection, son retour en tant que membre de l'armée d'invasion a été annoncé comme celui d'un curieux fils prodigue rentrant au bercail. De ce fait, il joue un rôle important dans le maintien du nouveau statu quo auprès de la population locale. Malheureusement, le sergent Orban Geldrecht était l'outil parfait entre les mains de Vielfrass pour obtenir tout ce qu'il voulait : loyal, enthousiaste, influençable, crédule, affable et surtout, amoureux. Si Vielfrass était le principal architecte du @UUID[JournalEntry.d8nvgs2H5MmtKhdM.JournalEntryPage.L5gV9pgaWXB3floP#the-circle-of-unmarred-flesh]{Cercle de la Chair Immaculée} à Ubersreik, il n'aurait pu l'établir sans l'aide de Geldrecht, qu'il a soumis à la volonté de Slaanesh à son insu.</p><p>Geldrecht est un jeune homme bien bâti aux larges épaules, au teint pâle, aux cheveux bruns bouclés et aux yeux gris. Mais quelque chose cloche dans son attitude générale : une attitude maladroite, une posture qui traduit un manque de confiance en soi, un ton généralement implorant. Il préfère suivre plutôt que diriger, bien qu'il soit très doué pour observer ses supérieurs et les imiter quand il faut, ou lorsqu'il cherche à les impressionner.</p><p>Geldrecht est dévasté par la mort de @UUID[Actor.jXKDSrWjfW61Nfpa]{Vielfrass}, et éprouve un profond regret de ne jamais avoir exprimé ouvertement ses sentiments du vivant du caporal. Cherchant désespérement à honorer sa mémoire, il tente d'agir autant qu'il le peut comme lui.</p>"
+		},
+		"Undead Orc": {
+			"name": "Orc mort-vivant",
+			"description": "",
+			"gmnotes": ""
+		},
+		"Ungor Raider": {
+			"name": "Pillards Ungors",
+			"description": "<section id=\"secret-ZzEdrGUCizft5fKb\" class=\"secret\"><p>Les trois ungors, efflanqués et galeux, ressemblent à des faunes : le bas de leur corps est semblable à des chèvres, avec des sabots fendus et une fourrure brune hirsute. Sur leurs poitrines nues, on peut compter chacune de leurs côtes. Leurs têtes portent des cornes courtes et pointues, et des touffes de poil éparses jaillissent sur leur menton. Leurs bouches, aux dents acérés de carnivores, dégoulinent de bave, mais une lueur d'intelligence luit tout de même dans leurs yeux de caprins prédateurs. </p></section>",
+			"gmnotes": ""
+		},
+		"Reiko": {
+			"name": "Reiko",
+			"description": "",
+			"gmnotes": "<p>Reiko traverse habituellement le Reikland avec sa famille, chassé de ville en ville par les habitants ignorants qui voient d'un mauvais oeil les Strigany. Les temps ont été particulièrement durs depuis le décès de sa femme. Lorsque @UUID[Actor.pMOHkwemFP6CmILf]{Thulgrim} a proposé au veuf de l'argent afin de pouvoir utiliser sa barge pour le transport de matériaux de construction depuis Grausee et Ubersreik, et son aide pour construire le moulin, le Strigany a bondi sur l'occasion. Depuis lors, l'argent tombé régulièrement et ses employeurs sont corrects, mais le travail est difficile.</p>\n<p>Ses nuits sont empoisonnés par d'incessants cauchemars et il passe la majeure partie de ses journées à essayer de calmer les tensions au camp. Il lui tarde d'en finir avec ce chantier pour retourner enfin auprès de ses enfants. Ceux-ci vivent actuellement avec leurs grands-parents sur la péniche qui leur sert de foyer, ancrée non loin d'Ubersreik.</p>"
+		},
+		"Rudi": {
+			"name": "Rudi",
+			"description": "",
+			"gmnotes": "<p>Rudi est un gamin des rues maigre d'à peine 13 ans. Une vie difficile dans les taudis d'Ubersreik l'a épuisé et rendu plus cynique que les enfants de son âge. Il a un don pour surveiller les gens. Rudi entretient des liens avec de nombreux criminels  de bas étage à Ubersreik. Récemment, il a travaillé pour Rolf Gucker, en fournissant des informations sur des sympathisants présumés d'Altdorf.</p>"
+		},
+		"Rutger Reuter": {
+			"name": "Rutger Reuter",
+			"description": "",
+			"gmnotes": "<p>Rutger Reuter est un charmant jeune homme, descendant d'une vieille famille de marchands peu renommés d'Ubersreik. Il a bon coeur et n'aime pas voir les gens souffrir, ce qui le pousse à toujours être correct avec ses employés. Cependant, il est quelque peu naïf et a tendance à couvrir ses échecs avec des histoires invraisemblables, et des promesses impossibles à tenir. C'est une bien mauvaise habitude dont il ne parvient pas à se débarasser. C'est d'ailleurs cette attitude qui a envenimé sa relation avec son associée, @UUID[Actor.u5YaIA4ANwEtsDQn]{Johanna Stiegler}, qui n'est pas dupe des bravades du jeune marchand. Elle s'est, par ailleurs, rendu compte que Rutger ne s'est pas contenté de mentir, mais qu'il a également dépensé des sommes considérables de leur bourse commune sans l'en informer.</p>\n<p>Le marchand a une autre raison de recruter les Personnages. En effet, depuis peu, il est gagné par une paranoïa causée par la tension de plus en plus palpable entre @UUID[Actor.u5YaIA4ANwEtsDQn]{Stiegler} et lui. Sa terreur croît chaque nuit à cause de cauchemars récurrents dans lesquels il voit sa mort imminente. En engageant le groupe personnellement, il espère en faire ses propres agents au camp, plutôt que de les partager avec sa partenaire.</p>"
+		},
+		"Sibylle Hagerdorn": {
+			"name": "Sibylle Hagerdorn",
+			"description": "",
+			"gmnotes": "<p>Sibylle Hagerdorn a vécu ce rêve si courant chez les gosses de rue d'Altdorf : une fois ses capacités magiques détectées, elle a été enlevée à sa fange pour connaître un luxe relatif en tant qu'étudiante des Collèges de Magie. Dans son cas, il s'agissait littéralement d'un rêve, vu son étonnante affinité pour <em>Azyr</em>, le Vent de Magie à l'origine des songes et des prophéties. Cependant, sa trajectoire l'a éloignée de son ami le plus proche, @UUID[Actor.emW6Xa9Bx75AEXp9]{Carolus Entschlafen}.</p><p>Etant donné son talent, son empathie et sa propension à enfreindre les règles, toujours de la bonne manière, Hagerdorn a rapidement gravi les échelons du Collège. A l'âge de trente ans, elle avait déjà été nommée Seigneur sorcier de plein droit. Vu son curieux mélange de virtuosité et de goût du danger, elle a été mandatée pour commander la Tour des Vents, où elle poursuivait ses études pour le bien de l'Empire tout en faisant ses présages. Du moins, jusqu'à ce qu'Entschlafen réapparaisse dans sa vie.</p><p>Vingt ans plus tard, Hagerdorn est une femme de petite taille aux cheveux gris argenté et aux yeux d'un bleu surprenant. Sa peau est aussi blanche que la neige et froide au toucher. Elle porte des robes volumineuses composées de riches tissus bleu et argent.</p>"
+		},
+		"Ubersreik Watchman": {
+			"name": "Soldat du Guet d'Ubersreik",
+			"description": "",
+			"gmnotes": "<p>@UUID[JournalEntry.QqbRrRKeBiZewGip.JournalEntryPage.zZG0PRykM4x2uHwM]{Whistlebone Alley}</p>"
+		},
+		"Sreluc White-eyes": {
+			"name": "Sreluc White-eyes",
+			"description": "",
+			"gmnotes": "<h3>Les frères nains</h3>\n<p>Nés à six ans d'intervalle, @UUID[Actor.UWgyGmr61Co3ZgNO]{Srulem} et @UUID[Actor.wfynzRFKyKBjsfNc]{Sreluc} sont frères. Leur mère est décédée en donnant naissance à Srulem. Sreluc, le plus âgé, avait onze ans lorsque leur père, Drelec, a été condamné et exécuté pour association avec une cabale de nécromanciens. Il a été arrêté près d'Ubersreik alors qu'il leur vendait des cadavres de nains et d'humains. Comme Drelec était considéré trop lâche aux yeux de la communauté naine, même pour prêter le serment du tueur, les jeunes frères sont devenus des orphelins, déshonorés par leurs proches en raison de la honte de leur père. N'ayant nulle part où aller, ils se sont retrouvés dans les bidonvilles autour de Spittlefled, où leur carrure leur a permis de trouver facilement des emplois de gros bras. Maintenant, les frères sont des racketteurs, des maîtres chanteurs, des voleurs et des voyous à la petite semaine, mais ils ne s'en sont jamais pris à ceux qui vivent dans leur propre immeuble.</p>\n<p>Proche de la trentaine, Sreluc déteste son travail, mais le fait quand même pour s'assurer que son jeune frère soit bien vêtu et protégé. Sreluc porte des cuirs bruts et des fourrures qu'il coud lui même, renonçant à tout luxe pour s'occuper de Srulem. Il mesure 1m55, et arbore des cheveux blond cendré et des yeux gris.</p>\n<p>Au début de la vingtaine, Srulem est fort en gueule et rêve de restaurer l'honneur familal, bien qu'il ne puisse s'extraire du milieu criminel dans lequel il a grandi. Il porte des vêtements solides, pratiques et bien faits. Avec son mètre quarante-cinq, Srulem est plus petit, mais plus costaud que son frère, avec des cheveux pâles et des yeux gris clair.</p>"
+		},
+		"Srulem White-eyes": {
+			"name": "Srulem Yeux-blancs",
+			"description": "",
+			"gmnotes": "<h3>Les frères nains</h3>\n<p>Nés à six ans d'intervalle, @UUID[Actor.UWgyGmr61Co3ZgNO]{Srulem} et @UUID[Actor.wfynzRFKyKBjsfNc]{Sreluc} sont frères. Leur mère est décédée en donnant naissance à Srulem. Sreluc, le plus âgé, avait onze ans lorsque leur père, Drelec, a été condamné et exécuté pour association avec une cabale de nécromanciens. Il a été arrêté près d'Ubersreik alors qu'il leur vendait des cadavres de nains et d'humains. Comme Drelec était considéré trop lâche aux yeux de la communauté naine, même pour prêter le serment du tueur, les jeunes frères sont devenus des orphelins, déshonorés par leurs proches en raison de la honte de leur père. N'ayant nulle part où aller, ils se sont retrouvés dans les bidonvilles autour de Spittlefled, où leur carrure leur a permis de trouver facilement des emplois de gros bras. Maintenant, les frères sont des racketteurs, des maîtres chanteurs, des voleurs et des voyous à la petite semaine, mais ils ne s'en sont jamais pris à ceux qui vivent dans leur propre immeuble.</p>\n<p>Proche de la trentaine, Sreluc déteste son travail, mais le fait quand même pour s'assurer que son jeune frère soit bien vêtu et protégé. Sreluc porte des cuirs bruts et des fourrures qu'il coud lui même, renonçant à tout luxe pour s'occuper de Srulem. Il mesure 1m55, et arbore des cheveux blond cendré et des yeux gris.</p>\n<p>Au début de la vingtaine, Srulem est fort en gueule et rêve de restaurer l'honneur familal, bien qu'il ne puisse s'extraire du milieu criminel dans lequel il a grandi. Il porte des vêtements solides, pratiques et bien faits. Avec son mètre quarante-cinq, Srulem est plus petit, mais plus costaud que son frère, avec des cheveux pâles et des yeux gris clair.</p>"
+		},
+		"Thulgrim Nadrinsson": {
+			"name": "Thulgrim Nadrinsson",
+			"description": "",
+			"gmnotes": "<p>Thulgrim est le contremaître du chantier et le nain responsable de la supervision et du bon déroulement de la construction du moulin. Cependant, le personnage est bien plus complexe qu'il n'y paraît à premier abord. Lisez @UUID[JournalEntry.FQW8EIplgUDGyVMj.JournalEntryPage.FNUQ8x5IRlHMNJQV#thulgrims-tale]{L'histoire de Thulgrim} pour plus de détails concernant la rancune personnelle qu'il nourrit à l'encontre de Rutger Reuter et de Johanna Stiegler, et la honte qu'il endure à cause de celle-ci. <strong>Note </strong>: Les nains ne poursuivent normalement pas la carrière de Charlatan, cependant, Thulgrim le fait pour des raisons qu'il juge nécessaire. Il est parfaitement conscient du déshonneur que cela place sur son nom et sa réputation et est prêt à en assumer les pleines conséquences.</p>"
+		},
+		"Tylo Vielfrass": {
+			"name": "Tylo Vielfrass",
+			"description": "",
+			"gmnotes": "<h4>L'officier décédé</h4>\n<p>Agé de près de trente ans, le caporal Tylo Vielfrass était le pire cliché de la petite noblesse prétentieuse : attrayant, mais futile, obsédé par la nostalgie d'un passé qui n'a jamais existé, incapable de dire la vérité, dépourvu de la moindre compassion envers les autres. Il était particulièrement habile à mentir et à mettre son insolence sur le compte de \"son charme déluré.\"  Malgré son succès, Vielfrass était un être aussi méprisable que pathétique. Il était plus grand que la moyenne, avec le physique d'un soldat discipliné, les cheveux brun clair et les yeux bleus.</p>"
+		},
+		"Ursula Marbad": {
+			"name": "Ursula Marbad",
+			"description": "",
+			"gmnotes": "<h4>Le répurgateur</h4><p>Ursula a eu un parcours plutôt inhabituel dans une vie de répurgateur (même si ce n'est déjà pas en soi une profession très habituelle). Elle a été élevée sur le pourtour des @UUID[JournalEntry.ozE2DMCMK64eE5pD.JournalEntryPage.hzsgHYLKdpuJXls5]{marais Grootscher}, dans la région des Wastelands. Son père était tourbier, sa mère était laitière. Vivant dans la misère, ils avaient trouvé la consolation dans un culte de Nurgle, implanté dans leur hameau endormi. Elle était sur le point d'être sacrifiée au Seigneur des mouches lorsqu'un répurgateur a débarqué dans le village au grand galop et a passé l'ensemble des cultistes au fil de son épée. Au cours de l'affrontement, elle est parvenue à défaire ses liens, puis a abattu le magus avec son propre pistolet. C'est toujours cette arme qu'elle porte sur elle, veillant à exécuter chaque chef de culte qui croise son chemin d'une balle tirée de son canon rouillé.</p><p>Ursula est une femme astucieuse, rusée et taciturne, d'à peu près vingt-cinq ans, aux cheveux châtain clair rasés. Son visage est criblé de marques de variole, de brûlures et de cicatrices. En dépit de sa petite taille, sa silhouette est fine et athlétique, et elle porte un long manteau et un pantalon assorti en cuir, avec une chemise de lin blanc.</p>"
+		},
+		"Vadoma": {
+			"name": "Vadoma",
+			"description": "",
+			"gmnotes": "<p>Son don de double-vue est apparu après que son mari a été pendu par des villageois qui le soupçonnaient à tort de causer des mutations. Le malheureux lui est alors apparu en rêves pour lui dire adieu. Depuis lors, elle est en proie à des visions d'un autre monde, voyant des fantômes, des esprits, des prophéties, ou plus récemment, son propre et imminent trépas.</p>\n<p>Elle communique régulièrement avec des ombres, qu'elle pense être ses ancêtres. Elle partage ce que les esprits lui disent avec quiconque l'écoute : La fin est proche, préparez-vous.</p>\n<p>Elle a convaincu son petit-fils, @UUID[Actor.yZjkmfCXZjaYGEDG]{Reiko}, de la prendre à son bord après qu'il a accepté de travailler sur le Grausee, pressentant qu'il fonçait aveuglément vers un terrible danger. Elle tente à présent d'entendre les murmures de ses ancêtres, dans l'espoir de récolter des informations qui l'aideraient à sauver le capitaine.</p>"
+		},
+		"Wilhelm Kreigrisch": {
+			"name": "Wilhelm Kreigrisch",
+			"description": "",
+			"gmnotes": "<p>Avant l'attaque du jabberslythe, Wilhelm était le citoyen le plus respecté de tout @UUID[JournalEntry.Df9aBQCcpj00vtYt.JournalEntryPage.wsRznlHSdeOFm5WX]{Gotheim}. Il passait la plupart de son temps à l'auberge saluant les voyageurs de passage et tenant des réunions avec les fermiers locaux. Il a soixante-trois ans, des cheveux blancs clairsemés, et une énorme panse à bière. Il s'habille de manière assez ostentatoire pour un paysan, avec un pourpoint d'un rouge éclatant, dont les crevés laissent entrevoir une chemise bouffante de lin blanc.</p><p>Un jour, lorsque Wilhelm était encore jeune, la @UUID[JournalEntry.Df9aBQCcpj00vtYt.JournalEntryPage.SfFvPx00v4lNDAvB]{Reine rouge} a pris feu alors qu'il s'y trouvait. Il s'est sauvé en sautant d'une fenêtre avant de glisser sur le toit de l'écurie, et s'en est sorti avec une simple entorse. Il se dit aujourd'hui que répéter ces exploit est la seule façon d'échapper à la folie qui l'entoure. Cependant, si on le laisse sauter, il dégringolera pitoyablement et se brisera le cou.</p>"
+		}
+	}
+}

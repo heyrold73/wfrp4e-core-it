@@ -1,0 +1,297 @@
+{
+  "label": "Items (Archives Vol. I)",
+  "folders": {
+    "Ammunition": "Munitions",
+    "Careers": "Carrières",
+    "Talents": "Talents",
+    "Weapons": "Armes"
+  },
+  "mapping": {
+    "skills": {
+      "path": "system.skills",
+      "converter": "career_skills"
+    },
+    "talents": {
+      "path": "system.talents",
+      "converter": "career_talents"
+    },
+    "class": {
+      "path": "system.class.value",
+      "converter": "generic_localization"
+    },
+    "career_careergroup": "system.careergroup.value",
+    "trappings": "system.trappings"
+  },
+  "entries": [
+    {
+			"id": "Dwarf Crossbow",
+			"name": "Arbalète naine",
+			"description": "<p>Bien que les différences entre les arbalètes naines et impériales soient moins prononcées que celles entre leurs armes à poudre noire, les arbalètes naines fabriquées avec une minutie qu'aucun artisan humain ne saurait égaler, et sont donc plus précises.</p>"
+		},
+		{
+			"id": "Karak Mountain Strider",
+			"name": "Arpenteur des karak",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.GBhO6rb28jKbYfEk]{Patrouilleur des Karak}</p>",
+			"career_careergroup": "Patrouilleur des karak",
+			"trappings": [
+				"4 apprentis Coureurs des forts",
+				"cartes",
+				"souvenirs de nombreux voyages"
+			]
+		},
+		{
+			"id": "Dwarf Handgun",
+			"name": "Arquebuse naine",
+			"description": "<p>Les armes à poudre sorties des forges humaines désespèrent souvent les nains, car elles sont souvent aussi dangereuses pour leur porteur que pour sa cible. Les armes à poudre noire des nains sont soigneusement fabriquées et renforcées, les rendant moins susceptibles de râtés et conférant aux projectiles une force supplémentaire.</p>"
+		},
+		{
+			"id": "Cinderblast Bomb",
+			"name": "Bombe calcinante",
+			"description": "<p>Ces armes mortelles sont indispensables pour le combat dans les tunnels qui s'enfoncent profondément sous le Vieux Monde, alors que les nains repoussent désespérément les attaques des skavens, des gobelins, et bien pire encore. Ces bombes sont généralement lancées au beau milieu des forces ennemies, explosant en souffles enflammés et éclats, terrifiants à comtempler.</p>"
+		},
+		{
+			"id": "Field Warden Captain",
+			"name": "Capitaine Gardechamps",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.vnLLLPnNYS97hJVe]{Gardechamps}</p>",
+			"career_careergroup": "Gardechamps",
+			"trappings": [
+				"garnison de Sergent Gardechamps",
+				"respect de la communauté"
+			]
+		},
+		{
+			"id": "Drakefire Shot",
+			"name": "Cartouche Drac de feu",
+			"description": "<p>Cette munition incendiaire pouvant être utilisée avec les pistolets Drac de feu, est à la fois dangereuse et rare. Elle ne convient vraiment qu'à cette arme spécifique. Néanmoins, elle peut être chargée dans n'importe quelle arme à poudre noire, qui pourra fonctionner ainsi une seule fois avant d'exploser entre les mains de l'utilisateur. Cela se résout comme si un Échec critique avait été obtenu à chaque coup.</p>"
+		},
+		{
+			"id": "Precision Shot and Powder",
+			"name": "Cartouche et poudre de précision",
+			"description": "<p>Une poudre préparée par des mains expertes et des balles soigneusement arrondies et lissées peuvent être combinées pour permettre des coups plus précis, plus fiables avec toute arme à poudre noire qui convient.</p>"
+		},
+		{
+			"id": "Badger Rider",
+			"name": "Chevaucheur de blaireau",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.AKNVB3Of7B82YFT1]{Chevaucheur de blaireau}</p>",
+			"career_careergroup": "Chevaucheur de blaireau",
+			"trappings": [
+				"fontes de selle",
+				"plastron de cuir",
+				"arme de lancer ou d'entraves"
+			]
+		},
+		{
+			"id": "Hold Runner",
+			"name": "Coureur des forts",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.GBhO6rb28jKbYfEk]{Patrouilleur des Karak}</p>",
+			"career_careergroup": "Patrouilleur des karak",
+			"trappings": [
+				"sac à dos",
+				"arme simple",
+				"veste en cuir",
+				"outils professionnels (Cartographe)"
+			]
+		},
+		{
+			"id": "Forest's Wrath",
+			"name": "Courrouxde de la forêt",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.J4o6g4sjXQ8OXjIj]{Rôdeur Fantôme}</p>",
+			"career_careergroup": "Rôdeur fantôme",
+			"trappings": [
+				"trophée d'un ennemi légendaire",
+				"flèche elfique antique (pour proie spéciale)",
+				"réputation effrayante"
+			]
+		},
+		{
+			"id": "Wildwood Sword",
+			"name": "Épée du Bois sauvage",
+			"description": "<p>Lames à deux mains dotées d'une poignée de bois vivant, ces armes semblent se mouvoir de leur propre chef, frappant plus rapidement que leur taille ne semble leur permettre.</p>"
+		},
+		{
+			"id": "Windwraith",
+			"name": "Esprit du vent",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.J4o6g4sjXQ8OXjIj]{Rôdeur Fantôme}</p>",
+			"career_careergroup": "Rôdeur fantôme",
+			"trappings": [
+				"arc elfique et armure de cuir avec au moins 1 Atout chacun",
+				"10 flèches elfiques"
+			]
+		},
+		{
+			"id": "Starfire Shafts",
+			"name": "Flèches Lumière des astres",
+			"description": "<p>Le bois des arbres Lumière des astres est un anathème pour la corruption, et les flèches qui en sont tirées sont imprégnées d'un esprit féroce et flamboyant. Ceux qui sont atteints par ces flèches prennent souvent feu et leur usage massif en temps de guerre est terrifiant à contempler.</p>"
+		},
+		{
+			"id": "Swiftshiver Shafts",
+			"name": "Flèches Vif Frisson",
+			"description": "<p>Faites d'un bois si léger et résistant qu'elles semblent jaillir du carquois de leur propre chef, il est aisé pour un archer compétent d'encocher et de tirer plus d'une flèche de ce type à la fois.</p>"
+		},
+		{
+			"id": "Forest Ranger",
+			"name": "Garde forestier",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.J4o6g4sjXQ8OXjIj]{Rôdeur Fantôme}</p>",
+			"career_careergroup": "Rôdeur fantôme",
+			"trappings": [
+				"sac à dos",
+				"cape à capuche",
+				"arc long et 10 flèches",
+				"outils professionnels (Fabricant d'arcs)"
+			]
+		},
+		{
+			"id": "Novice Warden",
+			"name": "Garde novice",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.vnLLLPnNYS97hJVe]{Gardechamps}</p>",
+			"career_careergroup": "Gardechamps",
+			"trappings": [
+				"sac à dos",
+				"tente",
+				"carte de la région",
+				"fronde avec 10 pierres",
+				"outils professionnels (même spécialisation que Métier)"
+			]
+		},
+		{
+			"id": "Field Warden",
+			"name": "Gardechamps",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.vnLLLPnNYS97hJVe]{Gardechamps}</p>",
+			"career_careergroup": "Gardechamps",
+			"trappings": [
+				"veste en cuir",
+				"arme simple",
+				"lanterne et huile"
+			]
+		},
+		{
+			"id": "Karak Pathkeeper",
+			"name": "Gardien des routes des karak",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.GBhO6rb28jKbYfEk]{Patrouilleur des Karak}</p>",
+			"career_careergroup": "Patrouilleur des karak",
+			"trappings": [
+				"outils (Maçonnerie)"
+			]
+		},
+		{
+			"id": "Bearded Axe",
+			"name": "Hache à barbe",
+			"description": "<p>Prisée par beaucoup de nains durant les combats, la tête de ces haches s'incurve vers le manche, ce qui créé un espace entre le manche et la lame, parfait pour arracher leurs armes aux ennemis peu méfiants.</p>"
+		},
+		{
+			"id": "Slayer's Axe",
+			"name": "Hache de Tueur",
+			"description": "<p>Les Tueurs sont extrêmement fiers de leur arme, les affûtant de manière presque rituelle à toute occasion. Les plus célèbres d'entre elles ont gagné une réputation de puissance presque aussi importante que leurs porteurs. Ce sont des armes dévastatrices, et les Tueurs qui les manient ne semblent pas être gênés par leur taille.</p>"
+		},
+		{
+			"id": "Nan's Cleaver",
+			"name": "Hachoir de Mamie",
+			"description": "<p>Les cuisiniers halflings sont aussi soigneux avec leurs ustensiles de cuisine que le plus méticuleux des guerriers avec son épée. Il n'est donc pas étonnant que ces armes soient utiles en temps de guerre, et que plus d'un gobelin soit tombé sous les coups d'un hachoir qui avait, juste avant, été utilisé pour préparer un généreux ragoût à déguster après la bataille.</p>"
+		},
+		{
+			"id": "Blackbriar Javelin",
+			"name": "Javelot Noireronce",
+			"description": "<p>Taillées dans le bois des arbres dont les esprits ont été tordus et rendus néfastes, ces armes vivantes distillent un poison létal. On prétend qu'elles apportent la malchance, et c'est sûrement le cas pour ceux qui doivent les affronter en combat.</p>"
+		},
+		{
+			"id": "Eonir War Blade",
+			"name": "Lame de guerre éonir",
+			"description": "<p>Les lames finement ouvragées des Éonirs sont fabriquées pour être plus légères que les armes types de l'Empire et leur équilibre parfait permet des coups rapides et précis.</p>"
+		},
+		{
+			"id": "Eonir Spear",
+			"name": "Lance éonir",
+			"description": "<p>Fléau des forces montées, ces lances à la pointe acérée sont plus légères que les armes types de l'Empire. Leur extrémité est trempée et affûtée par des méthodes connues uniquement des elfes sylvains. Elles transpercent les armures avec aisance.</p>"
+		},
+		{
+			"id": "Badger Master",
+			"name": "Maître blaireau",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.AKNVB3Of7B82YFT1]{Chevaucheur de blaireau}</p>",
+			"career_careergroup": "Chevaucheur de blaireau",
+			"trappings": [
+				"gros blaireau apprivoisé (blaireau-poney tacheté du Moot)",
+				"1 écuyer (Taquineur de blaireau)",
+				"armure de plates",
+				"sens de l'humour"
+			]
+		},
+		{
+			"id": "Dwarf Hammer",
+			"name": "Marteau nain",
+			"description": "<p>Les nains, de notoriété publique, utilisent les mêmes marteaux dans la forge en temps de paix et sur le champ de bataille en temps de guerre. Ces outils si lourds sont parfaits pour fracasser même le plus dur des crânes orcs.</p>"
+		},
+		{
+			"id": "Karak Ranger",
+			"name": "Patrouilleur des karak",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.GBhO6rb28jKbYfEk]{Patrouilleur des Karak}</p>",
+			"career_careergroup": "Patrouilleur des karak",
+			"trappings": [
+				"arme à poudre noire avec munitions",
+				"grappin et corde"
+			]
+		},
+		{
+			"id": "Drakefire Pistol",
+			"name": "Pistolet Drac de feu",
+			"description": "<p>Exemple de l'ingéniosité des nains, ce pistolet Drac de feu balaye les cibles de coups incendiaires, les enflammant souvent. Les particularités de sa conception sont un secret bien gardé des nains et il est peu probable que d'autres races puissent en copier les subtilités, même si le concept venait à en être compris. Elles constituent les armes favorites de tout nain qui tiendrait tête à des skavens, loin sous terre, car voir brûler leur fourrure puante est en soi très satisfaisant.</p>"
+		},
+		{
+			"id": "Dwarf Pistol",
+			"name": "Pistolet nain",
+			"description": "<p>Les armes à poudre sorties des forges humaines désespèrent souvent les nains, car elles sont souvent aussi dangereuses pour leur porteur que pour sa cible. Les armes à poudre noire des nains sont soigneusement fabriquées et renforcées, les rendant moins susceptibles de râtés et conférant aux projectiles une force supplémentaire.</p>"
+		},
+		{
+			"id": "Iron Skillet",
+			"name": "Poêle de fer",
+			"description": "<p>En dépit de leur petite taille, ces pots, casseroles et poêles à frire des halflings sont fabriqués pour être plus lourds qu'on ne le pense. On pourrait en rire, mais plus d'une lame a été détournée d'un coup fatal par la poêle d'un halfling. Ces ustensiles, grêlés et éraflés, font toujours la fierté des foyers de ce peuple.</p>"
+		},
+		{
+			"id": "Ghost Strider",
+			"name": "Rôdeur fantôme",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.J4o6g4sjXQ8OXjIj]{Rôdeur Fantôme}</p>",
+			"career_careergroup": "Rôdeur fantôme",
+			"trappings": [
+				"arc elfique et 10 flèches fabriquées par le Personnage",
+				"assortiment de pièges",
+				"veste en cuir"
+			]
+		},
+		{
+			"id": "Youngblood",
+			"name": "Sang neuf",
+			"description": "<p>Votre famille est vue comme une nouvelle venue dans la Laurelorn, et est traitée avec condescendance par les Éonirs des autres lignages. Votre Statut est toujours considéré comme plus bas que celui des autres Éonirs, à moins qu'ils aient, eux aussi, le Talent Sang neuf. Un membre du jeune lignage de deuxième génération peut perdre ce Talent s'il réussit une série d'épreuves pour rejoindre 1 lignée des Enfants de la forêt.</p>"
+		},
+		{
+			"id": "Badger Sergeant",
+			"name": "Sergent blaireau",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.AKNVB3Of7B82YFT1]{Chevaucheur de blaireau}</p>",
+			"career_careergroup": "Chevaucheur de blaireau",
+			"trappings": [
+				"caparaçon pour blaireau (2 PA sur la tête et le torse)",
+				"arme de corps à corps (base ou cavalerie)"
+			]
+		},
+		{
+			"id": "Field Warden Sergeant",
+			"name": "Sergent Gardechamps",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.vnLLLPnNYS97hJVe]{Gardechamps}</p>",
+			"career_careergroup": "Gardechamps",
+			"trappings": [
+				"chemise de mailles de bonne qualité",
+				"escouade de Gardes novices"
+			]
+		},
+		{
+			"id": "Badger Botherer",
+			"name": "Taquineur de blaireau",
+			"description": "<p>@Compendium[wfrp4e-archives1.journals.AKNVB3Of7B82YFT1]{Chevaucheur de blaireau}</p>",
+			"career_careergroup": "Chevaucheur de blaireau",
+			"trappings": [
+				"sac à dos",
+				"veste de cuir",
+				"fronde",
+				"blaireau apprivoisé avec selle et harnais"
+			]
+		}
+  ]
+}

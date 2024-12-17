@@ -1,0 +1,23 @@
+{
+  "label": "Tables (Up In Arms)",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "resultConverter"
+    }
+  },
+  "entries": {
+    "Head Critical Wounds (Up In Arms)": {
+      "name": "Head Critical Wounds (Up In Arms)"
+    },
+    "Leg Critical Wounds (Up In Arms)": {
+      "name": "Leg Critical Wounds (Up In Arms)"
+    },
+    "Arm Critical Wounds (Up In Arms)": {
+      "name": "Arm Critical Wounds (Up In Arms)"
+    },
+    "Body Critical Wounds (Up In Arms)": {
+      "name": "Body Critical Wounds (Up In Arms)"
+    }
+  }
+}

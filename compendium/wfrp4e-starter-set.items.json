@@ -1,0 +1,187 @@
+{
+	"label": "Items (Starter Set)",
+  "folders": {
+    "Criticals": "Critiques",
+    "Diseases": "Maladies",
+    "Spells": "Sorts",
+    "Trappings": "Possessions"
+  },
+  "mapping": {
+    "skills": {
+      "path": "system.skills",
+      "converter": "career_skills"
+    },
+    "talents": {
+      "path": "system.talents",
+      "converter": "career_talents"
+    },
+    "class": {
+      "path": "system.class.value",
+      "converter": "generic_localization"
+    },
+    "career_careergroup": "system.careergroup.value",
+    "trappings": "system.trappings"
+  },
+	"entries": [
+		{
+			"id": "Ameliorative Elixir",
+			"name": "Élixir Améliorant",
+			"description": "<p>Contenant de la mystracine, cette potion épaisse au goût terreux procure une certaine euphorie et des hallucinations agréables. La potion offre un bonus de +10 aux Tests de Force Mentale, mais une pénalité de -10 aux Tests d’Agilité, d’Initiative et d’Intelligence. Durée: [[/r 1d10]] x 10 minutes.</p>"
+		},
+		{
+			"id": "Basilisk's Baleful Bile",
+			"name": "Basilisk's Baleful Bile",
+			"description": "<p>This poison is created from combining ﬂuids from the eyes and poison sacks of a freshly slain Basilisk. It is a foul tasting poison, and anyone ingesting food or drink laced with Basilisk&rsquo;s Baleful Bile will be called to take an<strong> Easy (+40) Perception</strong> Test. Success indicates they detect the taint of something wrong before suﬀering the bile&rsquo;s eﬀects, but gain the @Condition[Sonné] Condition for one Round whilst they vomit it up. If ingested, the concoction inﬂicts 2 @Condition[Empoisonné] Conditions, resisted with a <strong>Difficult (-10) Endurance</strong> Test. If the target fails to resist the @Condition[Empoisonné] Conditions, they are permanently turned to stone.</p>"
+		},
+		{
+			"id": "Bronze Fever",
+			"name": "La Fièvre de bronze",
+			"description": "<p>La Fièvre de bronze est fréquente dans le sud du Vieux Monde, là où le climat est plus chaud et humide, car elle se propage à cause des piqûres d’insectes. La plupart des malades guérissent en quelques jours, mais, en de rares occasions, des complications peuvent mener jusqu’à la mort.&nbsp;</p>"
+		},
+		{
+			"id": "Bruised",
+			"name": "Bleus aux côtes",
+			"description": "<p>Tous les Tests basés sur l’Agilité sont effectués avec un malus de -10 pendant [[/r 1d10]] jours.</p>"
+		},
+		{
+			"id": "Clutch of Eyes",
+			"name": "Pullulement d’Yeux",
+			"description": "<p>Des kystes tremblotants bouillonnent sous votre chair, puis la douleur vous transperce alors que des pustules sanglantes émergent et s’ouvrent, révélant une portée de nouveaux yeux horrifiés.</p><p>Jetez @Table[hitloc]{Hit Location} pour déterminer la Localisation de ces nouveaux yeux. Vous pouvez désormais voir depuis cette Localisation.Augmentez votre Caractéristique d’Initiative de [[/r 1d10]]. Si vous ne possédiez pas de Caractéristique d’Initiative, vous gagnez +[[/r 2d10]] supplémentaires dans celle-ci. Tous les coups qui atteignent la Localisation dotée de votre Pullulement d’Yeux infligent également un État @Condition[Aveuglé].</p>"
+		},
+		{
+			"id": "Cracked Bone",
+			"name": "Os fêlé",
+			"description": "<p>Gagnez un État @Condition[Sonné]. Tous les Tests subissent un malus de -10 jusqu’à ce que vous receviez un Test de Soins réussi.</p>"
+		},
+		{
+			"id": "Crippling Wound",
+			"name": "Blessure incapacitante",
+			"description": "<p>Gagnez un État @Condition[A terre]{À Terre} qui ne peut être enlevé que grâce à un Test <strong>Simple de Soins</strong> réussi. Tous les Tests subissent un malus de -20 jusqu’à ce que vous receviez cette Aide Médicale, et passiez au moins une semaine à vous reposer.</p>"
+		},
+		{
+			"id": "Doppelganger",
+			"name": "Doppelganger",
+			"description": "<p>le PNJ peut adopter la forme de n’importe quelle créature de Taille Moyenne. Il doit pour cela obtenir au moins 5 DR sur un Test <strong>Étendu de Perception</strong> tout en observant sa cible. Il a ensuite besoin de 2 Rounds pour prendre l’apparence de la cible. Les vêtements de la cible et les petits accessoires sont également répliqués; ils font cependant partie de la créature et ne peuvent être retirés. Les objets plus gros, comme les épées et les sacs à dos, ne sont pas copiés. Lorsque ceux qui connaissent la victime rencontrent la créature transformée, ils effectuent un Test <strong>Simple d’Intuition Difficile (-20)</strong>. S’ils réussissent, ils sentent que quelque chose ne va pas. S’ils échouent, ils sont convaincus que la créature est bien la personne qu’ils connaissent.</p>"
+		},
+		{
+			"id": "Flensed Muscle",
+			"name": "Muscle dépecé",
+			"description": "<p>Gagnez 4 États @Condition[Hémorragique]. Toute nouvelle blessure reçue sur la Localisation affectée au cours des 4 prochaines semaines infligera également 2 États Hémorragiques suite à la réouverture de la plaie.</p><blockquote class=\"foundry-note\"><p>The Active Effect script for this item needs your input. Once applied to an Actor, replace <span style=\"font-family: Courier\">LOCATION_HERE</span> with <span style=\"font-family: Courier New\">head</span>, <span style=\"font-family: Courier New\">body</span>, <span style=\"font-family: Courier\">lArm</span>, <span style=\"font-family: Courier\">rArm</span>, <span style=\"font-family: Courier\">lLeg</span>, or <span style=\"font-family: Courier\">rLeg,</span> matching which location was hit</p></blockquote>"
+		},
+		{
+			"id": "Focusing Philtre",
+			"name": "Philtre de Concentration",
+			"description": "<p>Ce Philtre, sombre et amer, permet de focaliser son esprit et aide à se concentrer. Il confère un bonus de +20 aux Tests d’Intelligence et d’Endurance. Lorsque son effet se dissipe, subissez 1 État @Condition[Extenué]{Exténué} qui perdurera au moins une journée entière. Durée: [[/r 1d10]] heures.</p>"
+		},
+		{
+			"id": "Fractured Bone",
+			"name": "Os fracturé",
+			"description": "<p>Gagnez un État @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance</strong> ou obtenez également l’État @Condition[A terre]{À Terre}. Tous les Tests subissent un malus de -10 pendant les 4 prochaines semaines.</p>"
+		},
+		{
+			"id": "Gaping Wound",
+			"name": "Blessure béante",
+			"description": "<p>Gagnez 3 États @Condition[Hémorragique]. Toute nouvelle blessure reçue sur la Localisation affectée au cours de la semaine suivante infligera un État Hémorragique supplémentaire, car cette blessure se sera rouverte.</p><blockquote class=\"foundry-note\"><p>The Active Effect script for this item needs your input. Once applied to an Actor, replace <span style=\"font-family: Courier\">LOCATION_HERE</span> with <span style=\"font-family: Courier New\">head</span>, <span style=\"font-family: Courier New\">body</span>, <span style=\"font-family: Courier\">lArm</span>, <span style=\"font-family: Courier\">rArm</span>, <span style=\"font-family: Courier\">lLeg</span>, or <span style=\"font-family: Courier\">rLeg,</span> matching which location was hit</p></blockquote>"
+		},
+		{
+			"id": "Gash",
+			"name": "Rien qu'une égratignure!",
+			"description": "<p>Gagnez 1 État @Condition[Hémorragique].</p>"
+		},
+		{
+			"id": "Gut Blow",
+			"name": "Coup au ventre",
+			"description": "<p>Gagnez 1 État @Condition[Sonné].</p>"
+		},
+		{
+			"id": "Itchy Nuisance",
+			"name": "Démangeaisons",
+			"description": "<p>Vous agitez les doigts et des spores de champignons irritants s’en échappent et se déposent dans les zones sensibles de la cible. Ces spores se développent rapidement en causant de terribles démangeaisons. La cible subit un malus de -10 % à tous les Tests, et diminue de moitié son Mouvement pendant toute la durée du sort.</p>"
+		},
+		{
+			"id": "Katya's Cordial",
+			"name": "Sirop de Katya",
+			"description": "<p>Ce mélange diffuse une odeur légèrement sucrée de couleur rose perle au goût épicé. Cette potion augmente le charme de celui qui l’ingère, avec cependant un effet indésirable. Lorsqu’elle est sous l’effet de la potion, la personne qui l’a ingérée gagne le Talent @Compendium[wfrp4e-core.items.6l3jvIAvrKxt0lA9]{Attractive}. Cependant, dès que l’effet se dissipe, ce dernier subit une pénalité de -20 à tous les Tests de Sociabilité pendant [[/r 1d10]] jours au cours desquels sa peau et ses yeux dégorgeront des sécrétions jaunâtres à l’odeur nauséabonde. Durée : [[/r 1d10]] heures.</p>"
+		},
+		{
+			"id": "Liquor of Luck",
+			"name": "Liqueur de Chance",
+			"description": "<p>Ce liquide bleu brillant exhale une légère odeur de réglisse. Le boire confère +1 Point de Chance. De plus, alors que la Liqueur est active, lancez roll [[/r 1d100]] lorsque vous dépensez un Point de Chance. Si vous obtenez un double, vous regagnez un Point de Chance. Lorsque l’effet se dissipe, perdez tous les Points de Chance et subissez un État @Condition[Extenué]{Exténué} qui perdurera au moins une journée entière. Durée : [[/r 1d10]] minutes.</p>"
+		},
+		{
+			"id": "Low Blow!",
+			"name": "Dans les bijoux de famille",
+			"description": "<p>Obtenez 1 État @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance Difficile (-20)</strong> ou gagnez 2 États Sonné supplémentaires.</p>"
+		},
+		{
+			"id": "Massive Intellect",
+			"name": "Cerveau Massif",
+			"description": "<p>Du sang frais, des esquilles d’os et de la chair martyrisée se déversent par vos orifices pendant que votre ancien cerveau est évacué. Lentement, au fil des semaines, un nouveau grandit à sa place, faisant s’étirer douloureusement votre tête grâce à des bandes translucides autour de votre cerveau enflé et luisant. Augmentez votre Caractéristique d’Intelligence de [[/r 2d10]]. Si vous n’aviez pas de Caractéristique de Sociabilité, vous en acquérez une d’une valeur égale au résultat de [[/r 2d10]]. De plus, tous les coups à la tête infligent désormais une @Table[crithead]{Blessure Critique} lorsque ce n’est pas déjà le cas.</p>"
+		},
+		{
+			"id": "Painful Cut",
+			"name": "Entaille douloureuse",
+			"description": "<p>Gagnez 2 États @Condition[Hémorragique] et un État @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance Difficile (-20)</strong> ou obtenez l’État @Condition[Inconscient] en vous évanouissant sous la douleur.</p>"
+		},
+		{
+			"id": "Reactionary Restorative",
+			"name": "Revigorant Réparateur",
+			"description": "<p>Liquide rouge sang épais au goût répugnant, ce breuvage augmente considérablement les réactions au danger de celui qui l’ingère. Tant que son effet perdure, vous ne pouvez jamais subir l’État @Condition[Surpris]. Lorsque son effet se dissipe, subissez 1 État @Condition[Extenué]{Exténué} qui perdurera au moins une journée entière. Durée : [[/r 1d10]] heures.</p>"
+		},
+		{
+			"id": "Ruined",
+			"name": "Anéanti",
+			"description": "<p>Gagnez un État @Condition[Inconscient] qui ne peut être enlevé que grâce à un Test <strong>Simple de Soins</strong> réussi. La Localisation affectée est inutilisable tant que vous n’avez pas passé un mois à garder le lit.</p>"
+		},
+		{
+			"id": "Saif al-Janub",
+			"name": "Saif al-Janub",
+			"description": "<p>Offert en cadeau à Lohner en remerciement des actions décisives effectuées lors de la défense de Sudenburg contre les morts-vivants en 2498 CI, cette lame courbe a été forgée par le célèbre philosophe-artisan Hataq al-Kundi en 1445 CI. Cette arme exceptionnelle vaut dix fois le prix indiqué en Arabie.</p>"
+		},
+		{
+			"id": "Shattered Bone",
+			"name": "Os brisé",
+			"description": "<p>Gagnez un État @Condition[Sonné] qui ne peut être enlevé que grâce à un Test <strong>Simple de Soins</strong> réussi. Tous les Tests subissent un malus de -20 jusqu’à ce que vous receviez cette Aide Médicale, et passiez au moins une semaine à vous reposer.</p>"
+		},
+		{
+			"id": "Slippery Skin",
+			"name": "Peau glissante",
+			"description": "<p>Vous transpirez constamment, votre peau exsudant un mucus fin et visqueux un peu comme celui que produisent les myxines. C’est déplaisant au toucher, cela imbibe vos vêtements en une heure ou deux, et cela rend votre poigne incertaine. Tous les Tests qui nécessitent que vous teniez quelque chose dans vos mains (comme une arme) subissent une pénalité de -20, et vous souffrez également d’un malus de -20 aux Tests de Sociabilité. Lorsque vous tentez d’échapper à une Empoignade, si vous réussissez, vous pouvez choisir d’utiliser soit votre DR, soit le nombre affiché sur le dé des unités. Un jet réussi de 28 peut donc être utilisé pour obtenir +8 DR.</p>"
+		},
+		{
+			"id": "Sneaky Stabbin'",
+			"name": "Attaque sournoiz’",
+			"description": "<p>Vous enchantez les lames de vos alliés, de façon à ce qu’elles cherchent le point faible dans l’armure de vos adversaires. Les cibles acquièrent immédiatement +1 Avantage, et leurs attaques gagnent la Qualité Pénétrante tant qu’ils ont de l’Avantage.</p>"
+		},
+		{
+			"id": "Telepathy",
+			"name": "Télépathie",
+			"description": "<p>Votre esprit se libère de ses chaînes matérielles, murmurant de joie alors qu’il perçoit de nouvelles façons de s’imposer aux autres. Avec un Test <strong>Simple de Force Mentale</strong> vous pouvez communiquer avec n’importe quelle créature consciente se trouvant dans les Force Mentale en mètres, dans votre ligne de vue. Cela dure pendant un nombre de minutes égal à votre Caractéristique d’Initiative. Vous pouvez également lire les pensées superficielles de n’importe quelle créature avec laquelle vous communiquez par télépathie avec un Test <strong>Opposé de Force Mentale</strong>. Si vous ratez le Test, vous ne pouvez plus lire l’esprit du sujet pendant les prochains [[/r 1d10]] jours. Lorsque vous utilisez la télépathie, vos yeux luisent étrangement. Chaque fois que cette Mutation est développée, la portée jusqu’à laquelle vous pouvez utiliser ce pouvoir double.</p><p> </p><p> </p>"
+		},
+		{
+			"id": "The Marvelous Medicinal Mixture",
+			"name": "Le Merveilleux Mélange Thérapeutique",
+			"description": "<p>Ce liquide écœurant diffuse une odeur de poisson, et quiconque souhaite ingérer cette décoction doit dans un premier temps réussir un Test Moyen (+20) de Calme. Ensuite, cette personne subit un État @Condition[Extenué]{Exténué}, qui ne disparaîtra qu’après une bonne nuit de repos. La potion ne déclenche aucun autre effet. Cependant, son goût est si abject que les clients de von Holzenauer sont convaincus de son efficacité à guérir n’importe quel malaise</p>"
+		},
+		{
+			"id": "Tonic of Sight Beyond Sight",
+			"name": "Tonique de Vue au-delà de la Vue",
+			"description": "<p>L’étiquette de la bouteille contenant ce liquide vert foncé est ornée d’un grand globe oculaire rouge. Cette potion porte la promesse d’améliorer la vision de celui qui la boit. La boire vous conférera l’un des Talents suivants, voire plusieurs (lancer [[/r 1d10]]) : 1-2 : @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Acute Sense (Sight)}; 3-4 : @Compendium[wfrp4e-core.items.Nj3tC8A5fZ3zEdMR]{Holy Visions}; 5-6 : @Compendium[wfrp4e-core.items.6w30u0VPsAicrqb5]{Magical Sense}; 7-8 : @Compendium[wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Second Sight}; 9-10 : tous les effets ci-dessus. Durée : [[/r 1d10]] minutes</p>"
+		},
+		{
+			"id": "Torn Apart",
+			"name": "Éventré",
+			"description": "<p>Vous êtes coupé en deux. La moitié supérieure atterrit à [[/r 1d10]] x 30cm dans une direction aléatoire, et tous les Personnages à proximité sont recouverts de sang.</p>"
+		},
+		{
+			"id": "Torn Flesh",
+			"name": "Chairs déchirées",
+			"description": "<p>Gagnez 2 État @Condition[Hémorragique].</p>"
+		},
+		{
+			"id": "Winded",
+			"name": "Soufle coupé",
+			"description": "Gagnez 2 États @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance Accessible (+20)</strong> ou obtenez 1 État @Condition[A terre]{À Terre}. Le Mouvement est divisé par deux pendant [[/r 1d10]] Rounds, le temps de récupérer votre souffle.</p>"
+		}
+	]
+}

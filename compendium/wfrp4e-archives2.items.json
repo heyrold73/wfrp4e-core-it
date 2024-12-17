@@ -1,0 +1,501 @@
+{
+	"label": "Items (Archives Vol. II)",
+  "folders":  {
+    "Careers": "Carrières",
+    "Criticals": "Critiques",
+    "Diseases": "Maladies",
+    "Injuries": "Blessures",
+    "Prayers": "Prières",
+    "Blessings": "Bénédictions",
+    "Skills": "Compétences",
+    "Star Signs": "Signes des Etoiles",
+    "Spells": "Sorts",
+    "Trappings": "Possessions",
+    "Ammunition": "Munitions",
+    "Armour": "Armures",
+    "Weapons": "Armes"
+  },
+  "mapping": {
+    "skills": {
+      "path": "system.skills",
+      "converter": "career_skills"
+    },
+    "talents": {
+      "path": "system.talents",
+      "converter": "career_talents"
+    },
+    "class": {
+      "path": "system.class.value",
+      "converter": "generic_localization"
+    },
+    "career_careergroup": "system.careergroup.value",
+    "trappings": "system.trappings",
+    "sduration": {
+      "path": "system.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "srange": {
+      "path": "system.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "starget": {
+      "path": "system.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "sdamage": {
+      "path": "system.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "penalty": "system.penalty.value",
+    "location": {
+      "path": "system.location.value",
+      "converter": "generic_localization"
+    },
+    "durationValue": "system.duration.value",
+    "durationUnit": "system.duration.unit",
+    "contraction": "system.contraction.value",
+    "incubationValue": "system.incubation.value",
+    "incubationUnit": "system.incubation.unit",
+    "symptoms": "system.symptoms.value",
+    "permanent": "system.permanent.value",
+    "special": "system.special.value",
+    "qualities": {
+      "path": "system.qualities.value",
+      "converter": "trapping_qualities_flaws"
+    },
+    "flaws": {
+      "path": "system.flaws.value",
+      "converter": "trapping_qualities_flaws"
+    }
+  },
+	"entries": {
+		"All-Seeing Mirror": {
+			"name": "All-Seeing Mirror",
+			"description": "<p>These mirrors are made in pairs. Instead of seeing their reflection in the mirror, a Character sees whatever is presented to the sister mirror. The effect is broken if the mirrors are parted by a distance of more than 500 miles.If the Characters find an All-Seeing Mirror, there is a 70% chance the sister mirror is in someone else’s possession.</p>"
+		},
+		"Amulet of Righteous Silver": {
+			"name": "Amulet of Righteous Silver",
+			"description": "<p>The wearer of this amulet does not suffer from the effects of Fear, and gains a +2SL bonus on Tests to resist Terror.</p>"
+		},
+		"Amulet of Thrice-Blessed Copper": {
+			"name": "Amulet of Thrice-Blessed Copper",
+			"description": "<p>This amulet reduces the Damage of all attacks made against the wearer by -1. The wearer of such an amulet also receives a +30 bonus to Endurance Tests made to remove @Condition[Poisoned] Conditions. The amulet also turns green in the presence of poisons.</p>"
+		},
+		"Arrow of Potency": {
+			"name": "Arrow of Potency",
+			"description": "<p>If a hit from an Arrow of Potency deals Damage, it inflicts an additional [[/r 1d10]] Damage which ignores Armour and Toughness.</p>"
+		},
+		"Arrow of True Flight": {
+			"name": "Arrow of True Flight",
+			"description": "<p>These arrows grant +30 Ballistic Skill when fired.</p>"
+		},
+		"Ballista": {
+			"name": "Ballista",
+			"description": "<p><strong>Crew: </strong>4</p><p>Similar to a crossbow, but much larger, a Ballista can fire large bolts across great distances. It’s far too heavy to be carried, so it’s usually attached to a fixed surface or uses wheels to move around the battlefield.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Battering Ram": {
+			"name": "Battering Ram",
+			"description": "<p><strong>Crew</strong>: 6</p><p>Used for tearing down doors and gates, a Battering Ram consists of a heavy tree trunk suspended by chains or ropes on a wooden frame with wheels. Some have a spiked metal end, while others have it forged to resemble a ram’s head.</p><p>*Battering Rams only deal damage to doors and gates. They are otherwise considered an Improvised Weapon.</p>"
+		},
+		"Bellicose Cup": {
+			"name": "Bellicose Cup",
+			"description": "<p>Several grim drinking vessals hail from Norsca, with a handful making their way to the Empire. They take many forms — some are simply carved from wood, others are human skulls sealed with pitch and clay. They were typically used at the start or end of ritual combat, and many who lost their lives in such bouts subsequently donated their skulls towards the creation of another cup.</p><p>One person may drink from the cup once each day. Drinking water from the cup lets the user ignore the first @Condition[Bleeding] Condition they acquire that day. Drinking strong alcohol from the cup lets the user ignore the first Critical Wound they suffer that day. Drinking the fresh blood of a fallen enemy from the cup grants the user @Exp[100, Drank the blood of a fallen enemy]{100 XP} and a single Corruption point.</p>"
+		},
+		"Big Ogre Club": {
+			"name": "Big Ogre Club",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p>@UUID[Compendium.wfrp4e-archives2.items.n1fVud1csGlzM9fI]{Metal Plates}: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#pummel]{Pummel} Quality.</p><p>@UUID[Compendium.wfrp4e-archives2.items.6jnKkzFvQKrI7iCo]{Rusty Spikes}: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#penetrating]{Penetrating} Quality.</p><p>@UUID[Compendium.wfrp4e-archives2.items.gnDvFsTIenXj9TBP]{Scavenged Blades}: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#hack]{Hack} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Big Ogre Club (Metal Plates)": {
+			"name": "Big Ogre Club (Metal Plates)",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p><strong>Metal Plates</strong>: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#pummel]{Pummel} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Big Ogre Club (Rusty Spikes)": {
+			"name": "Big Ogre Club (Rusty Spikes)",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p><strong>Rusty Spikes</strong>: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#penetrating]{Penetrating} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Big Ogre Club (Scavenged Blades)": {
+			"name": "Big Ogre Club (Scavenged Blades)",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p><strong>Scavenged Blades</strong>: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#hack]{Hack} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Bonecrusher": {
+			"name": "Bonecrusher",
+			"description": "<p>You crunch loudly on a mouthful of bones while snarling a curse at a nearby foe. <em>Bonecrusher</em> is a <em>magic missile</em> with a Damage of +4 which ignores your target’s Armour Points but not their Toughness Bonus. Additionally, if your attack inflicts a Critical Wound, add +20 to the roll on the appropriate Critical Wound table to determine its severity.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"Braingobbler": {
+			"name": "Braingobbler",
+			"description": "<p>You devour an entire head, brains and all. Your prodigious gut distils the essence of nightmares from within the unfortunate skull and projects them in a wave of nauseating horror about you. You gain the @UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Fear 2} Creature Trait. If the late owner of the devoured head had a close relationship to someone who is affected by your <em>Fear</em> Trait, they make any Cool Tests to resist the Fear at a – 20 penalty.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"Bullgorger": {
+			"name": "Bullgorger",
+			"description": "<p>You devour the heart of a mighty beast, projecting its strength and power onto a nearby creature. For the spell’s duration, your target adds +2 to their Strength Bonus for the purposes of Damage they inflict or for other appropriate feats of Strength. However, when the spell ends, they find themselves consumed by an immense hunger and must immediately gorge themselves on a substantial meal or gain a @Condition[Fatigued] Condition.</p><p>If the target wishes to reject your gift, they may attempt a <strong>Difficult (+20) Cool</strong> Test to ignore its effects.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"Butcher": {
+			"name": "Butcher",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.oHnxmjA1CtIhumiz]{Ogre Butcher}</p>"
+		},
+		"Cacklefax the Cockerel": {
+			"name": "Cacklefax the Cockerel",
+			"description": "<h4>Sign of Money and Merchants</h4><p><strong>Classical Name</strong>: Kakeros</p><p><strong>Ascendant</strong>: Winter</p><p><strong>Calendar Dates</strong>: Ulriczeit 1st – Ulriczeit 16th</p><p><strong>Associated God</strong>: Kakarol (Horses (Ostland))</p><p><strong>Appearance</strong>: Two coins</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.epPBu7x6BRWp2PHG]{Dealmaker} Talent</p><p><strong>Penalty</strong>: −3 Fellowship</p><p>Those born under Cackelfax the Cockerel have lofty goals and their eyes towards the future. You’ll rarely find a spendthrift Cockerel. They go about achieving their goals in the most direct way possible, and that means acquisition — of connections, favors, property, skill, and most of all, money: scads of money. As they rise, they take care of those who took care of them. Many established and aspiring political figures in the Old World were born under the sign of the Cockerel, or claim they were. Other signs may find the Cockerel greedy or ruthless, but they know their truth: in this world, success isn’t earned by the most meritorious. It is bought — with money or with blood. </p>"
+		},
+		"Cannon": {
+			"name": "Cannon",
+			"description": "<p><strong>Crew</strong>: 4</p><p>Using the same principles as Blackpowder weapons, cannons are loaded with powder and a large cannonball in the front, and ignited from the back. The force with which a cannonball strikes is enough to knock down most walls and tear apart troops on the field.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Chain Trap": {
+			"name": "Chain Trap",
+			"description": "<p>A set of spring-loaded metal jaws on a length of stout chain, the Chain Trap is a tool used by Ogre Hunters. Originally designed to be chained to a rock or tree and left set in the hopes of catching prey, most Ogres lack the patience for this sort of approach and found it more expedient simply to fling the trap at a target and reel in the meat.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Crown of Command": {
+			"name": "Crown of Command",
+			"description": "<p>These golden circlets were made by Wizards to assist military commanders when inspiring their soldiers. The wearer of the Crown of Command benefits from a +20 bonus to Leadership Tests.</p>"
+		},
+		"Dawnstone": {
+			"name": "Dawnstone",
+			"description": "<p>A Dawnstone is often attached to a piece of armour, imbuing it with a degree of extra protection. If the piece of armour is damaged, the Dawnstone breaks, ignoring the damage.</p>"
+		},
+		"Dazh’s Flint": {
+			"name": "Dazh’s Flint",
+			"description": "<p>These small pieces of flint are said to be blessed by a Kislevite god of fire. When this item is pressed to a flammable source, it automatically catches on fire.</p>"
+		},
+		"Dragomas the Drake": {
+			"name": "Dragomas the Drake",
+			"description": "<h4>Sign of Courage</h4><p><strong>Classical Name</strong>: Drakonos</p><p><strong>Ascendant</strong>: Spring</p><p><strong>Calendar Dates</strong>: Jarhdrung 17th – Pflugzeit 7th</p><p><strong>Associated God</strong>: Khaine</p><p><strong>Appearance</strong>: A rearing dragon</p><p><strong>Bonus</strong>: +2 Willpower, +2 Fellowship</p><p><strong>Penalty</strong>: −3 Dexterity</p><p>Bold, assertive, and strong, people born under Dragomas the Drake are instinctive leaders. They project confidence and assurance into the world, and people simply want to follow them. This charisma can quickly cross the line into an inflexible arrogance, and what begins with gentle leadership and guidance may end in tyranny. Being a leader comes with responsibility to one’s followers, and those born under the Drake are wise to remember this.</p>"
+		},
+		"Dwarf Flame Cannon": {
+			"name": "Dwarf Flame Cannon",
+			"description": "<p><strong>Crew</strong>: 4</p><p>Armed with alchemical concoction within the cannon’s barrel, this weapon uses pressure to release a spray of flesh-searing oil that spreads throughout the enemy ranks. Dwarf Flame Cannons give every affected target 2 + SL Ablaze Conditions.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Earthing Rod": {
+			"name": "Earthing Rod",
+			"description": "<p>The wand helps control the dispersion of magical energies. When using the wand, a spellcaster may ignore one Minor Miscast when making a Casting or Channelling Test. The rampant magic is trapped in the wand, and slowly discharged into the earth over the following 24 hours. During this time, the wand cannot be used to ignore another Minor Miscast.</p>"
+		},
+		"Elven Cloak": {
+			"name": "Elven Cloak",
+			"description": "<p>These cloaks are created by Wood Elf mages and provide the wearer with excellent camouflage in rural environments. Any sight-based Perception or Ballistic Skill Tests made against the wearer suffer from a –20 penalty.</p>"
+		},
+		"Feast of the Fallen": {
+			"name": "Feast of the Fallen",
+			"description": "<p>You bathe your favourite blade in the blood of a freshly fallen foe, drawing power to you and awakening a thirst for blood in your allies. Any creatures of your choosing in the area of effect gain the @UUID[Compendium.wfrp4e-core.items.3MDwUi7BVxwWVI2V]{Vampiric} Creature Trait for the duration of this spell. The target does not need to bite their opponents to enjoy the benefits of this Trait, merely wound them in melee combat. Additionally, they may continue to benefit from healing from other sources. If a creature wishes to resist this spell, they may attempt a <strong>Difficult (+20) Endurance</strong> Test to ignore its effects.</p><p>For the duration of this spell, the blood of foes gushes towards those affected, seeping across their blades, up their arms, and into their mouths. Ogres are not bothered by this effect, and in fact most revel in it, but other creatures typically find being made subject to this spell extremely unsettling. When the spell ends, non-Ogres who wounded at least one opponent in melee while under its effects must make a <strong>Challenging (+0) Cool</strong> Test or gain a @Condition[Stunned] Condition. Additionally, if they wounded an opponent who had the @UUID[Compendium.wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infected} or @UUID[Compendium.wfrp4e-core.items.PaW8i6JOxWyzAZCz]{Diseased} Creature Traits, any Test made to avoid the negative effects of those Traits suffers a –30 penalty.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"Forbidden Rod": {
+			"name": "Forbidden Rod",
+			"description": "<p>This dangerous magical artefact assists channelling the Winds of Magic by leeching the vitality of the wielder. If a spellcaster is attempting to cast a spell but fails, they may choose to lose up to three Wounds, adding +1 SL to the Casting Test for each Wound. After using this ability, the Forbidden Rod cannot be used for 24 hours.</p>"
+		},
+		"Fresh Meat": {
+			"name": "Fresh Meat",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.kxcmiebXRV7PPs8Y]{Maneater}</p>"
+		},
+		"Gnuthus the Ox": {
+			"name": "Gnuthus the Ox",
+			"description": "<h4>Sign of Dutiful Service </h4><p><strong>Classical Name</strong>: Nuthlos</p><p><strong>Ascendant</strong>: Early Spring</p><p><strong>Calendar Dates</strong>: Nachhexen 29th – Jahrdrung 16th </p><p><strong>Associated God</strong>: Guvaur (Bulls (Ostland))</p><p><strong>Appearance</strong>: An ox</p><p><strong>Bonus</strong>: +2 Toughness, +2 Willpower</p><p><strong>Penalty</strong>: − 3 Intelligence</p><p>Those born under the sign of the Ox are devoted allies and fast friends. When they pledge themselves to a person, an ideal, or a cause, they cannot be moved. If they make a promise, they honor it. If they owe someone a debt, they find a way to pay it, no matter the cost to themselves. Their honesty is just as often naiveté, and they must be on guard lest others take advantage. In addition, they pledge themselves to the wrong causes and losing sides just as often as they find themselves on the side of righteousness.</p>"
+		},
+		"Great Throwing Spear": {
+			"name": "Great Throwing Spear",
+			"description": "<p>Used by Ogre Hunters in their pursuit of the great beasts of the Mountains of Mourne, these are large, crude, and terribly effective javelins.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Grungni's Baldric": {
+			"name": "Grungni's Baldric",
+			"description": "<h4>Sign of Martial Pursuits</h4><p><strong>Classical Name</strong>: Gileon</p><p><strong>Ascendant</strong>: Late Spring/Early Summer</p><p><strong>Calendar Dates</strong>: Pflugzeit 32nd – Sigmarzeit 22nd </p><p><strong>Associated God</strong>: Grungni (Dwarfs, the Forge (Stirland)), Margileo (Honour (Averland))</p><p><strong>Appearance</strong>: A dwarf with a baldric</p><p><strong>Bonus</strong>: +2 Weapon Skill, +2 Willpower</p><p><strong>Penalty</strong>: −3 Fellowship</p><p>Grungni’s Baldric is sacred to soldiers and Dwarfs, and as such, those born under its light are honorable, disciplined, and naturally disposed to the soldiering life. Even those who are not soldiers tend to approach their personal lives with a martial rigor. It is difficult for people born under the Baldric to relax and enjoy the finer things in life. People born under more tranquil signs may find them single-minded and humorless.</p>"
+		},
+		"Hail of Doom Arrow": {
+			"name": "Hail of Doom Arrow",
+			"description": "<p>After firing a Hail of Doom Arrow, it splits into [[/r 1d10]] arrows in flight. Roll to hit and damage with each arrow. These arrows can all hit the same target, or may hit secondary targets provided they are within 5 feet of the primary target and that the shooter has a clear line of sight to them.</p>"
+		},
+		"Harpoon": {
+			"name": "Harpoon",
+			"description": ""
+		},
+		"Harpoon Launcher": {
+			"name": "Harpoon Launcher",
+			"description": "<p>Used to hunt prey, a Harpoon Launcher fires a massive bolt the size of a spear, attached to a long length of rope. There is no mechanism to pull the rope back in automatically — the Ogre simply grabs the rope and reels in their prey by hand. Harpoon Launchers can be used with either the Ranged (Crossbow) or Ranged (Entangling) Skills at no penalty. If the rope is removed from the bolt, the range increases to 60 and no longer has the <em>Entangle</em> Quality.</p><blockquote><p>Remember to unselect \"Consumes Ammo\" in the Item Details if the rope is removed, reflecting that the user cannot reel in the harpoon anymore.</p></blockquote><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Hellblaster Volley Cannon": {
+			"name": "Hellblaster Volley Cannon",
+			"description": "<p><strong>Crew</strong>: 4</p><p>A Helblaster Volley Cannon has nine barrels divided into groups of three, built around a shaft. The cannon can fire each group separately, or all three of them in quick succession, rapidly laying waste to most enemy troops.</p><p>*Cannot be used at Point Blank</p>"
+		},
+		"Helstorm Rocket Battery": {
+			"name": "Helstorm Rocket Battery",
+			"description": "<p><strong>Crew</strong>: 4</p><p>Based on fireworks, the @UUID[Compendium.wfrp4e-altdorf.journals.85UN6bKPTfGEBtBb.JournalEntryPage.HYkHeQZtD2AML3oG]{Imperial School of Engineers} created these extremely dangerous and inaccurate missiles. Known for the piercing sound they make as they fly wildly through the air, and the devastating result of their explosions.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Illusory Weapon": {
+			"name": "Illusory Weapon",
+			"description": "<p>Sometimes created for rogues or thespians, these weapons look like the real deal but inflict no damage. Illusory weapons are usually daggers, but larger illusory weapons are known and there have even been illusory quivers of arrows.</p>"
+		},
+		"Ironfist": {
+			"name": "Ironfist",
+			"description": "<p>A tribute to the sacred art of pit fighting, an Ironfist is a massive gauntlet Ogres use to bash aside blows and crack heads. Ironfists are secured tight to the Ogre’s fist — an Ogre can never be disarmed of an Ironfist. They may use the hand wearing the Ironfist to hold a weapon or perform simple actions.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Large": {
+			"name": "Large",
+			"description": "<p>You are much bigger than most folk in the Old World. The full rules for different Sizes are found in @UUID[Compendium.wfrp4e-core.items.8slW8CJ2oVTxeQ6q]{Size}.</p>"
+		},
+		"Leadbelcher Ball": {
+			"name": "Leadbelcher Ball",
+			"description": "<p>Essentially a cannon ball, the price given for a Leadbelcher Ball includes 2/– for enough powder to fire a single shot. The ball can often be recovered, and may be fired again for just the price of the powder.</p>"
+		},
+		"Leadbelcher Gun": {
+			"name": "Leadbelcher Gun",
+			"description": "<p>Essentially a cannon, the Leadbelcher Gun is the height of Ogre engineering. Breech loaded, extremely hard wearing (it would have to be) and fired by lighting a simple fuse, the Leadbelcher Gun is usually loaded with whatever the Ogre has to hand — lengths of chain, bricks, lead shot, stones, rusted nails, and the like. Occasionally they may be loaded with actual cannonballs, which Ogres typically reclaim from the battlefield after use. Lucky cannonballs are often named and carried about as a valued comrade.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Leadbelcher Shot": {
+			"name": "Leadbelcher Shot",
+			"description": ""
+		},
+		"Magical Arrow": {
+			"name": "Magical Arrow",
+			"description": "<p>The arrow is capable of damaging creatures that are immune to non-magical attacks and inflicts +1 Damage, but has no particular ability.</p>"
+		},
+		"Mammit the Wise": {
+			"name": "Mammit the Wise",
+			"description": "<h4>Sign of Wisdom</h4><p><strong>Classical Name</strong>: Mammius</p><p><strong>Ascendant</strong>: Early Summer</p><p><strong>Calendar Dates</strong>: Sigmarzeit 23rd – Sommerzeit 11th </p><p><strong>Associated God</strong>: Verena</p><p><strong>Appearance</strong>: An owl</p><p><strong>Bonus</strong>: +2 Initiative, +2 Intelligence</p><p><strong>Penalty</strong>: −3 Fellowship</p><p>To the person born under Mammit the Wise, everything is an opportunity for learning. This introspective bent makes them clever, fair, and kind — but it can lead them to view the misfortunes of others as simply another subject for study. This allows them to act with detachment when they must, but taken too far, their detachment can become indifference and cruelty.</p>"
+		},
+		"Maneater": {
+			"name": "Maneater",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.kxcmiebXRV7PPs8Y]{Maneater}</p>"
+		},
+		"Maneater Captain": {
+			"name": "Maneater Captain",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.kxcmiebXRV7PPs8Y]{Maneater}</p>"
+		},
+		"Maneater Crusher": {
+			"name": "Maneater Crusher",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.kxcmiebXRV7PPs8Y]{Maneater}</p>"
+		},
+		"Mangonel Catapult": {
+			"name": "Mangonel Catapult",
+			"description": "<p><strong>Crew</strong>: 6</p><p>A Mangonel Catapult holds large projectiles like rock or debris in a large bucket. It flings them by bending the arm holding the bucket backwards and then releasing it.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Mawsage": {
+			"name": "Mawsage",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.oHnxmjA1CtIhumiz]{Ogre Butcher}</p>"
+		},
+		"Mortar": {
+			"name": "Mortar",
+			"description": "<p><strong>Crew</strong>: 6</p><p>Specifically designed with indirect fire in mind, Mortars are used for arcing shots that go over castle walls to hit the troops inside with an exploding shell of shrapnel.</p><p>*Cannot be used if the distance to the target is less than Short Range.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Mummit the Fool": {
+			"name": "Mummit the Fool",
+			"description": "<h4>Sign of the Indistinct</h4><p><strong>Classical Name</strong>: The Fool</p><p><strong>Ascendant</strong>: Summer</p><p><strong>Calendar Dates</strong>: Sommerzeit 12th – Sommerzeit 29th</p><p><strong>Associated God</strong>: Ranald</p><p><strong>Appearance</strong>: A smiling face</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.u0CFf3xwiyidD9T5]{Luck} Talent</p><p><strong>Penalty</strong>: −4 Willpower</p><p>Mummit the Fool smiles down at the world from the night sky and heralds a time of new beginnings. People born under Mummit the Fool are sensible, intuitive, and above all, improbably lucky. Things simply work out for them, or seem to. As such, they are known to struggle with impulsivity and wanderlust — a desire to leave it all behind and avoid responsibility for as long as they can.</p>"
+		},
+		"Obsidian Lodestone": {
+			"name": "Obsidian Lodestone",
+			"description": "<p>These amulets are enchanted to disrupt hostile magics targeting the wearer. The wearer may make an attempt to dispel any spell that targets them (count the bearer as possessing a Language (Magick) of 30 for the purpose of dispelling spells).</p>"
+		},
+		"Ogre Club": {
+			"name": "Ogre Club",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p>@UUID[Compendium.wfrp4e-archives2.items.IhyZAbMf1XdQoEqN]{Metal Plates}: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#pummel]{Pummel} Quality.</p><p>@UUID[Compendium.wfrp4e-archives2.items.nAOj5eE2ZiNVjnZu]{Rusty Spikes}: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#penetrating]{Penetrating} Quality.</p><p>@UUID[Compendium.wfrp4e-archives2.items.IpzDjA8XwnMq09yw]{Scavenged Blades}: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#hack]{Hack} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Ogre Club (Metal Plates)": {
+			"name": "Ogre Club (Metal Plates)",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p><strong>Metal Plates</strong>: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#pummel]{Pummel} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Ogre Club (Rusty Spikes)": {
+			"name": "Ogre Club (Rusty Spikes)",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an Ogre Club or Big Club to add one of the following options.</p><p><strong>Rusty Spikes</strong>: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#penetrating]{Penetrating} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Ogre Club (Scavenged Blades)": {
+			"name": "Ogre Club (Scavenged Blades)",
+			"description": "<p>Ogres love their clubs. They are the simplest sort of weapon, which appeals to the Ogre mindset greatly. Ogres scour battlefields, forests, and boneyards to find a good solid club and materials to customise it to their liking. If you wish you may customise an @UUID[Compendium.wfrp4e-archives2.items.2MpNIjAFXnRnZZdL]{Ogre Club} or Big Club to add one of the following options.</p><p><strong>Scavenged Blades</strong>: The weapon gains the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.wdXywmb7FBVipOw8#hack]{Hack} Quality.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Ogre Gutplate": {
+			"name": "Ogre Gutplate",
+			"description": "<p>A massive slab of metal, hardwood, bone or leather, an Ogre's gutplate is prized above even the most well-worn club. The plate protects the Ogre's belly, where most of their vital organs reside, and acts as both a source of protection and a canvas for military or religious markings. Many gutplates carry the symbol of the Great Maw, a ring of jagged teeth that represent both the Ogre's hungry god and their own ravenous appetite.</p><p>* Ogre Gutplates are uniquely suited to Ogre anatomy, and indeed even if scaled down would provide incomplete protection to members of species who do not keep most of their vital organs in their gut.</p><p></p>"
+		},
+		"Ogre Pistol": {
+			"name": "Ogre Pistol",
+			"description": "<p>An Ogre Pistol is a reinforced Empire weapon and can use all the same shot and powder as a typical blackpowder weapon. However, they are strong enough to also serve as a Hand Weapon, only breaking on a Fumbled attack.</p><p>* Availability is given for the Empire, where some weapons are rarer than they would be in the Mountains of Mourne.</p>"
+		},
+		"Onager Catapult": {
+			"name": "Onager Catapult",
+			"description": "<p><strong>Crew</strong>:<strong> </strong>6</p><p>Similar to the @UUID[Compendium.wfrp4e-archives2.items.YBNeaZ0Wt30jTWrD]{Mangonel Catapult}, this siege weapon uses a sling to increase its effective range.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Opal Amulet": {
+			"name": "Opal Amulet",
+			"description": "<p>The Opal Amulet contains a powerful healing enchantment. Remove [[/r 1d10]] Wounds from the first attack the wearer suffers. The amulet can only be used once every 24-hour period.</p><blockquote class=\"foundry-note\"><p>The Opal Amulet will automatically roll and reduce incoming Damage from Opposed Tests, then automatically disable itself. It must then be re-enabled manually.</p></blockquote>"
+		},
+		"Protection Ring": {
+			"name": "Protection Ring",
+			"description": "<p>These rings are enchanted to protect the wearer from a particular sort of Creature. In order to determine what sort of Creature this is, roll on the @Table[random-creature]{Random Creature Table}. The wearer halves any Wounds taken from a Creature of this type.</p>"
+		},
+		"Quietened Mail Chausses": {
+			"name": "Quietened Mail Chausses",
+			"description": "<p>First commissioned by a late Duke of Carroburg for the same skillful assassin who would ultimately kill him, these full suits of mail (Chausses, @UUID[Compendium.wfrp4e-archives2.items.BDbQ70J9MM8mdxxo]{Coat} and a @UUID[Compendium.wfrp4e-archives2.items.3dQNE54s7ojwwqWG]{Coif}) have been enchanted to remove the rattle of metal rings that mail armour normally makes. The usual -10 Penalty to Stealth associated with items of Mail armour does not apply. However, the spells used to create this armour were never perfected, and those wearing the Coif can speak no louder than a whisper.</p>"
+		},
+		"Quietened Mail Coat": {
+			"name": "Quietened Mail Coat",
+			"description": "<p>First commissioned by a late Duke of Carroburg for the same skillful assassin who would ultimately kill him, these full suits of mail (@UUID[Compendium.wfrp4e-archives2.items.Cya63L5XXQQgphhR]{Chausses}, Coat and a @UUID[Compendium.wfrp4e-archives2.items.3dQNE54s7ojwwqWG]{Coif}) have been enchanted to remove the rattle of metal rings that mail armour normally makes. The usual -10 Penalty to Stealth associated with items of Mail armour does not apply. However, the spells used to create this armour were never perfected, and those wearing the Coif can speak no louder than a whisper.</p>"
+		},
+		"Quietened Mail Coif": {
+			"name": "Quietened Mail Coif",
+			"description": "<p>First commissioned by a late Duke of Carroburg for the same skillful assassin who would ultimately kill him, these full suits of mail (@UUID[Compendium.wfrp4e-archives2.items.Cya63L5XXQQgphhR]{Chausses}, @UUID[Compendium.wfrp4e-archives2.items.BDbQ70J9MM8mdxxo]{Coat} and a Coif) have been enchanted to remove the rattle of metal rings that mail armour normally makes. The usual -10 Penalty to Stealth associated with items of Mail armour does not apply. However, the spells used to create this armour were never perfected, and those wearing the Coif can speak no louder than a whisper.</p>"
+		},
+		"Rhinox Breaker": {
+			"name": "Rhinox Breaker",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.VG6hzml2D3Oe7PYX]{Rhinox Herder}</p>"
+		},
+		"Rhinox Herder": {
+			"name": "Rhinox Herder",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.VG6hzml2D3Oe7PYX]</p>"
+		},
+		"Rhinox Master": {
+			"name": "Rhinox Master",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.VG6hzml2D3Oe7PYX]{Rhinox Herder}</p>"
+		},
+		"Rhinox Rustler": {
+			"name": "Rhinox Rustler",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.VG6hzml2D3Oe7PYX]{Rhinox Herder}</p>"
+		},
+		"Rhya's Cauldron": {
+			"name": "Rhya's Cauldron",
+			"description": "<h4>Sign of Mercy, Death, and Creation</h4><p><strong>Classical Name</strong>: Rionyes</p><p><strong>Ascendant</strong>: Early Winter</p><p><strong>Calendar Dates</strong>: Kaldezeit 18th – Kaldezeit 33rd</p><p><strong>Associated God</strong>: Rhya</p><p><strong>Appearance</strong>: A cauldron</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.mgeiaDZXei7JBEgo]{Iron Will} Talent</p><p><strong>Penalty</strong>: −3 Agility</p><p>Rhya’s Cauldron is revered by Astromancers, Wizards of the Jade and Amethyst orders, and astrologers alike. It is associated with the budding of new things in nature, and also their inevitable death. People born under its light are known to be righteous in their ideals and merciful towards the innocent. No matter what their station in life, they are relentless in their pursuit of justice. This relentlessness, if unchecked, can make them careless and even callous towards the lives and well-being of others.</p>"
+		},
+		"Ruby Ring of Ruin": {
+			"name": "Ruby Ring of Ruin",
+			"description": "<p>The Ruby Ring of Ruin is a type of Spell Ring which can be used to cast the @UUID[Compendium.wfrp4e-core.items.HpFkVJ2lYPAWumUL]{Great Fires of U’Zhul} spell from the Lore of Fire. Unlike normal Spell Rings, a Ruby Ring of Ruin can be used three times during any 24-hour period.</p>"
+		},
+		"Sand of Flinging": {
+			"name": "Sand of Flinging",
+			"description": "<p>This fine but abrasive substance is said to have been made in Ind. It comes in small pouches containing enough sand for four uses. The sand may be thrown in exactly the same way as a dart. The sand does not inflict any damage, but if the target is hit in the head, they suffer one @Condition[Blinded] Condition.</p>"
+		},
+		"Screaming Stone": {
+			"name": "Screaming Stone",
+			"description": "<p>An unusual item, even by the standards of such magical oddities, the Screaming Stone is a small skull hewn of polished white granite. Whenever a living creature of size Small or larger is in view of the Stone, it begins screaming loudly. This screaming ends once the skull can no longer see a living creature, for example if it moves out of sight or the skull's eyes are covered. If someone attempts to sneak past the skull, treat it as though it has a Perception of 75.</p>"
+		},
+		"Seed of Rebirth": {
+			"name": "Seed of Rebirth",
+			"description": "<p>These amulets look like simple wooden carvings but are powerful artefacts. The wearer of a Seed of Rebirth counts as having the @UUID[Compendium.wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Creature Trait.</p>"
+		},
+		"Self-Cleaning Commode": {
+			"name": "Self-Cleaning Commode",
+			"description": "<p>These light ceramic pieces of pottery are associated with the city of Marienburg, where the Elven community present them as gifts to their Human neighbours. A Character who makes regular use of such a device gains a +10 bonus to Endurance Tests made to resist contracting a disease.</p>"
+		},
+		"Self-Tuning Lute": {
+			"name": "Self-Tuning Lute",
+			"description": "<p>Musical purists may quibble, but a minstrel in possession of one of these lutes is able to concentrate on their performances without worrying about their instruments being off-key. A musician equipped with a Self-Tuning Lute benefits from a +10 bonus to Play (Lute) Tests.</p>"
+		},
+		"Shinsmasher's Club": {
+			"name": "Shinsmasher's Club",
+			"description": "<p>The providence of this brutal looking club is unknown. It turned up in @UUID[Compendium.wfrp4e-core.journals.ozE2DMCMK64eE5pD.JournalEntryPage.V6tkgQ9A2skppjyl]{Altdorf} in the hands of a @UUID[Compendium.wfrp4e-altdorf.journals.rSRadYoaNXkEq8gs.JournalEntryPage.jisr4ys6obOel7r1#the-hooks]{Hook} enforcer, but has since changed hands a dozen times. Any Critical Wound inflicted by this hammer on an opponent’s legs enjoys a bonus of +20 to the severity roll. The club otherwise functions as a normal @UUID[Compendium.wfrp4e-core.items.1zaqojk0Oq1m8vYv]{Hand Weapon}.</p>"
+		},
+		"Slaughtermaster": {
+			"name": "Slaughtermaster",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.oHnxmjA1CtIhumiz]{Ogre Butcher}</p>"
+		},
+		"Slopscooper": {
+			"name": "Slopscooper",
+			"description": "<p>@UUID[Compendium.wfrp4e-archives2.journals.S7vMviNshIrqOuRq.JournalEntryPage.oHnxmjA1CtIhumiz]{Ogre Butcher}</p>"
+		},
+		"Spell Ring": {
+			"name": "Spell Ring",
+			"description": "<p>A Spell Ring works in a similar way as a scroll, allowing the wearer to cast a single spell. Unlike a scroll, the ring is not destroyed after casting the spell and the wearer does not need to make a Language Test. Determine the spell within a Spell Ring using the same method for a scroll. When the wearer casts the spell, the ring may not be used for a period of 24 hours. Spell Rings are rare in the Empire, and to the frustration of Wizards who know better, all are inevitably called ‘The’ Ring of Volans, as the techniques required for Human Wizards to manufacture these artefacts were first taught under his supervision.</p>"
+		},
+		"Striking Ring": {
+			"name": "Striking Ring",
+			"description": "<p>The wearer of this ring may use each of its powers one at a time for one turn in each 24-hour period. The power duplicates the effects of one of the following Talents: @UUID[Compendium.wfrp4e-core.items.4MJJCiOKPkBByYwW]{Strike Mighty Blow}, @UUID[Compendium.wfrp4e-core.items.RWJrupj9seau0w31]{Strike to Injure}, @UUID[Compendium.wfrp4e-core.items.jt0DmVK9IiF6Sd2h]{Strike to Stun}</p>"
+		},
+		"Taste Death": {
+			"name": "Taste Death",
+			"description": "<p>By consuming part of a corpse you learn about when and how the creature died. You learn if the victim was stabbed, poisoned, killed by magic, died of natural causes, and so on. The information you gain is general. For example, you may learn that the victim was stabbed to death with a sword, but not what kind of sword. You also do not learn anything about who may have been responsible, save the method they used. If the target suffered a ‘clean’ death — that is, did not die of poison or disease — it is considered proper to consume the remainder of the corpse.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"The Big Cross": {
+			"name": "The Big Cross",
+			"description": "<h4>Sign of Clarity</h4><p><strong>Classical Name</strong>: Azurios</p><p><strong>Ascendant</strong>: Midwinter</p><p><strong>Calendar Dates</strong>: Vorxehen 28th – Nachhexen 8th</p><p><strong>Associated</strong> <strong>God</strong>: Ulric</p><p><strong>Appearance</strong>: An X</p><p><strong>Bonus</strong>: +2 Strength, +2 Willpower</p><p><strong>Penalty</strong>: −3 Initiative</p><p>There is no uncertainty in the hearts of those born under the Big Cross. The path they must take through the world seems obvious to them, and they make sensible choices to keep on it. But this rationality can lead to a predictable passivity and detachment from the world around them.</p><p>If their path is already made, why deviate from it? It is vital that they find something to fight for, rather than simply allowing the tides of fate to sweep them away.</p>"
+		},
+		"The Bonesaw": {
+			"name": "The Bonesaw",
+			"description": "<h4>Sign of Skill and Learning</h4><p><strong>Classical Name</strong>: Alyoi</p><p><strong>Ascendant</strong>: Winter</p><p><strong>Calendar Dates</strong>: Ulriczeit 17th – Ulriczeit 31st</p><p><strong>Associated God</strong>: Shallya</p><p><strong>Appearance</strong>: A knife</p><p><strong>Bonus</strong>: +2 Intelligence, +2 Fellowship</p><p><strong>Penalty</strong>: −3 Weapon Skill</p><p>The Bonesaw is the sign of the philosopher — above all else, they crave knowledge. They live to explore and experiment. Unlike other inquisitive signs, however, they do not want to hoard what they know for its own sake, and they do not withdraw into themselves. One born under the Bonesaw wants to disseminate what they know as widely as possible. This can, however, make them seem like overbearing know-it-alls, rather than passionate scholars of the world.</p>"
+		},
+		"The Broken Cart": {
+			"name": "The Broken Cart",
+			"description": "<h4>Sign of Pride</h4><p><strong>Classical Name</strong>: Kharnos</p><p><strong>Ascendant</strong>: Autumn</p><p><strong>Calendar Dates</strong>: Brauzeit 7th – Brauzeit 27th</p><p><strong>Associated God</strong>: Nurgle</p><p><strong>Appearance</strong>: A cart with a broken wheel</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.vMYEkrWj0ip6ZOdv]{Resistance (Disease)} Talent </p><p><strong>Penalty</strong>: −3 Willpower</p><p>At times, people born under the Broken Cart can be prideful and over-concerned with appearances. They might spend their last coin in pursuit of the finer things in life, or dash themselves on the rocks looking for the approval of their betters. When this tendency is curbed — when they come to peace with the fundamental insecurities that cause them to spend their lives searching for things to fulfill them — their pride becomes confidence, and their conceit mellows into likeability. </p><p>The Broken Cart’s association with Nurgle is rarely acknowledged, as worship of any Ruinous Power is grounds for a short trip to a tall pyre in most parts of the world. All know that there is something dark and primal about the sign, however, and its associations with disease are common across many cultures. Many folk know that the Father of Plagues is a force in the world, and when disease scours the land, the desperate often recall old tales and forbidden rites, and make offerings just the same.</p>"
+		},
+		"The Dancer": {
+			"name": "The Dancer",
+			"description": "<h4>Sign of Love and Attraction</h4><p><strong>Classical Name</strong>: Adamnos</p><p><strong>Ascendant</strong>: Late Summer</p><p><strong>Calendar Dates</strong>: Vorgeheim 14th – Nachgeheim 2nd </p><p><strong>Associated God</strong>: Millavog (Dancing (Wissenland)) Appearance: A whirling dancer</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.oGbDwnLOn3isPJpO]{Impassioned Zeal} Talent. (You do not need to choose the focus of your zeal during Character creation, but may instead discover it during gameplay.)</p><p><strong>Penalty</strong>: −3 Initiative</p><p>The Dancer is the sign of passion — and of obsession. What those born under the sign choose to pursue they chase with a single-minded devotion. Whether their focus is a lover or a mystery to solve, the world falls away in the face of their determination. When they are scorned, they take it poorly, and may react violently. </p>"
+		},
+		"The Drummer": {
+			"name": "The Drummer",
+			"description": "<h4>Sign of Excess and Hedonism</h4><p><strong>Classical Name</strong>: Lupios</p><p><strong>Ascendant</strong>: Late Summer/Early Autumn</p><p><strong>Calendar Dates</strong>: Nachgeheim 3rd – Nachgeheim 24th</p><p><strong>Associated God</strong>: Lupos (Predators (Hochland))</p><p><strong>Appearance</strong>: A drum</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.hTgrGkWnmIR4xhVe]{Carouser} Talent</p><p><strong>Penalty</strong>: −3 Willpower</p><p>A person born under the Drummer is distinguishable by their expansive, generous spirit. They do nothing in moderation, and when they give, they give everything. A Drummer never fails to give alms to the poor or take care of ailing family members. They also never turn down an invitation to a tavern or a party. They are a joy to be around, but this joy can swiftly turn to ruinous excess and hedonism if left unchecked.</p>"
+		},
+		"The Gloaming": {
+			"name": "The Gloaming",
+			"description": "<h4>Sign of Illusion and Mystery</h4><p><strong>Classical Name</strong>: Tartotes</p><p><strong>Ascendant</strong>: Spring</p><p><strong>Calendar Dates</strong>: Pflugzeit 8th – Pflugzeit 31st</p><p><strong>Associated God</strong>: Morr</p><p><strong>Appearance</strong>: A collection of red and blue stars that appears only at twilight</p><p><strong>Bonus</strong>: +2 Intelligence, +2 Initiative</p><p><strong>Penalty</strong>: −3 Willpower</p><p>The stars that make up the Gloaming appear only under specific conditions, at twilight. People born under the Gloaming are doubters and skeptics. This skepticism can morph into paranoia and unreasonable suspicion of anything they cannot see or touch. The metaphysical, the theoretical—none of it is trustworthy. Only the hard, physical reality of the world is reliable. At their best, natives of the Gloaming are brilliant investigators and scholars. They are often inclined toward sorcery despite their distrust of the mystical.</p>"
+		},
+		"The Greased Goat": {
+			"name": "The Greased Goat",
+			"description": "<h4>Sign of Denied Passion</h4><p><strong>Classical Name</strong>: Talios</p><p><strong>Ascendant</strong>: Late Autumn</p><p><strong>Calendar Dates</strong>: Brauzeit 28th – Kaldezeit 17th </p><p><strong>Associated God</strong>: Taal</p><p><strong>Appearance</strong>: A goat</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.9fq6p9Q6H02LjaSi]{Animal Affinity} Talent </p><p><strong>Penalty</strong>: −3 Toughness</p><p>A person born under the Greased Goat refuses to let anyone get too near. They can seem aloof and apathetic, but this is an attempt to make sure they are not hurt by the disappointments that are assuredly coming their way. When they are knocked down, they wallow in their pain. On the rare occasions they allow themselves to feel joy, their joy is infectious. </p><p>Children born under the Greased Goat who have an aptitude for magic often find themselves drawn towards the Amber wind of Ghur. Those born under the Greased Goat would be wise to remember that the world is not there to victimize them. Everyone has a run of bad luck sometimes, but it does not define them.</p>"
+		},
+		"The Limner's Line": {
+			"name": "The Limner's Line",
+			"description": "<h4>Sign of Precision</h4><p><strong>Classical Name</strong>: Verros</p><p><strong>Ascendant</strong>: Late Winter/Early Spring</p><p><strong>Calendar Dates</strong>: Nachhexen 9th – Nachhexen 28th </p><p><strong>Associated God</strong>: Vallich (Smithing and Ship Building (Nordland))</p><p><strong>Appearance</strong>: An archer with a drawn bow</p><p><strong>Bonus</strong>: +2 Ballistic Skill, +2 Agility</p><p><strong>Penalty</strong>: −3 Weapon Skill</p><p>Natives of the Limner’s Line were born to be poets, painters, sculptors — artists of all kinds. They create beauty wherever they go, and even those who by circumstance do not find themselves in an artistic field still find a way to make their life’s work into a kind of art. If they are doktors, they are surgeons. If they are soldiers, they become master tacticians. People born under the Limner’s Line must take care not to become too critical of themselves or their work. </p>"
+		},
+		"The Maw": {
+			"name": "The Maw",
+			"description": "<p>You devour the better part of a large beast, drawing out the Great Maw itself, causing a sliver of it to manifest. The ground splits apart, a thousand gnashing teeth waiting hungrily in the chasm. The pit is bottomless, its hunger endless, its teeth shards of razor, and the sound of its roiling jaws like the grinding of glass on stone.</p><p>Anyone in the affected area must make an immediate <strong>Challenging (+0) Dodge</strong> Test to scramble clear. If they succeed, targets take a Damage +8 hit as they pull themselves out of the Maw, with the Damage reduced by 1 for each SL achieved on the Dodge Test. </p><p>Anyone who fails the Test plunges into the Maw, which begins the methodical work of swallowing them alive. They immediately suffer a Damage +10 hit to a randomly chosen location, and gain 3 @Condition[Entangled] Conditions. Attempts to remove these Conditions are resisted by the Maw’s Strength of 60. The victim may not escape the Maw until all 3 @Condition[Entangled] conditions are removed. At the end of each of their turns, creatures inside the Maw suffer another Damage +10 hit to a randomly chosen location. </p><p>The Maw’s teeth are sharp, and it does not give up prey easily. As soon as the spell ends, the Maw vanishes, but attempts to keep any limbs that remain inside it as it goes. If a creature is inside the Maw when it vanishes, they immediately suffer a Critical Wound to a randomly chosen hit location.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"The Piper": {
+			"name": "The Piper",
+			"description": "<h4>Sign of the Trickster</h4><p><strong>Classical Name</strong>: Sangist</p><p><strong>Ascendant</strong>: Autumn</p><p><strong>Calendar Dates</strong>: Nachgheim 25th – Erntezeit 16th </p><p><strong>Associated God</strong>: Ranald, Katya (Disarming Beauty (Reikland)) </p><p><strong>Appearance</strong>: A capering piper</p><p><strong>Bonus</strong>: +2 Fellowship, +2 Dexterity</p><p><strong>Penalty</strong>: −3 Weapon Skill</p><p>The best diplomats are born under the Piper’s rule, and so are the best thieves. They are cunning, slick, and very tactful when they need to be. In a negotiation, there is none better to have one’s back. However, they do not hesitate to play both sides to their advantage — or take advantage of allies, if they think they’ll come out the better for it. Theologians disagree as to the correct deity to associate with the Piper. In Marienburg it is considered a particularly fortuitous sign, and some families attempt to conceive nine months before it rises ascendant.</p>"
+		},
+		"The Two Bullocks": {
+			"name": "The Two Bullocks",
+			"description": "<h4>Sign of Fertility and Craftsmanship</h4><p><strong>Classical Name</strong>: Hashoor</p><p><strong>Ascendant</strong>: Midsummer</p><p><strong>Calendar Dates</strong>: Sommerzeit 30th – Vorgeheim 13th </p><p><strong>Associated God</strong>: Ahalt (Hunting, Fertility, and Sacrifice (Wissenland))</p><p><strong>Appearance</strong>: Two oxen</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.GRRN3XAKIpEVCY7z]{Craftsman} Talent. (You need not choose the associated Trade at this time, but should do so after determining your starting Career.)</p><p><strong>Penalty</strong>: −3 Intelligence</p><p>People born under the Two Bullocks are innovators; they are diligent, creative, and can create nearly anything they put their minds to. Fortunately for the world, what they most want to do is help others, whether that means making improvements to a printing press or designing a better plow for their family’s fields. Unfortunately, the projects they throw themselves into can be fanciful and impractical, and malefactors might bend their idealism to dangerous or unrighteous causes.</p>"
+		},
+		"The Witchling Star": {
+			"name": "The Witchling Star",
+			"description": "<h4>Sign of Magic</h4><p><strong>Classical Name</strong>: Solkios</p><p><strong>Ascendant</strong>: Winter</p><p><strong>Calendar Dates</strong>: Urliczeit 32nd – Vorhexen 11th </p><p><strong>Associated God</strong>: Soll</p><p><strong>Appearance</strong>: A single bright star</p><p><strong>Bonus: </strong>Gain the @UUID[Compendium.wfrp4e-core.items.mdPGZsn2396dEpOf]{Petty Magic} Talent</p><p><strong>Penalty</strong>: −3 Strength</p><p>Magical and mysterious, the Witchling Star is considered an ominous sign by most astrologers. Those under its rule have great courage. They possess a sort of mercuriality that stops just short of dishonesty or inconstancy, but which occasionally causes problems for those around them. Whatever scrapes they get themselves into, they can generally get out of. Their charm can seem nearly mystical at times, almost as though they were blessed by the winds of magic themselves. </p>"
+		},
+		"Throatseeker's Blade": {
+			"name": "Throatseeker's Blade",
+			"description": "<p>These magical Rapiers are created with an innate blood lust all of their own, guiding the tip past even the best defence. A Throatseeker’s Blade ignores any AP provided by armour that has the @UUID[JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.yYXaAw24i93B4vzk#weakpoints]{Weakpoints} Flaw. This weapon otherwise functions as a normal Rapier.</p>"
+		},
+		"Trackless Boots": {
+			"name": "Trackless Boots",
+			"description": "<p>These boots leave no prints behind them, making tracking a Character who wears them very challenging. All Track Tests made against the Character suffer a –20 penalty.</p>"
+		},
+		"Trebuchet": {
+			"name": "Trebuchet",
+			"description": "<p><strong>Crew:</strong> 8</p><p>An improvement from the @UUID[Compendium.wfrp4e-archives2.items.y7ki6uSBiFKkooV9]{Onager Catapult}, the Bretonnian Trebuchet uses a counterweight instead of torsion to release its sling, giving it a much larger range.</p><p>*Cannot be used if the distance to the target is less than Short Range.</p><p>*Cannot be used at Point Blank.</p>"
+		},
+		"Trollguts": {
+			"name": "Trollguts",
+			"description": "<p>You swallow a tiny amount of Troll Bile or similar, imbibing and distilling that creature’s immense regenerative powers and gifting them to another. Your target gains the @UUID[Compendium.wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerate} Creature Trait. Ogres suffer no additional effects from this spell, but other Species may be less lucky. Anyone other than an Ogre who recovers Wounds from the effects of this spell must make an <strong>Average (+20) Endurance</strong> Test. If they fail, new flesh growing over their wounds takes on a mottled green or blue appearance, not at all unlike the skin of a Troll. This effect is particularly prominent if the spell happens to be responsible for a limb growing back. Though this effect is not a mutation, it is likely to be mistaken for one by anyone who sees it, with all the potential unpleasant consequences that may ensue.</p><p>\n\n <b>Lore:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p><p>\n\n <b>Domaine:</b> Whenever an Ogre Butcher successfully casts a spell from the Lore of The Great Maw, the offering they consume may restore their own health. Roll [[/r 1d10]]. If the result is a 10, or if it is equal to or higher than the CN of the spell being cast, the Butcher recovers Wounds equal to the CN of the spell.<p>"
+		},
+		"Vice": {
+			"name": "Vice",
+			"description": "<p>You are plagued by a need to indulge in your Vice constantly, with your thoughts always straying towards them. Indulging in your Vice must be to an unhealthy extent — indulging in food doesn’t mean having a meal, but being a glutton and eating everything you can until you are bloated and made sick. Whenever you are confronted by the Target of your Vice, you must attempt a @UUID[JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.5w5YLPNd6AaU4f85#psychology-test]{Psychology Test}. If you fail, you must immediately indulge in your Vice, forsaking all other actions and duties. You indulge until you are insensible, gaining one @Condition[Fatigued] Condition. At the end of every subsequent Round, you may attempt another Psychology Test to bring this state to an end. You suffer –20 to all Fellowship Tests towards any Characters who have witnessed your gluttony, as they are repulsed by your behaviour. For each full day you spend having not indulged in your Vice, you gain a cumulative –20 to all Psychology Tests until you do so.</p>"
+		},
+		"Vice (Target)": {
+			"name": "Vice (Target)",
+			"description": "<p>You are consumed with a need to indulge in a particular vice, suffering from the @UUID[Compendium.wfrp4e-archives2.items.anIlqJXFOIEzIOo1]{Vice} Psychology. Each time you take this Talent you develop a new vice. Examples you could take include: Alcohol, Food, Narcotics, Pleasure.</p>"
+		},
+		"Vobist the Faint": {
+			"name": "Vobist the Faint",
+			"description": "<h4>Sign of Darkness and Uncertainty</h4><p><strong>Classical Name</strong>: Vobist</p><p><strong>Ascendant</strong>: Autumn</p><p><strong>Calendar Dates</strong>: Erntezeit 17 th – Brauzeit 6th</p><p><strong>Associated God</strong>: Ranald</p><p><strong>Appearance</strong>: No stars</p><p><strong>Bonus</strong>: Gain one level of the @UUID[Compendium.wfrp4e-core.items.mNoCuaVbFBflfO6X]{Sixth Sense} Talent</p><p><strong>Penalty</strong>: −3 Initiative</p><p>A void of stars. An empty spot in the heavens. Someone born under Vobist the Faint seems erratic and uncertain at times; after all, they were born under pure darkness. They can be overcautious at times, but they can also be bold and courageous when others least expect it, leaping into the fray before even their bravest friends. What seems to be a fundamental uncertainty is also a keen sense of which battles to fight, and how. For Morrslieb, the Chaos Moon, to rise full while Vobist the Faint is ascendent is a particularly bad omen.</p>"
+		},
+		"Wand of Jade": {
+			"name": "Wand of Jade",
+			"description": "<p>This wand increases the range of spells. Double the range of any spells cast while holding a Wand of Jade.</p>"
+		},
+		"Wand of Jet": {
+			"name": "Wand of Jet",
+			"description": "<p>This wand is used by spellcasters to increase the duration of their spells. A spell cast with the aid of a Wand of Jet has its duration doubled.</p>"
+		},
+		"Wand of the Winds": {
+			"name": "Wand of the Winds",
+			"description": "<p>The wand is constructed in such a way that compensates for those times when the Winds of Magic blow weakly. If a spellcaster is in a situation where they receive negative modifiers as a result of the @Table[wintds]{Swirling Winds}, they may ignore these modifiers for [[/r 1d10]] Rounds. After this period the wand is depleted. It takes the wand 24 hours to replenish its own store of magical energy.</p>"
+		},
+		"Wanderer’s Charm": {
+			"name": "Wanderer’s Charm",
+			"description": "<p>These amulets are often crafted by Hedge Wizards, and are beloved by wanderers, pedlars, soldiers and vagabonds. Those who carry them may ignore the first @Condition[Fatigued] Condition they receive each day.</p>"
+		},
+		"Writ of the Fifth Lore": {
+			"name": "Writ of the Fifth Lore",
+			"description": "<p>When this small scroll is presented to someone with an explanation of what it is, be that a license, a charter, or a letter of introduction, the perceiver must make a <strong>Very Difficult (–30) Perception</strong> Test. If they fail, the scroll seems to be exactly what the bearer claimed it was.</p>"
+		},
+		"Wymund the Anchorite": {
+			"name": "Wymund the Anchorite",
+			"description": "<h4>Sign of Enduring</h4><p><strong>Classical Name</strong>: Wymenos</p><p><strong>Ascendant</strong>: Midwinter</p><p><strong>Calendar Dates</strong>: Vorhexen 12th – Vorhexen 27th </p><p><strong>Associated God</strong>: Manaan</p><p><strong>Appearance</strong>: A stern face</p><p><strong>Bonus</strong>: +2 Fellowship, +2 Initiative</p><p><strong>Penalty</strong>: −3 Intelligence</p><p>People born under the light of Wymund the Anchorite are patient and methodical. They prefer to scrutinize every detail of a situation before deciding how to proceed.</p><p>Their slowness to pass judgment and tolerance of the foibles of others makes them kind, loyal friends — sometimes to a fault. Often, they forgive others the unforgivable, to their detriment. But when they decide that a person is no longer worthy of their grace, they are harsh, implacable foes.</p>"
+		}
+	}
+}

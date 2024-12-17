@@ -1,0 +1,95 @@
+{
+  "label": "Items (Imperial Zoo)",
+  "folders":  {
+    "Ammunition": "Munitions",
+    "Careers": "Carrières",
+    "Prayers": "Prières",
+    "Trappings": "Possessions",
+    "Weapons": "Armes"
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "trappings": "system.trappings",
+    "class": {
+      "path": "system.class.value",
+      "converter": "generic_localization"
+    },
+    "skills": {
+      "path": "system.skills",
+      "converter": "career_skills"
+    },
+    "modType": "system.modType.value",
+    "careergroup": {
+      "path": "system.careergroup.value",
+      "converter": "career_careergroup"
+    },
+    "talents": {
+      "path": "system.talents",
+      "converter": "career_talents"
+    },
+    "pduration": {
+      "path": "system.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "prange": {
+      "path": "system.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "ptarget": {
+      "path": "system.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "pdamage": {
+      "path": "system.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "test": {
+      "path": "system.test",
+      "converter": "role_skills"
+    },
+    "tests": "system.tests.value",
+    "sduration": {
+      "path": "system.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "srange": {
+      "path": "system.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "starget": {
+      "path": "system.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "sdamage": {
+      "path": "system.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "penalty": "system.penalty.value",
+    "location": {
+      "path": "system.location.value",
+      "converter": "generic_localization"
+    },
+    "durationValue": "system.duration.value",
+    "durationUnit": {
+      "path": "system.duration.unit",
+      "converter": "disease_duration_unit"
+    },
+    "contraction": "system.contraction.value",
+    "incubationValue": "system.incubation.value",
+    "incubationUnit": {
+      "path": "system.incubation.unit",
+      "converter": "disease_duration_unit"
+    },
+    "symptoms": "system.symptoms.value",
+    "permanent": "system.permanent.value",
+    "special": "system.special.value",
+    "qualities": {
+      "path": "system.qualities.value",
+      "converter": "trapping_qualities_flaws"
+    },
+    "flaws": {
+      "path": "system.flaws.value",
+      "converter": "trapping_qualities_flaws"
+    }
+  }
+}

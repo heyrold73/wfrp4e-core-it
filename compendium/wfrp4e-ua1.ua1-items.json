@@ -1,0 +1,45 @@
+{
+	"label": "Items (Ubersreik Adventures I)",
+	"entries": [
+		{
+			"id": "Cantor",
+			"name": "Cantor",
+			"description": "<p>Vous avez été formé comme Cantor des Collèges de Magie, et vous êtes capable de collecter les Vents de Magie pour aider les personnes présentes à incanter. Vous pouvez utiliser Divertissement (Chant) au lien de Focalisation lorsque vous faites un Test de Focalisation, et les mages présents dans un rayon de Socialibité mètres autour de vous peuvent vous prendre 1 DR de votre Focalisation Etendue par round, tant qu'ils font eux-mêmes leur propres Tests de Focalisation. Avec ce Talent, un personnage peut réaliser un Test Etendue de Divertissement (Chant) spécialement pour aider la Focalisation d'un autre Sorcier, même si ils n'ont eux-mêmes pas d'autres capacités magiques</p>"
+		},
+		{
+			"id": "Cordelia's Enhanced Restorative Tonic",
+			"name": "Tonique Réparateur Amélioré de Cordelia",
+			"description": "<p>Redonne 2 fois le Bonus d'Endurance en Blessures au buveur.</p>"
+		},
+		{
+			"id": "Maddening Aura",
+			"name": "Maddening Aura",
+			"description": "<p>At the start of every Round, every Character within 20 yards of the creature must make an <strong>Average (+20) Cool</strong> Test. If failed, roll on the Creeping Irrationality table. If Fumbled, the Character also gains +1 Corruption Point &mdash; further, should the Character become corrupted, this automatically results in a Mental Corruption. Where relevant, any Maddening Aura effects are cumulative.</p>\n<p>&nbsp;</p>\n<table style=\"width: 99.1329%; height: 128px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"text-align: center; width: 9.09487%; height: 16px;\"><strong>[[/r 1d10]]</strong></td>\n<td style=\"text-align: center; width: 90.1763%; height: 16px;\"><strong>Creeping Irrationality</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">1-2</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>Careful Now:</strong> On your next Turn, you can either take a Move or an Action, not both. You then shake it off.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">3-4</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>What&rsquo;s Going On? </strong>You suffer the @Condition[Surprised] Condition.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">5-6</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>My Plan is Working!</strong> On your Turn, you must take the same actions you took on the previous Round. If, for some reason, you cannot do this, you must do what you can to prepare for those actions on your next Turn. <strong>Duration</strong>: 1d10 Rounds.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">7</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>Who said I was Paranoid?</strong> You become subject to Animosity toward a random Character. <strong>Duration</strong>: Lasting.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">8</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>Are You Talking to Me?</strong> You become subject to Hatred toward a random Character. <strong>Duration</strong>: Lasting.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">9</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>Kill it! Kill it! Kill it!</strong> You become subject to Frenzy. <strong>Duration</strong>: Lasting.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 9.09487%; height: 16px; text-align: center;\">10</td>\n<td style=\"width: 90.1763%; height: 16px;\"><strong>Twitch</strong>, Twitch: Suffer one @Table[mutatemental]{Mental Corruption}. <strong>Duration</strong>: Lasting.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p><strong>Lasting</strong>: These last for [[/r 1d10]] &minus; Willpower Bonus hours (to a minimum of 1 hour). After which, perform an Ave<strong>rage (+20) Cool</strong> Test. If failed, the effect is permanent. The Difficulty of the Test may vary if the Character has limited or prolonged exposure, as determined by the GM. A Player may spend a Resilience point to permanently lose the long-term effects of Maddening Aura, though the memories of the horrific creature never diminish. A Character may expend 1 Resolve point to ignore the negative consequences of the Maddening Aura for 1 Round.</p>"
+		},
+		{
+			"id": "Spiky Bracers",
+			"name": "Spiky Bracers",
+			"description": null
+		},
+		{
+			"id": "Spiky Breastplate",
+			"name": "Spiky Breastplate",
+			"description": null
+		},
+		{
+			"id": "Spiky Helm",
+			"name": "Spiky Helm",
+			"description": null
+		},
+		{
+			"id": "Spiky Plate Leggings",
+			"name": "Spiky Plate Leggings",
+			"description": null
+		},
+		{
+			"id": "The Nineteenth Palm of Volans",
+			"name": "The Nineteenth Palm of Volans",
+			"description": "<p>One of 24 such talismans created by the first Patriarch of the Colleges of Magic, the Palm draws on the inner strength of its wearer to ward them from magic. Since their forging, these talismans have been gifted to Wizard Lords who are performing particularly dangerous tasks beyond the supervision of their Colleges.&nbsp;</p>\n<p>Whilst wearing the Nineteenth Palm of Volans, a Character may dispel spells as per the rules in @JournalEntry[Magic Rules]. However, the Character may not dispel persistent spells once cast. If the Character lacks the <strong>Language (Magick) </strong>Skill, they may use their Willpower Characteristic instead.</p>"
+		}
+	]
+}

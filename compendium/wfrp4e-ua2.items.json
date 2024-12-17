@@ -1,0 +1,25 @@
+{
+	"label": "Items (Ubersreik Adventures II)",
+	"entries": {
+		"Sporoific Lull": {
+			"name": "Sporoific Lull",
+			"description": "<p>The target of this spell is filled with weariness and desire to sleep. The target receives d10 &ndash; WP Bonus @Condition[Fatigued]&nbsp; Conditions. If the number of Fatigued Conditions the Target receives as a result of the spell is greater than their WP Bonus they fall asleep as if affected by the @Compendium[wfrp4e-core.items.4ePe5oNQakA8nJlk]{Sleep} spell.</p>"
+		},
+		"The Jackal Urn": {
+			"name": "The Jackal Urn",
+			"description": "<p>The Nehekharan urn preserves organs, after a fashion, imbuing them with dark energy. It can act as a powerful focus for spells drawing from the various Dark Magic lists. Additionally, if @UUID[Compendium.wfrp4e-ua2.actors.HWnfxg0fYjkzU55F]{Leidtragende} recovers the urn, he can pull the heart from within and crush it as he casts a Necromancy spell — allowing him to instantly make a successful cast with +4 SL.</p>"
+		},
+		"The Nameless Blade": {
+			"name": "The Nameless Blade",
+			"description": ""
+		},
+		"Uncontrollable Corporal Expulsion": {
+			"name": "Uncontrollable Corporal Expulsion",
+			"description": "<p>The target of this spell suffers a sudden bodily venting. The target receives d10 &ndash; WP Bonus Disease Symptoms taken from the following list: @Symptom[Convulsions], @Symptom[Coughs and Sneezes], @Symptom[Fever], @Symptom[Flux], and @Symptom[Nausea]. The GM can choose which symptoms to apply and the degree to which their effects cumulate. In the case of the Coughs and Sneezes symptom no contagion is spread, the effect is mess and noise. Once the duration is up the target recovers from any conditions resulting from symptoms, but may need to clean up.</p>"
+		},
+		"Vanhel's Invitation to the Dance Macabre": {
+			"name": "Vanhel's Invitation to the Dance Macabre",
+			"description": "<p>Found only in the pages of the terrible Liber Mortis, this spell is among the greatest and most terrible achievements of the necromancer Vanhel. You channel a writhing miasma of dhar, storing up a great mass of the foul magic before releasing it across the lands. The magic infests all nearby fresh corpses that have not been properly prepared and sanctified for burial. All corpses in a radius up to your Willpower Bonus x 100 yards are raised as Skeletons or Zombies, as you prefer. You may choose to have the spell affect a smaller area if you wish. For each 100 yards of radius, rounded up, gain one point of Corruption.&nbsp;</p>\n<p>The summoned Undead are entirely under your control and may perform simple orders as you command. If you are killed or gain the @Condition[Unconscious] Condition, the spell comes to an end and the summoned Undead collapse.&nbsp;</p>"
+		}
+	}
+}

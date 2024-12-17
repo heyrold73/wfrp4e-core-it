@@ -1,0 +1,25 @@
+{
+	"label": "Tables (Archives Vol. I)",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "resultConverter"
+    }
+  },
+	"entries": [
+		{
+			"id": "Career - Wood Elf (Toriour)",
+			"name": "Carrière - Elfe Sylvain (Toriour)"
+		},
+		{
+			"id": "Random Euphemisms - Noun",
+			"name": "Euphémismes aléatoires - Nom", 
+      "results": {"6-6":"...la Saucisse de Sigmar","7-7":"...la croute des Tourtes","8-8":"...les Dingleberries","9-9":"...les Morveux","10-10":"...la tour du Sorcier","1-1":"...le Mouton","2-2":"...le Manche à balai","3-3":"...le Tromblon","4-4":"...le vieux Quinsberry","5-5":"...les Royaumes du Chaos"}
+		},
+		{
+			"id": "Random Euphemisms - Participle",
+			"name": "Euphémismes aléatoires - Participe", 
+      "results": {"1-1":"En polissant","2-2":"En visitant","3-3":"Aggravant","4-4":"En cuisinant","5-5":"En secouant","6-6":"En grignotant","7-7":"En enchantant","8-8":"En mutant","9-9":"En tirant","10-10":"En pillant"}
+		}
+	]
+}

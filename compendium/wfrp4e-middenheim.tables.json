@@ -1,0 +1,74 @@
+{
+  "label": "Tables (Middenheim)",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "resultConverter"
+    }
+  },
+  "entries": [
+    {
+      "id": "Athletics - Middenball",
+      "name": "Athlètisme - Middenball",
+      "results": {
+        "55-65": "L'équipe qui reçoit domine légèrement la rencontre. Ajoutez 5 à leur score au prochain tour.",
+        "66-80": "Un joueur de l'équipe qui reçoit est positionné à l'arrière du terrain. S'ils passent ce tour, ils peuvent tirer.",
+        "81-90": "Un joueur de l'équipe qui reçoit est positionné au milieu du terrain de l'équipe qui reçoit. S'ils passent ce tour, ils peuvent tirer.",
+        "91-98": "Un joueur de l'équipe qui reçoit est positionné au milieu du terrain de l'équipe qui reçoit. S'ils passent ce tour, ils peuvent tirer.",
+        "99-100": "Un joueur de l'équipe qui reçoit est positionné à l'avant du terrain. S'ils passent ce tour, ils peuvent tirer.",
+        "1-2": "Un joueur de l'équipe invitée est positionné à l'arrière du terrain. S'ils passent ce tour, ils peuvent tirer.",
+        "3-10": "Un joueur de l'équipe invitée est positionné à au milieu de l'arrière du terrain. S'ils passent ce tour, ils peuvent tirer.",
+        "11-20": "Un joueur de l'équipe invitée est positionné à au milieu du terrain de l'équipe qui reçoit. S'ils passent ce tour, ils peuvent tirer.",
+        "21-35": "Un joueur de l'équipe invitée est positionné à l'avant du terrain. S'ils passent ce tour, ils peuvent tirer.",
+        "36-46": "L'équipe invitée domine légèrement la rencontre. Ajoutez 5 à leur score au prochain tour.",
+        "47-54": "Aucun effet ce tour."
+      }
+    },
+    {
+      "id": "Brutality - Middenball",
+      "name": "Brutalité - Middenball",
+      "results": {
+        "91-98": "Un membre de l'équipe adverse est gravement blessé. Réduisez le score des équipes A et B de 1 point.",
+        "99-100": "An Away Team player suffers a critical injury and is removed from play. Subtract that player’s A and B score from the team total. If there are no sub-stitutes available, one of the Home Team players becomes a Free Player.",
+        "1-2": "A Home Team player suffers a critical injury and is removed from play. Subtract that player’s A and B score from the team total. If there are no sub-stitutes available, one of the Away Team players becomes a Free Player.",
+        "3-10": "A Home Team player is badly hurt. Reduce the Team’s A and B scores by 1 each.",
+        "11-20": "A Home Team player is rattled. Reduce the Team’s A and B scores by 1 each for 1 turn.",
+        "21-35": "An Away Team player interposes themselves between the player in possession and the goal. This either counts as Guarding, or could be used to cancel out the effects of an existing Guard (whatever most benefits the Away Team).",
+        "36-46": "The Away Team show more aggression. Add 5 to their B score next turn.",
+        "47-54": "There is no effect this turn.",
+        "55-65": "The Home Team show more aggression. Add 5 to their B score next turn.",
+        "66-80": "A Home Team player interposes themselves between the player in possession and the goal. This either counts as Guarding, or could be used to cancel out the effects of an existing Guard (whatever most benefits the Home Team).",
+        "81-90": "An Away Team player is rattled. Reduce the Team’s A and B scores by 1 each for 1 turn."
+      }
+    },
+    {
+      "id": "Career - Human (Middenheimer)",
+      "name": "Carrière - Humain (Middenheimer)"
+    },
+    {
+      "id": "Career - Human (Middenlander)",
+      "name": "Carrière - Humain (Middenlander)"
+    },
+    {
+      "id": "Career - Human (Nordlander)",
+      "name": "Carrière - Humain (Nordlander)"
+    },
+    {
+      "id": "Middenball Random Events",
+      "name": "Middenball : Evènements Aléatoires",
+      "results": {
+        "80-83": "Un joueur choisi au hasard parmi tous les joueurs présents sur le terrain (sauf un des PJs ou le joueur en possession de la balle) glisse dans la boue, se tord la cheville et est contraint d'abandonné.",
+        "84-86": "Un joueur choisi au hasard parmi tous les joueurs présents sur le terrain (sauf un des PJs ou le joueur en possession de la balle) a bu dans une gourde, désignez le joueur et faites lui un test de Résistance à l'alcool <b>difficile (-20)<\/b>. ",
+        "87-89": "Un joueur choisi au hasard parmi tous les joueurs présents sur le terrain (sauf un des PJs ou le joueur en possession de la balle) a pris un stimulant qui améliore ses performances. Il ressent immédiatement les effets bénifiques pour ensuite souffrir de @Compendium[wfrp4e-core.items.jTFOrokjEHbi12rT]{Délice de Ranald}.",
+        "90-95": "Les supporters de l'équipe locale commencent à chanter, leur équipe bénéficie de +5 B au prochain tour.",
+        "96-100": "Les supporters de l'équipe en déplacement donnent de la voie. Leur équipe bénéficie +5 B au prochain tour.",
+        "1-33": "Rien de particulier ne se passe pour ce tour.",
+        "34-34": "La balle se déchire laissant sortir toutes ses plumes à proximité. S'il s'agit d'un morveux, ce dernier se libère de ses liens et peut soit attaquer un de ses bourreaux, soit tenter de fuir. La partie est stoppée le temps de trouver un remplaçant.",
+        "35-40": "Un fan frappe un joueur à proximité. Une rixe à mains nues de 3 tours démarre entre un joueur tiré au hasard et un @Compendium[wfrp4e-core.bestiary.7ihBjcHcewZ2Obul]{Humain} standard.",
+        "41-60": "Le temps devient maussade, les conditions froides et\/ou humides entraînent une pénalité de -10 à tous les tests d'athlétisme et de capacité de tir au prochain tour.",
+        "61-75": "Si les équipes ne sont pas bien réparties, le gardien de l'équipe avec le moins de joueurs quitte le but.",
+        "76-79": "Un fan lance un objet sur un joueur sélectionné au hasard. Les joueur doit réussir un test de Résistance <b>facile (+40)<\/b> ou subir @Condition[Stunned]{Assommé}"
+      }
+    }
+  ]
+}

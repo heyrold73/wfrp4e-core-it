@@ -1,0 +1,23 @@
+{
+  "label": "Tables (Starter Set)",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "resultConverter"
+    }
+  },
+  "entries": {
+    "3m4LPj58xoNju80B": {
+      "name": "Blessures Critiques - Tête (Starter Set)"
+    },
+    "BlDLji1LeqHOVj8r": {
+      "name": "Blessures Critiques - Jambe (Starter Set)"
+    },
+    "yYfGtudjckO3bubF": {
+      "name": "Blessures Critiques - Bras (Starter Set)"
+    },
+    "yvzv7xxQuxX7N16b": {
+      "name": "Blessures Critiques - Corps (Starter Set)"
+    }
+  }
+}

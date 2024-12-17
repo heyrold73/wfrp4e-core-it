@@ -1,0 +1,730 @@
+{
+	"label": "Items (Mort sur le Reik)",
+  "folders": {
+    "Careers": "Carrières",
+    "Diseases": "Maladies",
+    "Mutations": "Mutations",
+    "Prayers": "Prières",
+    "Spells": "Sorts",
+    "Talents": "Talents",
+    "Traits": "Traits",
+    "Trappings": "Possessions",
+    "Vehicle": "Véhicules",
+    "Herbs": "Herbes",
+    "Ammunition": "Munitions",
+    "Criticals": "Critiques",
+    "Modifications": "Modifications",
+    "Weapons": "Armes"
+  },
+  "mapping": {
+    "skills": {
+      "path": "system.skills",
+      "converter": "career_skills"
+    },
+    "talents": {
+      "path": "system.talents",
+      "converter": "career_talents"
+    },
+    "class": {
+      "path": "system.class.value",
+      "converter": "generic_localization"
+    },
+    "careergroup": {
+      "path": "system.careergroup.value",
+      "converter": "career_careergroup"
+    },
+    "sduration": {
+      "path": "system.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "srange": {
+      "path": "system.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "starget": {
+      "path": "system.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "sdamage": {
+      "path": "system.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "trappings": "system.trappings",
+    "gmdescription": "system.gmdescription.value",
+    "durationValue": "system.duration.value",
+    "durationUnit": "system.duration.unit",
+    "contraction": "system.contraction.value",
+    "incubationValue": "system.incubation.value",
+    "incubationUnit": "system.incubation.unit",
+    "symptoms": "system.symptoms.value",
+    "permanent": "system.permanent.value"
+  },
+  "entries": {
+		"Agurk": {
+			"name": "Agurk",
+			"description": "<h3>Baume Elfique</h3>\n<p>Communément appelé Agurk, les habitants du Moot appellent cette herbe <em>L'Herbe à Frissons</em>. Aussi connu comme <em>Zitterwort </em> dans l'Empire, <em>Trema </em> en Tilée et <em>Gysenblat </em>en Norsca. Les Elfes l'appelle <em>Echryddeillen</em>. Elle pousse dans les vastes prairie dont le sol est bien drainé mais pas trop sabloneux. Pour la préparer, cueillez les feuilles, enlevez la tige, et suspendez les près du feu pour les faire sécher pendant au moins une semaine. Cette herbe est très utile pour améliorer la circulation sanguine et se débarasser d'un gros rhume. Ne l'utilisez pas pour soigner la fièvre, car elle peut avoir l'effet inverse. Pour l'utiliser, ajouter quelques feuilles à un bol d'eau bouillante, laissez infuser une à deux minutes jusqu'à légère coloration, alors seulement le patient peut inhaler les vapeurs pendant trois à quatre minutes. Le patient devrait alors commencer à trembler. Installez le confortablement et surveillez le trois ou quatre heures. Si les tremblements n'ont pas totalement disparu, vous pouvez administrer un léger sédatif. Attention de bien jeter l'infusion car si elle est bu, elle peut provoquer des convulsions mortelles.</p>",
+			"gmdescription": "<p><strong>Emplacement:&nbsp;</strong>Prairies</p>\n<p><strong>Saison: </strong>Automne</p>\n<p><strong>Preperations: </strong>@UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#infusions]{Infusion}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#draughts]{Potion}</p>\n<p>Inhaler les vapeurs d’une infusion  d’agurk provoque de légers tremblements (Dextérité –20) pendant trois heures, sauf si le Personnage réussit un Test de <strong>Résistance  Intermédiaire (+0)</strong> ou s’il est immunisé au poison.</p>\n<p>Sous forme de potion, l’agurk est un poison potentiellement mortel. Elle inflige 2 États @Condition[Empoisonné], qui peuvent être combattus par un <strong>Test de Résistance Complexe (–10)</strong>.</p>"
+		},
+		"Alfunas": {
+			"name": "Alfunas",
+			"description": "<h3>L'enchantement des Rebouteux</h3>\n<p><em>Alfunas </em>est le nom elfique de cette plante et est devenu son nom commun dans tout l'Empire car les Elfes de Bois en ont le quasi monopole de la culture. Dans le Moot nous l'appelons &lsquo;Bonewort&rsquo;; les Bretonies l'appelle <em>Ossefeuille </em>et les Tiléens <em>Ossoripa</em>; certains érudits l'appellent  <em>Folium Emendata</em>.</p>\n<p>Afin que l'emplatre soit le plus efficace possible, il est conseillé de le laisser reposer au moins deux semaines dans un bocal couvert, entreposé dans un endroit frais et sec. Ne surtout pas le laisser trop sécher : quand la surface de l'emplatre laisse apparaître de petites fissures, bien fermer le bocal avec de la cire ou avec un bouchon en liège.</p>",
+			"gmdescription": "<p><strong>Emplacement: </strong>Forêt de Conifères</p>\n<p><strong>Saison: </strong>Eté, Automne</p>\n<p><strong>Preparations:&nbsp;</strong>@UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}</p>\n<p>Les feuilles charnues de cette plante, broyées et réduites en pâte, permettent de diviser par deux le temps de guérison d’un os cassé ou disloqué. Pour cela, appliquez une dose de pâte sur la blessure tous les jours jusqu’à ce qu’elle soit totalement guérie</p>"
+		},
+		"Aquatic": {
+			"name": "Aquatique",
+			"description": "<p>La créature peut respirer sous l’eau et s’y déplace à sa pleine vitesse de Mouvement. Elle ne peut pas se déplacer sur la terre ferme.</p>",
+			"gmdescription": ""
+		},
+		"Wand of Onyx": {
+			"name": "Baguette d'Onyx",
+			"description": "<p>Cette baguette polie de minéral noir agit comme une réserve de pouvoir. Une fois par jour, le porteur de la baguette, lorsqu'il incante un sort de 5NI ou moins, peut considérer que le sort a été Incanté avec un réussite critiqueavec @JournalEntry[Magic Rules]{Puissance Totale}. Lancez [[/r 1d100]].&nbsp; Si le résultat est moins que NI du sort, la baguette se brise et est détruite, blessant les personnages dans un rayon de 2 mètres de [[/r 1d10]] Blessures.</p>",
+			"gmdescription": ""
+		},
+		"Wand of Jet": {
+			"name": "Baguette de Jet",
+			"description": "",
+			"gmdescription": ""
+		},
+		"Ballista": {
+			"name": "Balistes",
+			"description": "<p>Les balistes ressemblent à des arbalètes géantes qui tirent des carreaux aussi grands que des piquets de clôture et dotés d’une pointe en fer. Ces carreaux peuvent embrocher une personne ou une autre créature comme on embroche un poulet, ou perforer la coque d’un bateau. Les balistes sont généralement montées sur un pivot, ce qui leur permet de tirer dans de nombreuses directions.</p>",
+			"gmdescription": ""
+		},
+		"Barrakul": {
+			"name": "Barrakul",
+			"description": "<p><img src=\"modules/wfrp4e-dotr/assets/items/barrakul.png\" alt=\"\" width=\"119\" height=\"368\" /></p>",
+			"gmdescription": "L’épée, que le MJ peut choisir de considérer comme une Arme simple ou une zweihänder en fonction des compétences du groupe, est en parfait état. Son nom, Barrakul (« Espoir des montagnes »), est inscrit en runes naines le long de sa lame. Il s’agit sans aucun doute de la création d’un forgeron des runes d’une grande compétence. Lorsqu’elle est maniée au combat, la lame brille, visible un instant et disparaissant l’instant d’après, et seule la lueur rouge de ses runes est constante. Les armures magiques sont inutiles contre cette lame, vous pouvez donc ignorer les PA des armures ou boucliers non magiques. Elle  la qualité Incassable, mais gagne le défaut Inoffensive si elle est brandie contre un nain."
+		},
+		"Bension of Tzeentch": {
+			"name": "Bénédiction de Tzeentch",
+			"description": "<p>Vous invoquez les grâces de Tzeentch et gagnez un bonus temporaire de +10 pour l’une des Caractéristiques suivantes : Capacité de Combat, Endurance, Agilité ou Force Mentale.</strong>.</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale minutes"
+		},
+		"Ball (Cannon)": {
+			"name": "Boulet",
+			"description": "Le <strong>boulet</strong> est un boulet de canon standard, qui pulvérise sa cible avec une efficacité redoutable. Un canon chargé avec un boulet gagne l’Atout d’arme Percutante. C’est la munition idéale pour endommager ou couler un autre bateau, ou détruire un bâtiment.",
+			"gmdescription": ""
+		},
+		"Chain Shot (Cannon)": {
+			"name": "Boulet chainé",
+			"description": "<p>Le <strong>boulet chaîné</strong> est constitué de deux boulets reliés par une chaîne. Tiré par un canon, il fend l’air et lamine les cibles peu solides ou s’enroule violemment autour des plus résistantes. Un canon chargé avec un boulet chaîné ne gagne aucun Atout, mais inflige un Coup Critique automatique au gréement d’un bateau si le Test de <strong>Projectiles</strong> est réussi avec un Succès Impressionnant (+4 DR) ou mieux. Les boulets chaînés sont conçus pour détruire les gréements et voiles d’un bateau afin de l’immobiliser.</p>",
+			"gmdescription": ""
+		},
+		"Luxury Cabin": {
+			"name": "Cabines de Luxe",
+			"description": "<p>Les nantis de l’Empire aiment voyager confortablement, et les cabines que l’on peut trouver sur le bateau d’un noble sont très différentes de celles d’un navire de commerce ou d’un navire à passagers. Pour le prix indiqué ci-dessus et à condition de disposer d’un espace équivalent à celui occupé par deux cabines ordinaires, vous pourrez naviguer sur les rivières de l’Empire confortablement et avec classe. À la discrétion du MJ, tous les <strong>Tests de Sociabilité</strong> réalisés par le propriétaire d’une cabine de luxe bénéficient d’un bonus de +10, à condition qu’ils soient réalisés à l’intérieur de la cabine en question.</p>",
+			"gmdescription": ""
+		},
+		"Cannon (Medium)": {
+			"name": "Canon (Moyen)",
+			"description": "<p>Les canons sont difficiles à trouver, dangereux pour ceux qui les utilisent, et terrifiants pour ceux sur qui ils sont pointés. Les plus grands canons sont réservés aux forteresses, mais des canons légers ou moyens peuvent être montés sur des bateaux. La Patrouille fluviale a tendance à voir d’un mauvais œil les bateaux équipés de canons qui ne sont pas clairement rattachés à une quelconque entité militaire, et les aventuriers qui en possèdent risquent d’en baver pour prouver qu’ils ne sont pas des pirates.</p>\n<p>Les canons peuvent être chargés avec trois types de munitions différentes:</p>\n<p>@Item[Ball (Cannon)]{Ball}</p>\n<p>@Item[Chain Shot (Cannon)]{Chain Shot}</p>\n<p>@Item[Grapeshot (Cannon)]{Grapeshot}</p>\n<p>Les canons peuvent être montés à la proue, à la poupe ou sur les côtés d’un bateau. Contrairement aux @Item[Ballista]{ballista}, les canons ne peuvent pas pivoter et ne peuvent donc tirer que dans une seule direction, vers l’avant, l’arrière ou perpendiculairement au bateau selon leur placement.</p>",
+			"gmdescription": ""
+		},
+		"Cannon (Small)": {
+			"name": "Canon (Petit)",
+			"description": "<p>Les canons sont difficiles à trouver, dangereux pour ceux qui les utilisent, et terrifiants pour ceux sur qui ils sont pointés. Les plus grands canons sont réservés aux forteresses, mais des canons légers ou moyens peuvent être montés sur des bateaux. La Patrouille fluviale a tendance à voir d’un mauvais œil les bateaux équipés de canons qui ne sont pas clairement rattachés à une quelconque entité militaire, et les aventuriers qui en possèdent risquent d’en baver pour prouver qu’ils ne sont pas des pirates.</p>\n<p>Les canons peuvent être chargés avec trois types de munitions différentes:</p>\n<p>@Item[Ball (Cannon)]{Ball}</p>\n<p>@Item[Chain Shot (Cannon)]{Chain Shot}</p>\n<p>@Item[Grapeshot (Cannon)]{Grapeshot}</p>\n<p>Les canons peuvent être montés à la proue, à la poupe ou sur les côtés d’un bateau. Contrairement aux @Item[Ballista]{ballista}, les canons ne peuvent pas pivoter et ne peuvent donc tirer que dans une seule direction, vers l’avant, l’arrière ou perpendiculairement au bateau selon leur placement.</p>",
+			"gmdescription": ""
+		},
+		"Carapace": {
+			"name": "Carapace",
+			"description": "+1 point d'armure sur toutes les parties du corps; cette mutation peut être cachée en s'habillant de pied en cape.",
+			"gmdescription": ""
+		},
+		"Catapult (Medium)": {
+			"name": "Catapulte (Moyenne)",
+			"description": "<p>Les catapultes sont des armes à tir indirect qui projettent des rochers, des bombes ou des bombes incendiaires haut dans les airs, lesquelles retombent ensuite avec fracas sur la cible. Les catapultes sont faciles à construire, mais difficiles à manœuvrer, particulièrement quand il s’agit de toucher une cible mouvante. La visée est donc un processus laborieux qui requiert 2 ou 3 actions pour déplacer la catapulte, en fonction de sa taille.</p>",
+			"gmdescription": ""
+		},
+		"Catapult (Small)": {
+			"name": "Catapulte (Petite)",
+			"description": "<p>Les catapultes sont des armes à tir indirect qui projettent des rochers, des bombes ou des bombes incendiaires haut dans les airs, lesquelles retombent ensuite avec fracas sur la cible. Les catapultes sont faciles à construire, mais difficiles à manœuvrer, particulièrement quand il s’agit de toucher une cible mouvante. La visée est donc un processus laborieux qui requiert 2 ou 3 actions pour déplacer la catapulte, en fonction de sa taille.</p>",
+			"gmdescription": ""
+		},
+		"Chosen of Tzeentch": {
+			"name": "Chosen of Tzeentch",
+			"description": "<p>@UUID[Compendium.wfrp4e-dotr.journals.uHClvCto8icrUp9P.JournalEntryPage.m3m8NR3fUQjVyGOJ]{Warrior of Tzeentch}</p>",
+			"trappings": [
+				"Cohorte de Guerriers du Chaos",
+				"Arme liée à un démon",
+				"Familier démoniaque",
+				"Têtes coupées d’au moins deux chefs ennemis"
+			],
+			"gmdescription": ""
+		},
+		"Armour Plating (Bronze)": {
+			"name": "Coque Blindage (Bronze)",
+			"description": "<p>(Bronze)Une fine couche de bronze ou de fer ajoute respectivement 1 ou 2 Points d’Armure à la coque d’un bateau, mais augmente son poids et nécessite un entretien régulier, qui consiste à sortir complètement le bateau de l’eau pour gratter la coque.</p>\n<p><strong>Bronze</strong>: 1 PA; doit être gratté au moins une fois tous les trois mois pour éviter que l’oxydation ne fasse apparaître des irrégularités à la surface de la coque et qu’elle ne se recouvre d’algues, ce qui augmenterait la traînée et réduirait la maniabilité du bateau (-1 M, -10 aux Tests de <strong>Navigation</strong>). La valeur d’armure du blindage ne serait cependant pas affectée.</p>\n<blockquote>\n<p><strong>Note pour Foundry:&nbsp;</strong>Cette plaque représente 3 mètres de longeur d'armure. Ne pas oublier de modifier le prix et l'encombrement en fonction du nombre de plaques à utiliser pour couvrir la coque.</p>\n</blockquote>",
+			"gmdescription": ""
+		},
+		"Armour Plating (Iron)": {
+			"name": "Coque Blindage (Fer)",
+			"description": "<p>Une fine couche de bronze ou de fer ajoute respectivement 1 ou 2 Points d’Armure à la coque d’un bateau, mais augmente son poids et nécessite un entretien régulier, qui consiste à sortir complètement le bateau de l’eau pour gratter la coque.</p>\n<p><strong>Fer: </strong>2 PA; doit être gratté au moins une fois par mois pour éviter l’apparition de taches de rouille, ce qui augmenterait la traînée et réduirait la maniabilité du bateau (-1 M, -10 aux Tests de <strong>Navigation</strong>. Si ce processus d’entretien n’est pas respecté, alors le blindage rouille et perd toute sa valeur d’armure.</p>\n<blockquote>\n<p><strong>Note pour Foundry:&nbsp;</strong>Cette plaque représente 3 mètres de longeur d'armure. Ne pas oublier de modifier le prix et l'encombrement en fonction du nombre de plaques à utiliser pour couvrir la coque.</p>\n</blockquote>",
+			"gmdescription": ""
+		},
+		"Wilful Corruption": {
+			"name": "Corruption Volontaire",
+			"description": "<p>Les Favoris de Tzeentch sont des maîtres de Magie, et gagnent ainsi un contrôle limité sur les terribles cadeaux que leur Seigneur leur octroie. Lorsque vous gagnez une muttion, vous jetez deux fois les dés et vous choisissez le résultat qui a votre préférence.</p>",
+			"gmdescription": ""
+		},
+		"Closed Rowlock": {
+			"name": "Dames de nage fermées",
+			"description": "<p>Une dame de nage est une sorte de crochet qui sert à maintenir l’aviron en place sur un bateau à rames. La plupart sont soit sculptées directement dans le bois de la coque et ont une forme de C, soit des pièces en métal en forme de U qui pivotent pour accompagner le mouvement de l’aviron. Dans les deux cas, l’aviron peut sortir de la dame de nage si le rameur échoue à un Test de <strong>Ramer</strong>, et il faut dépenser une action pour le replacer correctement avant de continuer à ramer. Les dames de nage fermées empêchent ce genre d’incidents de se produire. L’aviron peut être glissé dans un trou pratiqué dans la coque, ou attaché à une dame de nage ordinaire grâce à des lanières de cuir, mais dans tous les cas, il ne risque plus de sortir.</p>",
+			"gmdescription": ""
+		},
+		"Gift of the Beast": {
+			"name": "Don de la bête",
+			"description": "<p>Vous invoquez les grâces de Tzeentch et gagnez une mutation temporaire : consultez le tableau suivant. @Table[giftofthebeast].</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale minutes"
+		},
+		"Blood Drain": {
+			"name": "Suceur de sang",
+			"description": "<p>Si la sangsue inflige 1 Blessure à sa victime, elle demeure accrochée. Le Personnage gagnera un État Hémorragique jusqu’à ce que la sangsue soit tuée ou rassasiée. Pour voir si elle est rassasiée, lancez 1d10 par Round : si le résultat est 9 ou 10, elle se détache ; sinon, elle continue à se nourrir. Les aventuriers peuvent utiliser des substances dangereuses ou irritantes (comme le feu, le sel ou l’acide) pour la faire se détacher. Elle tentera alors de fuir. S’ils essayent simplement de l’arracher de force, cela causera un État Hémorragique @Condition[Hémorragique]à la victime.</p>",
+			"gmdescription": ""
+		},
+		"Engulf": {
+			"name": "Engloutir",
+			"description": "<p>Si la créature est de taille suffisante, toute attaque réussie engloutit une victime, même si elle ne cause aucun Dégât, infligeant l’État Empêtré d’une Force égale à celle de la créature. Au début de chaque Round, les victimes englouties gagnent un État Empêtré supplémentaire et perdent automatiquement 1 Blessure alors que de puissantes enzymes commencent la digestion. Si la créature n’est pas de taille suffisante pour engloutir entièrement une victime, elle peut néanmoins être assez grande pour immobiliser un endroit du corps touché. La créature ne peut plus effectuer d’attaques contre les victimes entièrement englouties, mais elle peut encore en attaquer d’autres si elles sont suffisamment proches.</p>",
+			"gmdescription": ""
+		},
+		"Enrage Beast": {
+			"name": "Enragez les Bêtes",
+			"description": "<p>Vos yeux brillent d'une lumière malsaine alors que vous inspirez la peur à un seul animal ordinaire dans un rayon de 12 mètres. L'animal ciblé a droit à un Test de Force Mentale pour résister à ce sort. En cas d'échec au Test, il se comporte de manière étrange. Lancez 1d10 sur le tableau @Table[enrage-beast]{Enrage Beast Table} pour voir ce qu'il fait.</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Climb": {
+			"name": "Escalade",
+			"description": "<p>Vos ongles des mains et des pieds deviennent de courtes griffes qui ne sont pas assez longues pour servir d’armes mais permettent de faciliter l’escalade. Lorsque vous êtes pieds nus et sans gants, vous gagnez le Talent @Compendium[wfrp4e-core.items.MGEPI4jNhymNIRVz]{Grimpeur} Grimpeur pour la durée du sort.</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale minutes"
+		},
+		"Eyes of the Beast": {
+			"name": "Oeil de la bête",
+			"description": "<p>Vos yeux brillent d’une lumière verte impie, vous permettant de voir comme si vous possédiez le Trait @Compendium[wfrp4e-core.items.FmHDbCOy3pH8yKhm]{Night Vision} Vision nocturne. Si vous disposez déjà de la Vision nocturne, la portée de votre vision est doublée.</p><p>\n\n <b>Domaine:</b> Aucun<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Favoured of Tzeentch": {
+			"name": "Favori de Tzeentch",
+			"description": "<p>@JournalEntry[Warrior of Tzeentch]{Warrior of Tzeentch}</p>",
+			"trappings": [
+				"Armure de plate et Heaume",
+				"Grimoire de Magie Noire",
+        "Composants pour 5 sorts"
+			],
+			"gmdescription": ""
+		},
+		"Mage-Leaf": {
+			"name": "Feuille de Mage",
+			"description": "<h3>L'Aubaine du Sorcier</h3>\n<p>Au départ, je n’étais pas sûre de traiter de cette herbe, étant donné qu’elle n’a  propriété médicinale. Cependant, ses effets magiques sont assez connus pour que je mentionne ses différents noms à travers les régions, cela évitera à mes lecteurs de croire qu’il existe plusieurs plantes avec les mêmes propriétés. Les elfes l’appellent daionillyseiwyn, ce qui, si j’en crois mes recherches, veut dire « la bonne plante ». En Norsca, elle s’appelle troldblat, en Bretonnie la feuille sorcière, en Tilée folimaggi (une version abâtardie de l’appellation classique folia magii) et enfin, draodill en Albion, ce qu’on pourrait traduire par « La feuille des Druides ».</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>:<strong> </strong>Collines</p> <p><strong>Saison</strong>: Printemps</p> <p><strong>Préparations: </strong>Cru</p> <p>La feuille de mage se mange fraîche, et garde ses pouvoirs pendant une semaine après sa récolte. Comme son nom le suggère, elle est utilisée exclusivement par les lanceurs de sorts. Une dose donne au lanceur un bonus de +10 à son prochain Test d’Incantation, mais pour chaque nouvelle dose prise, il faut lancer [[/r 1d10]]. Si le résultat est inférieur ou égal au nombre de doses déjà prises ce jour-là, la plante ne fait pas effet.</p>"
+		},
+		"Flying Jib (Typical Barge or Patrol Boat)": {
+			"name": "Clinfoc (Barge standard ou Bateau de Patrouille)",
+			"description": "<p>Un clinfoc est une voile supplémentaire située à la proue et qui nécessite un beaupré pour être ajoutée au bateau, augmentant sa longueur de 10 %. Gonflé par un vent arrière, le clinfoc accorde au bateau un bonus de vitesse de Mouvement de +5 % par rapport à la valeur indiquée dans le Tableau des vents @Table[wind]{wind table}.Il est inutile en cas de vent de côté, et double le malus à la vitesse de Mouvement en cas de vent contraire.</p>",
+			"gmdescription": ""
+		},
+		"Flying Jib (Row Boat)": {
+			"name": "Clinfoc (Barque)",
+			"description": "<p>Un clinfoc est une voile supplémentaire située à la proue et qui nécessite un beaupré pour être ajoutée au bateau, augmentant sa longueur de 10 %. Gonflé par un vent arrière, le clinfoc accorde au bateau un bonus de vitesse de Mouvement de +5 % par rapport à la valeur indiquée dans le Tableau des vents @Table[wind]{wind table}.Il est inutile en cas de vent de côté, et double le malus à la vitesse de Mouvement en cas de vent contraire.</p>",
+			"gmdescription": ""
+		},
+		"Flying Jib (Large Barge)": {
+			"name": "Clinfoc (Grande Barge)",
+			"description": "<p>Un clinfoc est une voile supplémentaire située à la proue et qui nécessite un beaupré pour être ajoutée au bateau, augmentant sa longueur de 10 %. Gonflé par un vent arrière, le clinfoc accorde au bateau un bonus de vitesse de Mouvement de +5 % par rapport à la valeur indiquée dans le Tableau des vents @Table[wind]{wind table}.Il est inutile en cas de vent de côté, et double le malus à la vitesse de Mouvement en cas de vent contraire.</p>",
+			"gmdescription": ""
+		},
+		"Flying Jib (Fishing Skiff)": {
+			"name": "Clinfoc (Petit bateau de pêche)",
+			"description": "<p>Un clinfoc est une voile supplémentaire située à la proue et qui nécessite un beaupré pour être ajoutée au bateau, augmentant sa longueur de 10 %. Gonflé par un vent arrière, le clinfoc accorde au bateau un bonus de vitesse de Mouvement de +5 % par rapport à la valeur indiquée dans le Tableau des vents @Table[wind]{wind table}.Il est inutile en cas de vent de côté, et double le malus à la vitesse de Mouvement en cas de vent contraire.</p>",
+			"gmdescription": ""
+		},
+		"Water Brakes (Typical Barge or Patrol Boat)": {
+			"name": "Ralentisseurs Latéraux (Barge typique ou Navire de Patrouille)",
+			"description": "<p>Cet appareil consiste en deux larges volets de bois qui peuvent être dépliés de chaque côté du bateau. Lorsque le bateau remonte une rivière, le déploiement des ralentisseurs augmente la traînée et réduit la vitesse de Mouvement de 1–2 points, selon qu’ils ont été partiellement ou complètement déployés. Lorsque le bateau navigue dans le sens du courant, ils permettent d’augmenter sa vitesse de Mouvement d’un nombre de points identiques.</p>",
+			"gmdescription": ""
+		},
+		"Water Brakes (Row Boat)": {
+			"name": "Ralentisseurs Latéraux (Barque)",
+			"description": "<p>Cet appareil consiste en deux larges volets de bois qui peuvent être dépliés de chaque côté du bateau. Lorsque le bateau remonte une rivière, le déploiement des ralentisseurs augmente la traînée et réduit la vitesse de Mouvement de 1–2 points, selon qu’ils ont été partiellement ou complètement déployés. Lorsque le bateau navigue dans le sens du courant, ils permettent d’augmenter sa vitesse de Mouvement d’un nombre de points identiques.</p>",
+			"gmdescription": ""
+		},
+		"Water Brakes (Fishing Skiff)": {
+			"name": "Ralentisseurs Latéraux (Bateau de Pêche)",
+			"description": "<p>Cet appareil consiste en deux larges volets de bois qui peuvent être dépliés de chaque côté du bateau. Lorsque le bateau remonte une rivière, le déploiement des ralentisseurs augmente la traînée et réduit la vitesse de Mouvement de 1–2 points, selon qu’ils ont été partiellement ou complètement déployés. Lorsque le bateau navigue dans le sens du courant, ils permettent d’augmenter sa vitesse de Mouvement d’un nombre de points identiques.</p>",
+			"gmdescription": ""
+		},
+		"Water Brakes (Large Barge)": {
+			"name": "Ralentisseurs Latéraux (Grande Barge)",
+			"description": "<p>Cet appareil consiste en deux larges volets de bois qui peuvent être dépliés de chaque côté du bateau. Lorsque le bateau remonte une rivière, le déploiement des ralentisseurs augmente la traînée et réduit la vitesse de Mouvement de 1–2 points, selon qu’ils ont été partiellement ou complètement déployés. Lorsque le bateau navigue dans le sens du courant, ils permettent d’augmenter sa vitesse de Mouvement d’un nombre de points identiques.</p>",
+			"gmdescription": ""
+		},
+		"Gesundheit": {
+			"name": "Gesundheit",
+			"description": "<h3>Un traitement pour les blessures purulentes</h3>\n<p>Gesundheit, signifie communément &lsquo;Bonne Santé&rsquo; en Reikspiel, et un nom si simple me laisse penser que cette plante est connue depuis très longtemps. Les Elfes l'appellent <em>Leoleghas</em>, et en Bretonnie elle est connue comme la <em>Feuille de Blessure</em>. Dans le Moot, nous l'appelons &lsquo;Soigne Tout&rsquo;.</p>\n<p>C'est une herbe très simple à utiliser : il suffit de frotter les feuilles pour qu'elles libèrent leur sève, et de créer un cataplasme. Certains l'accompagnent avec d'autres herbes curatives selon la nature de la blessure ou la source de l'infection, mais je n'ai jamais trouvé cela nécessaire.</p>",
+			"gmdescription": "<p><strong>Emplacement: </strong>Forêts mixtes</p>\n<p><strong>Saison: </strong>Hiver, Printemps</p>\n<p><strong>Preparations:&nbsp;</strong>@UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}</p>\n<p>Un cataplasme de feuilles de gesundheit appliqué sur une @UUID[Compendium.wfrp4e-core.items.kKccDTGzWzSXCBOb]{Blessure Purulente} permet au patient de faire un <strong>Test de Résistance Accessible (+20)</strong> en réduire la durée d’un jour par DR obtenu. Cette opération peut être réalisée seulement une fois par jour, avec un cataplasme frais à chaque fois, et ce jusqu’à ce que la blessure cesse d’être Purulente.</p>"
+		},
+		"Fore-and-Aft Rudder (Typical Barge or Patrol Boat)": {
+			"name": "Bouteur (Barge standard ou Bateau de Patrouille)",
+			"description": "<p>Pour une manoeuvrabilité maximale, un second gouvernail peut être ajouté à l'avant du bateau. Cela réduit le score de mouvement du bateau de 1, mais si utilisé par un membre d'équipage formé aux deux gouvernails, tous les Tests de <strong>Maniement de Bateau</strong> reçoivent un bonus de +20%.</p>",
+			"gmdescription": ""
+		},
+		"Fore-and-Aft Rudder (Row Boat)": {
+			"name": "Bouteur (Barque)",
+			"description": "<p>Pour une maniabilité maximale, un gouvernail auxiliaire appelé bouteur peut être ajouté à la proue du bateau. Cet ajout réduit la vitesse de Mouvement du bateau de –1, mais avec deux barreurs bien entraînés assignés à chaque gouvernail, tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau reçoivent un bonus de +20.</p>",
+			"gmdescription": ""
+		},
+		"Fore-and-Aft Rudder (Large Barge)": {
+			"name": "Bouteur (Grande Barge)",
+			"description": "<p>Pour une maniabilité maximale, un gouvernail auxiliaire appelé bouteur peut être ajouté à la proue du bateau. Cet ajout réduit la vitesse de Mouvement du bateau de –1, mais avec deux barreurs bien entraînés assignés à chaque gouvernail, tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau reçoivent un bonus de +20.</p>",
+			"gmdescription": ""
+		},
+		"Fore-and-Aft Rudder (Fishing Skiff)": {
+			"name": "Bouteur (Petit bateau de pêche)",
+			"description": "<p>Pour une maniabilité maximale, un gouvernail auxiliaire appelé bouteur peut être ajouté à la proue du bateau. Cet ajout réduit la vitesse de Mouvement du bateau de –1, mais avec deux barreurs bien entraînés assignés à chaque gouvernail, tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau reçoivent un bonus de +20.</p>",
+			"gmdescription": ""
+		},
+		"Broad Rudder (Typical Barge or Patrol Boat)": {
+			"name": "Safran (Barge standard ou Bateau de Patrouille)",
+			"description": "<p>Un safran permet de mieux diriger un bateau, mais nécessite la présence d’un barreur athlétique pour le manier en raison de la résistance accrue de l’eau. Tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau doivent s’accompagner d’un Test de <strong>Force</strong> ; si le Personnage réussit le Test de <strong>Force</strong>, les DR de celui-ci peuvent être additionnés à ceux du Test de <strong>Navigation</strong>. Il n’y a pas de pénalité si le résultat de ce Test de <strong>Force</strong> supplémentaire est un Échec normal. Cependant, un Échec Stupéfiant ou une Maladresse résultera en un violent mouvement du gouvernail qui enverra le malheureux barreur par-dessus bord !</p>",
+			"gmdescription": ""
+		},
+		"Broad Rudder (Row Boat)": {
+			"name": "Safran (Barque)",
+			"description": "<p>Un safran permet de mieux diriger un bateau, mais nécessite la présence d’un barreur athlétique pour le manier en raison de la résistance accrue de l’eau. Tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau doivent s’accompagner d’un Test de <strong>Force</strong> ; si le Personnage réussit le Test de <strong>Force</strong>, les DR de celui-ci peuvent être additionnés à ceux du Test de <strong>Navigation</strong>. Il n’y a pas de pénalité si le résultat de ce Test de <strong>Force</strong> supplémentaire est un Échec normal. Cependant, un Échec Stupéfiant ou une Maladresse résultera en un violent mouvement du gouvernail qui enverra le malheureux barreur par-dessus bord !</p>",
+			"gmdescription": ""
+		},
+		"Broad Rudder (Large Barge)": {
+			"name": "Safran (Grande Barge)",
+			"description": "<p>Un safran permet de mieux diriger un bateau, mais nécessite la présence d’un barreur athlétique pour le manier en raison de la résistance accrue de l’eau. Tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau doivent s’accompagner d’un Test de <strong>Force</strong> ; si le Personnage réussit le Test de <strong>Force</strong>, les DR de celui-ci peuvent être additionnés à ceux du Test de <strong>Navigation</strong>. Il n’y a pas de pénalité si le résultat de ce Test de <strong>Force</strong> supplémentaire est un Échec normal. Cependant, un Échec Stupéfiant ou une Maladresse résultera en un violent mouvement du gouvernail qui enverra le malheureux barreur par-dessus bord !</p>",
+			"gmdescription": ""
+		},
+		"Broad Rudder (Fishing Skiff)": {
+			"name": "Safran (Petit bateau de pêche)",
+			"description": "<p>Un safran permet de mieux diriger un bateau, mais nécessite la présence d’un barreur athlétique pour le manier en raison de la résistance accrue de l’eau. Tous les Tests de <strong>Navigation</strong> réalisés pour diriger le bateau doivent s’accompagner d’un Test de <strong>Force</strong> ; si le Personnage réussit le Test de <strong>Force</strong>, les DR de celui-ci peuvent être additionnés à ceux du Test de <strong>Navigation</strong>. Il n’y a pas de pénalité si le résultat de ce Test de <strong>Force</strong> supplémentaire est un Échec normal. Cependant, un Échec Stupéfiant ou une Maladresse résultera en un violent mouvement du gouvernail qui enverra le malheureux barreur par-dessus bord !</p>",
+			"gmdescription": ""
+		},
+		"Grapeshot (Cannon)": {
+			"name": "Boîte à mitraille",
+			"description": "<p>La boîte à mitraille est un sac rempli de balles de plomb qui transforme le canon en une sorte de fusil géant. Un canon chargé avec une boîte à mitraille gagne l’Atout d’arme Explosion 5. C’est une munition destinée à être utilisée contre un groupe d’ennemis, pour nettoyer le pont d’un bateau avant de l’aborder, par exemple.</p>",
+			"gmdescription": ""
+		},
+		"Graveroot": {
+			"name": "Racine des tombes",
+			"description": "<h3>La Tombe, ça compte</h3>\n<p>Aussi appelée grabwort, doigt du mort, fléau des esprits et racine de Morr, cette plante est attirée par les endroits sombres et isolés au sol légèrement humide. Elle se développe particulièrement bien dans les cimetières, ce  qui pousse certaines personnes à croire qu’elle tire ses propriétés étranges des énergies magiques des corps enterrés. La racine séchée et râpée peut être utilisée dans de nombreuses préparations et sorts utiles contre les morts-vivants : elle semble avoir le même effet sur eux qu’un poison sur une créature vivante. Une infusion de sa racine semble n’avoir aucun effet particulier sur un patient vivant, à part des vomissements à fortes doses. Chose moins connue, un cataplasme chaud concocté à partir de ses feuilles et racines accélère la guérison des blessures infectées causées par des créatures mort-vivantes.</p>",
+			"gmdescription": "<p><strong>Emplacement:&nbsp;</strong>Clairières, Cimetières</p>\n<p><strong>Saison: </strong>Automne, Hiver</p>\n<p><strong>Preparations: </strong>@UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#raw]{Cru}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#draughts]{Potion}</p>\n<p>Étalée sur une arme, la sève coagulée  issue du tubercule de cette plante est nocive pour les créatures qui ont le Trait Mort- vivant, et leur inflige un État Empoisonné si  elles ne réussissent pas un Test de Résistance Complexe (–10).</p>\n<p>Un cataplasme de racine des tombes, appliqué à une Blessure Purulente causée par une créature Mort-vivante qui a le Trait Infecté, donne au patient un bonus de +20 à tous les Tests qu’il pourra faire pour résister à sa blessure pendant la journée. Il n’a aucun effet sur les Blessure Purulentes provoquées par des créatures qui ne sont pas mort-vivantes.</p>\n<p>Assez étrangement, toute personne qui consomme une potion de racine de tombes préparée correctement devient soudain d’une pâleur cadavérique, et sa peau devient froide au toucher pendant 1d10+2 heures. Si la potion a  d’autres effets plus utiles, la plupart des herboristes l’ignorent.</p>"
+		},
+		"Warrior of Tzeentch": {
+			"name": "Guerrier de Tzeentch",
+			"description": "<p>@JournalEntry[Warrior of Tzeentch]{Guerrier de Tzeentch}</p>",
+			"trappings": [
+				"Chemise de mailles",
+				"Volume des Savoirs Interdits"
+			],
+			"gmdescription": ""
+		},
+		"Gun Ports (Large)": {
+			"name": "Sabord (Grand)",
+			"description": "<p>Les sabords sont des ouvertures pratiquées dans le pavois (voir ci-après) ou dans les murs d’une superstructure et fermées par un volet, qui servent à tirer avec une arme à projectiles tout en restant à couvert. Les sabords larges permettent l’utilisation de canons, de balistes et autres armes lourdes manœuvrées par les membres de l’équipage, tandis que les petits sabords sont réservés aux armes à feu individuelles, aux arcs et aux arbalètes. Ouvrir ou fermer un sabord nécessite une action.</p>",
+			"gmdescription": ""
+		},
+		"Gun Ports (Small)": {
+			"name": "Sabord (Petit)",
+			"description": "<p>Les sabords sont des ouvertures pratiquées dans le pavois (voir ci-après) ou dans les murs d’une superstructure et fermées par un volet, qui servent à tirer avec une arme à projectiles tout en restant à couvert. Les sabords larges permettent l’utilisation de canons, de balistes et autres armes lourdes manœuvrées par les membres de l’équipage, tandis que les petits sabords sont réservés aux armes à feu individuelles, aux arcs et aux arbalètes. Ouvrir ou fermer un sabord nécessite une action.</p>",
+			"gmdescription": ""
+		},
+		"Hallucinogen": {
+			"name": "Hallucinogène",
+			"description": "<p>La créature dégage un musc hallucinogène. Les victimes situées à moins de 2 mètres (plus, à la discrétion du MJ, si la victime est dans le sens du vent) doivent réussir un Test de <strong>Force Mentale Accessible (+20)</strong> ou succomber, gagnant un État Sonné pour chaque niveau d’échec.</p>",
+			"gmdescription": ""
+		},
+		"Hull": {
+			"name": "Coque",
+			"description": "<p>Il y a un trou dans le bateau, qui commence à prendre l’eau. Il coule en un nombre de minutes égal à son Endurance (voir @JournalEntry[Boat Damage]{Il y a un trou}, plus bas). S’il y a des marchandises à bord, l’eau peut les endommager, voire les détruire.</p>",
+			"gmdescription": ""
+		},
+		"Capricious": {
+			"name": "Capricieux",
+			"description": "<p>Le tempérament de la créature passe d’un extrême à l’autre. Lorsqu’un Personnage effectue un Test de Sociabilité en traitant avec la créature, lancez un dé selon le Tableau suivant :</p>\n<table style=\"width: 77.0354%; height: 95px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"width: 14.1285%; text-align: center; height: 15px;\"><strong>[[/r 1d10]]</strong></td>\n<td style=\"width: 84.5762%; text-align: center; height: 15px;\"><strong>Resultat</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 14.1285%; height: 16px;\">1</td>\n<td style=\"width: 84.5762%; height: 16px;\">Soustraire 2 au DR</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 14.1285%; height: 16px;\">2-3</td>\n<td style=\"width: 84.5762%; height: 16px;\">Soustraire 1 au DR</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 14.1285%; height: 16px;\">4-7</td>\n<td style=\"width: 84.5762%; height: 16px;\">Pas de modificateur au DR</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 14.1285%; height: 16px;\">8-9</td>\n<td style=\"width: 84.5762%; height: 16px;\">Ajouter 1 au DR</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 14.1285%; height: 16px;\">10</td>\n<td style=\"width: 84.5762%; height: 16px;\">Ajouter 2 au DR</td>\n</tr>\n</tbody>\n</table>",
+			"gmdescription": ""
+		},
+		"Initiate of the Mysteries": {
+			"name": "Initié des Mystères",
+			"description": "<p>@JournalEntry[Warrior of Tzeentch]{Guerrier de Tzeentch}</p>",
+			"trappings": [
+				"Arme simple rudimentaire",
+				"Veste de Cuir",
+				"Symbole religieux (Talisman de Tzeentch)"
+			],
+			"gmdescription": ""
+		},
+		"Invisible": {
+			"name": "Invisible",
+			"description": "<p>Un Personnage doté du Talent Seconde vue sera capable de discerner le fantôme. Il le verra comme un faible tourbillon de brume suspendu dans les airs, et pourra l’attaquer sans pénalité. Les attaques lancées par les autres Personnages ont une pénalité de -40, réduite à -30 si un Personnage possédant le Talent Seconde vue dirige leurs attaques.</p>",
+			"gmdescription": ""
+		},
+		"Juck": {
+			"name": "Juck",
+			"description": "<h3>Juck ce qu'il faut</h3>\n<p>Aussi appelée sève d’ortie, klosaft, plante à gratter, et autres s ayant la même  signification, cette plante est très connue des enfants des campagnes, qui l’utilisent pour leurs farces. Elle pousse dans les forêts et  fleurit avant que les arbres n’aient assez de feuilles pour obstruer la lumière du jour. La sève de cette plante peut aussi être utilisée pour ramener les sensations dans la peau en cas d’engourdissements causés par le froid ou une blessure. Une fois, j’ai utilisé sa forme  concentrée : je l’ai faite bouillir jusqu’à atteindre une consistance de crème chaude, et je l’ai appliquée sur une engelure. J’ai réussi  à ramener des sensations dans le pied d’un patient qu’il aurait fallu sinon amputer. En raison des démangeaisons qu’elle cause, il est parfois nécessaire de l’administrer avec en complément un léger sédatif, surtout si vous en utilisez à plusieurs reprises, ou sur une large zone comme une jambe entière.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>:<strong> </strong>Forêts</p><p><strong>Saison</strong>: Printemps</p><p><strong>Preparations: </strong>@UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#raw]{Cru}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}</p><p>Cette herbe est surtout utilisée pour faire des farces, et elle est particulièrement appréciée des enfants des campagnes. Ils frottent un peu de la sève des feuilles sur la peau de leur pauvre victime, et [[/r 1d10]] minutes plus tard, la zone touchée commence à la démanger de façon incontrôlable. Le Personnage subit alors un malus de –20 à tous ses Tests pendant [[/r 2d10 + 40]] minutes,à cause de la distraction que provoquent la démangeaison et le besoin de se gratter. Un <strong>Test de Force Mentale Intermédiaire(+0)</strong> peut être réalisé pour ignorer la démangeaison pendant 10 minutes : un seul DR obtenu réduit le malus de 10, obtenir au moins deux DR annule le malus deux DR. </p><p>Une utilisation plus utile (mais moins connue) de cette plante est le traitement des engelures. Un cataplasme de juck permet d’accélérer le temps de guérison. Une dose soigne [[/r 1d10]] Points de blessure perdus lors d’une @UUID[Compendium.wfrp4e-core.journals.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#exposure]{Exposition à de basses températures}. Ce traitement peut être appliqué une fois par jour.</p>"
+		},
+		"Beast Tongue": {
+			"name": "Langue bestiale",
+			"description": "<p>Vous pouvez parler et comprendre la Langue bestiale des hommes-bêtes, même sans posséder la Compétence correspondante.</p><p>\n\n <b>Domaine:</b> Aucun<p>",
+			"gmdescription": "",
+			"durationValue": "Force Mentale minutes"
+		},
+		"Magical": {
+			"name": "Magique",
+			"description": "<p>Certains sorciers peuvent enchanter un bateau en échange d’une certaine somme, de manière à ce qu’un vent gonfle continuellement ses voiles ou que l’eau se meuve sous la coque pour le faire avancer, ce qui augmente sa vitesse de Mouvement de 3 points et/ou l’immunise contre les effets du temps et autres facteurs pouvant altérer la vitesse de Mouvement d’un bateau. Ces enchantements sont généralement temporaires et incroyablement onéreux, et c’est à vous qu’il revient de décider si les Personnages peuvent y avoir accès à un moment donné de l’aventure.</p>\n<p>Il arrivera en de rares occasions, souvent pour des raisons liées à l’intrigue principale de l’aventure, qu’un groupe de Personnages puissent emprunter un bateau enchanté à un dirigeant elfe ou nain, ou au directeur de l’un des Collèges de Magie, mais ils ne pourront jamais en acheter ou en obtenir un gratuitement.</p>\n<p>Cela dit, il peut être amusant pour les joueurs d’expérimenter avec des sorts et de voir comment ils peuvent s’en servir pour améliorer les performances de leur bateau, sa solidité, et autres attributs, et cela devrait même être encouragé, plus particulièrement entre les aventures. Une réussite pourrait leur accorder de petits bénéfices temporaires, et un échec pourrait être aussi divertissant pour le MJ que frustrant pour les joueurs.</p>",
+			"gmdescription": ""
+		},
+		"Mortar": {
+			"name": "Mortiers",
+			"description": "<p>Un mortier est une arme à Poudre noire qui fonctionne selon le même principe qu’une catapulte, en projetant un boulet ou une bombe haut dans les airs. Sur le champ de bataille, ils sont principalement utilisés pendant les sièges et servent à envoyer des explosifs par-dessus les remparts pour causer des dégâts à l’intérieur des forteresses. On en voit rarement sur les navires, à part sur ceux employés pendant les sièges comme batteries flottantes par les marines des nations les plus riches du Vieux Monde. Comme pour les canons, la possession d’un mortier risque fort de vous attirer les soupçons des autorités.</p>\n<p>Et comme les Like @Item[Catapult]{catapultes moyennes}, les mortiers requièrent 3 actions pour être déplacés ; il est donc assez compliqué de viser précisément quand on tire au mortier.</p>",
+			"gmdescription": ""
+		},
+		"Ammo": {
+			"name": "Munition",
+			"description": "<p>Munitions par défaut d'une arme présente sur un véhicule</p>",
+			"gmdescription": ""
+		},
+		"Armoured Walls (Typical Barge or Patrol Boat)": {
+			"name": "Murs Blindés (Barge standard ou Bateau de Patrouille)",
+			"description": "<p>Les murs de la cabine ou autre structure sur le bateau sont renforcés avec des feuilles de fer. Tous les personnages ou PNJ protégés derrière sont considérés comme @JournalEntry[Difficulté de combat]{couverture totale} rendant les tirs de projectiles contre lui Très Difficile.</p>",
+			"gmdescription": ""
+		},
+		"Armoured Walls (Row Boat)": {
+			"name": "Murs Blindés (Barque)",
+			"description": "<p>Les murs d’une cabine ou de toute autre superstructure sont blindés à l’aide de plaques de fer. Tout Personnage ou PNJ situé derrière un mur blindé bénéficie d’une @JournalEntry[Difficulté de combat]{couverture totale} rendant les tirs de projectiles contre lui Très Difficile.</p>",
+			"gmdescription": ""
+		},
+		"Armoured Walls (Large Barge)": {
+			"name": "Murs Blindés (Grande barge)",
+			"description": "<p>Les murs d’une cabine ou de toute autre superstructure sont blindés à l’aide de plaques de fer. Tout Personnage ou PNJ situé derrière un mur blindé bénéficie d’une @JournalEntry[Difficulté de combat]{couverture totale} rendant les tirs de projectiles contre lui Très Difficile.</p>",
+			"gmdescription": ""
+		},
+		"Armoured Walls (Fishing Skiff)": {
+			"name": "Murs Blindés (Petit bateau de pêche)",
+			"description": "<p>Les murs d’une cabine ou de toute autre superstructure sont blindés à l’aide de plaques de fer. Tout Personnage ou PNJ situé derrière un mur blindé bénéficie d’une @JournalEntry[Difficulté de combat]{couverture totale} rendant les tirs de projectiles contre lui Très Difficile.</p>",
+			"gmdescription": ""
+		},
+		"Musket Rests": {
+			"name": "Fourquines",
+			"description": "<p>Des baguettes terminées par une fourche, fixées au plat-bord d’un bateau afin de servir d’appui au canon d’un fusil long à Poudre noire, comme un tromblon, un fusil du Hochland, un pistolet à répétition ou une mitrailleuse. La visée est facilitée (+10 aux jets d’attaque), mais une action est nécessaire pour replacer l’arme sur la fourquine après avoir rechargé.</p>\n<blockquote>\n<p><strong>Note Foundry:</strong> <em>Dans le livre, cet item est classé en tant qu'arme, mais comme il ne s'agit pas d'armes en tant que tel, il est classifié en tant que structure.</em></p>\n</blockquote>",
+			"gmdescription": ""
+		},
+		"Oars": {
+			"name": "Rames",
+			"description": "<p>Les rames volent en éclat, et les échardes infligent +5 Dégâts aux rameurs. Tant que les rames ne sont pas remplacées, le bateau ne peut que se laisser dériver. Ou alors, un coup critique aux rames n’en détruit qu’une seule, selon la direction de l’attaque. Quelques Rounds sont nécessaires pour y parvenir, mais avec un Test de <strong>Métier (Construction de bateaux ou Charpentier) Complexe (–10)</strong>, un Personnage peut utiliser la rame cassée comme une godille improvisée, et la placer à la poupe du bateau pour le diriger et le faire avancer à 50 % de sa vitesse normale. Diriger un bateau grâce à une godille nécessite un Test de <strong>Navigation Intermédiaire (+0)</strong>.</p>",
+			"gmdescription": ""
+		},
+		"Attach and Feed": {
+			"name": "Piquer, s'attacher et aspirer",
+			"description": "<p>Si la créature réussit son attaque de morsure, elle s'attache à la victime avec une force surprenante. Alors elle commence à aspirer le sang, causant une perte de 1 Blessure automatique par round tant qu'elle est attachée. Les victimes réduites à zero Blessure gagne la condition @Condition[Inconsciente] par manque de sang.</p>\n<p>La créature se détache seulement quand elle s'est suffisament nourrie, c'est à dire quand elle a extrait son Bonus Endurance en Blessure sur la victime. A ce moment là, elle se retire pour digérer.</p>\n<p>La créature peut être arrachée grâce à un jet <strong>opposé de Force</strong>, qui même réussi infligera un point de blessure à la victime. Si la créature posséde un trait Effrayé, ce qui peut l'effrayer la fera lâcher immédiatement sa proie.</p>",
+			"gmdescription": ""
+		},
+		"Potion of Flight": {
+			"name": "Potion de vol",
+			"description": "<p>Lorsqu'elle est bue, cette potion affecte le buveur comme si il avait reçu le sort Compendium[wfrp4e-core.items.9wmmln3DunIqGXM2]{Vol}. L'effet dure 20 rounds, moins le Bonus d'Endurance du buveur.</p>",
+			"gmdescription": ""
+		},
+		"Lice": {
+			"name": "Poux",
+			"description": "<p>Bien qu’il s’agisse d’un problème très courant et relativement bénin dans le Vieux Monde, les infestations de poux peuvent  être très perturbantes. Ces petits insectes, qui vivent dans et autour des cheveux, provoquent des démangeaisons et des irritations de la peau au  niveau de la tête et du haut du ou. Si les mêmes vêtements sont portés pendant plusieurs semaines, les poux de corps peuvent également devenir problématiques. Parmi les traitements efficaces, on trouve l’utilisation d’un peigne très fin pour enlever les poux et leurs lentes, le rasage de la tête ou encore l’utilisation d’un savon de soude caustique très rugueux.</p>",
+			"gmdescription": "",
+			"durationValue": "jusqu'au traitement",
+			"durationUnit": "",
+			"contraction": "sur un échec à un Test de Résistance Accessible (+20) après un contact rapproché avec une personne infectée.",
+			"incubationValue": "1d10+5",
+			"incubationUnit": "heures",
+			"symptoms": "démangeaisons fréquentes, honte.",
+			"permanent": ""
+		},
+		"Racing Hull": {
+			"name": "Coque de Course",
+			"description": "<p>Comme tout le monde le sait, les nobles les plus riches sont de fervents passionnés de concours et de paris. Dans le but de surpasser leurs pairs, certains propriétaires de bateaux nantis ont dépensé sans compter dans la recherche et l’artisanat afin de concevoir une coque de bateau parfaitement taillée pour la vitesse. Une coque de course est lisse comme le verre et possède une forme ingénieusement pensée pour réduire la traînée au strict minimum, ce qui permet au bateau de se déplacer avec une rapidité équivalente à deux fois sa vitesse de Mouvement normale.</p>\n<p>Cependant, un bateau doté d’une coque de course est difficile à manier, et nécessite de faire un Test de <strong>Navigation Complexe (–10)</strong> toutes les heures. Si le résultat est un Échec Minime (0 ou -1 DR) ou Normal (-2 ou -3 DR), la vitesse de Mouvement n’excède pas la vitesse normale du bateau ; si c’est un Échec Impressionnant (–4 ou -5 DR), la vitesse de Mouvement normale est réduite de moitié ; si c’est un Échec Stupéfiant (–6 DR), la coque est endommagée et le bateau ne peut plus aller plus vite que la moitié de sa vitesse de Mouvement normale jusqu’à ce qu’il soit réparé pour un prix égal à la moitié du coût de la coque (mentionné précédemment).</p>\n<p>Les réparations ordinaires effectuées sur une coque de course coûtent le double du prix mentionné p. 30, et nécessitent un savoir-faire avancé : tous les Tests nécessaires pour réparer le bateau sont un degré de difficulté au-dessus de la normale.\n<p><strong>Note Foundry:&nbsp;</strong><em>L'encombrement et le prix sont donnés pour un bateau de 3m de long. Modifiez l'item selon les dimensions du bateau sur lequel il est appliqué.</p>\n</blockquote>",
+			"gmdescription": ""
+		},
+		"Racing Rig (Fishing Skiff)": {
+			"name": "Gréement de course (Esquif de pêche)",
+			"description": "<p>En plus d’avoir développé la coque de course (voir ci-avant), les propriétaires de bateaux nantis de l’Empire, ou plutôt, les talentueux constructeurs de bateaux à leur service, ont inventé un système de voiles et de gréements pensé spécifiquement pour la vitesse, au détriment d’une certaine solidité. Un gréement de course accorde un bonus de vitesse de Mouvement de +10 % par rapport à la valeur indiquée dans le Tableau des vents (p. 28), mais seulement en cas de vent arrière ou de vent de côté. En cas de vent contraire, le malus à la vitesse de Mouvement est réduit de -5 %. Le gréement de course inclut un clinfoc (voir ci-avant), et les avantages des deux ne sont pas cumulables.</p>\n<p>Cependant, cette rapidité a un prix. Ce gréement de course complexe nécessite un équipage expérimenté pour le manier, ce qui impose un malus de –10 à tous les Tests de Navigation, pour piloter le bateau. De plus, tous les coups infligés au gréement causent le double de Dégâts.</p>",
+			"gmdescription": ""
+		},
+		"Racing Rig (Large Barge)": {
+			"name": "Gréement de course (Grande barge)",
+			"description": "<p>En plus d’avoir développé la coque de course (voir ci-avant), les propriétaires de bateaux nantis de l’Empire, ou plutôt, les talentueux constructeurs de bateaux à leur service, ont inventé un système de voiles et de gréements pensé spécifiquement pour la vitesse, au détriment d’une certaine solidité. Un gréement de course accorde un bonus de vitesse de Mouvement de +10 % par rapport à la valeur indiquée dans le Tableau des vents (p. 28), mais seulement en cas de vent arrière ou de vent de côté. En cas de vent contraire, le malus à la vitesse de Mouvement est réduit de -5 %. Le gréement de course inclut un clinfoc (voir ci-avant), et les avantages des deux ne sont pas cumulables.</p>\n<p>Cependant, cette rapidité a un prix. Ce gréement de course complexe nécessite un équipage expérimenté pour le manier, ce qui impose un malus de –10 à tous les Tests de Navigation, pour piloter le bateau. De plus, tous les coups infligés au gréement causent le double de Dégâts.</p>",
+			"gmdescription": ""
+		},
+		"Racing Rig (Row Boat)": {
+			"name": "Gréement de course (Barque)",
+			"description": "<p>En plus d’avoir développé la coque de course (voir ci-avant), les propriétaires de bateaux nantis de l’Empire, ou plutôt, les talentueux constructeurs de bateaux à leur service, ont inventé un système de voiles et de gréements pensé spécifiquement pour la vitesse, au détriment d’une certaine solidité. Un gréement de course accorde un bonus de vitesse de Mouvement de +10 % par rapport à la valeur indiquée dans le Tableau des vents (p. 28), mais seulement en cas de vent arrière ou de vent de côté. En cas de vent contraire, le malus à la vitesse de Mouvement est réduit de -5 %. Le gréement de course inclut un clinfoc (voir ci-avant), et les avantages des deux ne sont pas cumulables.</p>\n<p>Cependant, cette rapidité a un prix. Ce gréement de course complexe nécessite un équipage expérimenté pour le manier, ce qui impose un malus de –10 à tous les Tests de Navigation, pour piloter le bateau. De plus, tous les coups infligés au gréement causent le double de Dégâts.</p>",
+			"gmdescription": ""
+		},
+		"Racing Rig (Typical Barge or Patrol Boat)": {
+			"name": "Gréement de course (Barge moyenne ou bateau de patrouille)",
+			"description": "<p>En plus d’avoir développé la coque de course (voir ci-avant), les propriétaires de bateaux nantis de l’Empire, ou plutôt, les talentueux constructeurs de bateaux à leur service, ont inventé un système de voiles et de gréements pensé spécifiquement pour la vitesse, au détriment d’une certaine solidité. Un gréement de course accorde un bonus de vitesse de Mouvement de +10 % par rapport à la valeur indiquée dans le Tableau des vents (p. 28), mais seulement en cas de vent arrière ou de vent de côté. En cas de vent contraire, le malus à la vitesse de Mouvement est réduit de -5 %. Le gréement de course inclut un clinfoc (voir ci-avant), et les avantages des deux ne sont pas cumulables.</p>\n<p>Cependant, cette rapidité a un prix. Ce gréement de course complexe nécessite un équipage expérimenté pour le manier, ce qui impose un malus de –10 à tous les Tests de Navigation, pour piloter le bateau. De plus, tous les coups infligés au gréement causent le double de Dégâts.</p>",
+			"gmdescription": ""
+		},
+		"Bestial Rage": {
+			"name": "Fureur Bestiale",
+			"description": "<p>Vous invoquez la fureur de la bête et gagnez temporairement le Trait @Compendium[wfrp4e-core.items.fjd1u9VAgiYzhBRp]{Rage}.</p><p>\n\n <b>Domaine:</b> Targets of Spells from the Lore of Tzeentch are riven by the transformative magic of Chaos. Targets affected by a Spell from the Lore of Tzeentch must pass a Challenging (+0) Endurance Test, or gain +1 Corruption Point. Should they pass their Test, they instead gain +1 Fortune Point, which can be used as normal. Such are the whims of Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Raised Gunwales (Fishing Skiff)": {
+			"name": "Plat-bord (Esquif de pêche)",
+			"description": "<p>La coque est surélevée au-dessus du pont, environ à hauteur de taille pour un personnage humain. En plus d’empêcher les vagues hautes de noyer le pont du bateau, le plat-bord offre une couverture moyenne à un Personnage ou PNJ s’accroupissant sur le pont et les tirs de projectiles contre lui sont rendus Difficiles.</p>",
+			"gmdescription": ""
+		},
+		"Raised Gunwales (Large Barge)": {
+			"name": "Plat-bord (Grande barge)",
+			"description": "<p>La coque est surélevée au-dessus du pont, environ à hauteur de taille pour un personnage humain. En plus d’empêcher les vagues hautes de noyer le pont du bateau, le plat-bord offre une couverture moyenne à un Personnage ou PNJ s’accroupissant sur le pont et les tirs de projectiles contre lui sont rendus Difficiles.</p>",
+			"gmdescription": ""
+		},
+		"Raised Gunwales (Row Boat)": {
+			"name": "Plat-bord (Barque)",
+			"description": "<p>La coque est surélevée au-dessus du pont, environ à hauteur de taille pour un personnage humain. En plus d’empêcher les vagues hautes de noyer le pont du bateau, le plat-bord offre une couverture moyenne à un Personnage ou PNJ s’accroupissant sur le pont et les tirs de projectiles contre lui sont rendus Difficiles.</p>",
+			"gmdescription": ""
+		},
+		"Raised Gunwales (Typical Barge or Patrol Boat)": {
+			"name": "Plat-bord (Barge moyenne ou bateau de patrouille)",
+			"description": "<p>La coque est surélevée au-dessus du pont, environ à hauteur de taille pour un personnage humain. En plus d’empêcher les vagues hautes de noyer le pont du bateau, le plat-bord offre une couverture moyenne à un Personnage ou PNJ s’accroupissant sur le pont et les tirs de projectiles contre lui sont rendus Difficiles.</p>",
+			"gmdescription": ""
+		},
+		"Ram (Large River Boat)": {
+			"name": "Bélier (Grande barge)",
+			"description": "<p>Un bélier en métal peut être fixé à la proue du bateau ; ainsi si votre bateau en percute un autre, vous pouvez être certain que c’est l’autre bateau qui recevra tous les dégâts. Il accorde également 5 PA à la proue du bateau. La possession d’un bélier est considérée par la Patrouille fluviale et autres autorités comme la preuve accablante qu’un équipage a l’intention de foncer sur les autres bateaux pour les couler, et quiconque possède un bélier sur son bateau a donc tout intérêt à disposer également d’une lettre d’autorisation venant d’un noble local ou autre puissance, à moins de vouloir être pris pour un pirate.</p>",
+			"gmdescription": ""
+		},
+		"Ram (Medium River Boat)": {
+			"name": "Bélier (Barge moyenne)",
+			"description": "<p>Un bélier en métal peut être fixé à la proue du bateau ; ainsi si votre bateau en percute un autre, vous pouvez être certain que c’est l’autre bateau qui recevra tous les dégâts. Il accorde également 5 PA à la proue du bateau. La possession d’un bélier est considérée par la Patrouille fluviale et autres autorités comme la preuve accablante qu’un équipage a l’intention de foncer sur les autres bateaux pour les couler, et quiconque possède un bélier sur son bateau a donc tout intérêt à disposer également d’une lettre d’autorisation venant d’un noble local ou autre puissance, à moins de vouloir être pris pour un pirate.</p>",
+			"gmdescription": ""
+		},
+		"Ram (Small River Boat)": {
+			"name": "Bélier (Esquif de pêche)",
+			"description": "<p>Un bélier en métal peut être fixé à la proue du bateau ; ainsi si votre bateau en percute un autre, vous pouvez être certain que c’est l’autre bateau qui recevra tous les dégâts. Il accorde également 5 PA à la proue du bateau. La possession d’un bélier est considérée par la Patrouille fluviale et autres autorités comme la preuve accablante qu’un équipage a l’intention de foncer sur les autres bateaux pour les couler, et quiconque possède un bélier sur son bateau a donc tout intérêt à disposer également d’une lettre d’autorisation venant d’un noble local ou autre puissance, à moins de vouloir être pris pour un pirate.</p>",
+			"gmdescription": ""
+		},
+		"Creeping": {
+			"name": "Rampant",
+			"description": "<p>Cette créature est impitoyable, mais lente. Elle ne peut pas réaliser d’Action de Course.</p>",
+			"gmdescription": ""
+		},
+		"Reikworms": {
+			"name": "Vers du Reik",
+			"description": "<p>N’importe quelle masse d’eau peut être porteuse du ver du Reik, et différents guérisseurs ont toutes sortes de méthodes farfelues qui sont censées les tenir à distance, comme faire tourner l’eau dans sa bouche six fois avant de l’avaler (une superstition courante dans l’Ostermark) ou ne jamais boire de l’eau non vérifiée lorsque Morrslieb est visible (Nordland).</p>\n<p>Lorsque la minuscule larve du ver du Reik pénètre dans le corps, elle s’enfonce profondément dans les intestins de son hôte, où elle se nourrit et se développe. Rapidement, le système immunitaire de l’hôte est affaibli, ce qui réduit sa résistance à d’autres maladies.</p>\n<p>Au bout de trois mois, le ver atteint une longueur d’un mètre et est prêt à entamer la phase suivante de son cycle de vie. Le premier signe visible du parasite est une cloque énorme qui se forme à la surface de la peau. Après une semaine, cette cloque éclate, provoquant une douleur intense semblable à une brûlure. En général, les personnes malades plongent leurs plaies enflammées dans de l’eau froide pour les soulager. Dans ce cas, le ver du Reik, qui a atteint sa maturité, émerge et crache une nouvelle portée de vers sous la forme d’un liquide jaunâtre et écœurant qui se disperse rapidement dans l’eau, prêt à infecter de nouveaux hôtes. Ensuite, le ver meurt.</p>\n<h4>Effets des Vers du Reik</h4>\n<p>Pour chaque période complète de 30 jours d’infection, le Personnage subit une pénalité de –5 à tous les Tests de Résistance permettant de résister aux maladies. Cette pénalité est réduite de 1 point par jour après la mort du ver.</p>\n<p>Pour déterminer où le ver fait surface, effectuez un lancer de Localisation comme lors d’un combat normal. Lorsque l’ampoule se forme, le patient subit une pénalité de –5 % à tous les Tests d’Agilité en raison de l’irritation constante. De plus, si l’ampoule se trouve à un endroit visible, le Personnage subit également une pénalité de –10 aux Tests de Sociabilité.</p>\n<p>Le septième jour suivant l’apparition de la cloque, la personne atteinte doit effectuer un Test de Résistance toutes les heures. Au premier échec, ou à la dernière heure du jour si tous les Tests sont réussis, la cloque éclate, infligeant 1 Blessure et provoquant un État Sonné en raison de la sensation de brûlure presque insupportable qui en résulte. Ce phénomène persiste jusqu’à ce que la plaie reçoive des soins médicaux, mais il peut être temporairement atténué si l’ampoule est immergée dans l’eau.</p>\n<p>Il n’existe pas de traitement connu contre les vers du Reik, si ce n’est de laisser le cycle suivre son cours. Certains médecins ont essayé de le retirer du patient une fois que la cloque s’est formée et que l’emplacement où se cachait ce parasite est devenu visible, mais cette approche fait généralement plus de mal que de bien, et le patient met plus de temps à s’en remettre.</p>",
+			"gmdescription": "",
+			"durationValue": "8 ",
+			"durationUnit": "jours",
+			"contraction": "exposition à de l’eau sale ; effectuez les Tests comme indiqué dans la description.",
+			"incubationValue": "85 + 1d10",
+			"incubationUnit": "jours",
+			"symptoms": "spéciaux (voir description)",
+			"permanent": ""
+		},
+		"Rigging": {
+			"name": "Gréement",
+			"description": "<p>Gréement La voile lâche et entraîne avec elle cordes et palans. Toute personne présente sur le pont doit faire un Test d’Initiative ou subir +5 Dégâts, et gagner un État Empêtré. Tant que le gréement n’est pas réparé, le bateau ne peut que se laisser dériver.</p>",
+			"gmdescription": ""
+		},
+		"Ring of Protection against Undead": {
+			"name": "Ring of Protection against Undead",
+			"description": "<p>The wearer of the Ring of Protection against Undead takes half normal damage from all attacks by enemies with the Undead Creature Trait that do not also have the Ethereal Creature Trait, and gains a bonus of + 10 to all tests for all spells, Skills, and Traits pertaining to such creatures.</p>",
+			"gmdescription": ""
+		},
+		"Ring of Protection from Fire": {
+			"name": "bague de protection contre le feu",
+			"description": "(+10 à tous les Tests qui impliquent du feu, divise par deux les dégâts normaux liés au feu), baguette de jais (réduit de 2 le NI de tous les sorts, sans descendre sous 0). Son seul autre bijou est un pendentif en forme de crâne réduit plaqué en argent, qu’elle porte à son cou (35 CO).",
+			"gmdescription": ""
+		},
+		"Rotgut": {
+			"name": "Tord-boyaux",
+			"description": null,
+			"gmdescription": "<p>Le tord-boyaux, Rotgut, de Jean Rousseaux contient de la poudre de malepierre en suspension dans un mélange d’alcool et de baies de genièvre fermentées. Il vend ce mélange pour 6 sous de cuivre la bouteille. Même une petite quantité provoque des crampes d’estomac douloureuses pendant cinq minutes (-30 à tous les Tests), à moins que le buveur ne réussisse un <stong>Test de Résistance Intermédiaire (+0)</strong>. Toute réussite garantit l’absence d’autres effets néfastes, mais les Personnages qui échouent doivent répéter le Test chaque fois qu’ils boivent du tord-boyaux, et ce, jusqu’à ce qu’ils réussissent. Chaque gorgée inflige une Exposition Mineure à la Corruption (voir WFJDR, p. 182). Une bouteille contient 16 gorgées.</p>"
+		},
+		"Rotting Flesh": {
+			"name": "Rotting Flesh",
+			"description": "<p>Les gardes du château étaient autrefois humains, mais le fait d’avoir vécu si près de la malepierre les a quelque peu transformés. Sous leur cotte de mailles et leur casque intégral se cache un corps en putréfaction. Quiconque aperçoit le visage ou le corps d’un garde devra faire un Test de Peur 2 ou rester pétrifié. En plus de ça, l’odeur de pourriture et de saleté est telle que quiconque se trouve dans un rayon de 2 mètres doit réussir un <strong>Test de Résistance Intermédiaire (+0)</strong>, sous peine d’un malus de -10 à la CC.</p>",
+			"gmdescription": ""
+		},
+		"Analgesic Saliva": {
+			"name": "Salive Analgésique",
+			"description": "<p>Les morsures de la créature ne provoquent aucune douleur, ce qui lui permet de s’accrocher à ses victimes endormies sans être détectée. Cet effet s’estompe au bout de 10 - Bonus d’Endurance Rounds après que la créature se soit détachée.</p>",
+			"gmdescription": ""
+		},
+		"Anticoagulant Saliva": {
+			"name": "Salive Anticoagulante",
+			"description": "<p>La victime de la morsure de la créature gagne l’État @Condition[Hémorragique].</p>",
+			"gmdescription": ""
+		},
+		"Schlafenkraut": {
+			"name": "Schlafenkraut",
+			"description": "<h3>Une décoction reposante</h3>\n<p>Les habitants du Moot l’appellent <em>feuille de rêve</em>, Les Tiléens <em>dormifolio</em, et les elfes <em>paraudiel</em>. Cette plante pousse principalement dans les prairies, et est particulièrement abondante à la fin de l’hiver, quand la neige commence à fondre. On la cueille aussi dans les zones marécageuses dégagées et le long des cours d’eau dont les rives ne sont pas trop hautes. C’est un excellent sédatif et somnifère qui peut être combiné avec d’autres ingrédients sans effets secondaires. Pour un résultat optimal, portez de l’eau à ébullition, laissez-la refroidir une minute ou deux avant d’y placer quelques feuilles séchées. Si l’eau est trop chaude, l’infusion sera amère et perdra en efficacité. Les feuilles peuvent également être ajoutées à du thé ou du vin chaud ; un peu de miel permet d’adoucir l’âcreté qu’elles apportent.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Prairies</p>\n<p><strong>Saison</strong>: Printemps</p>\n<p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#infusions]{Infusion}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#draughts]{Potion}</p>\n<p>Une infusion de schlafenkraut provoque un sommeil normal [[/r 2d10+10]] minutes après sa consommation. Pendant les quatre premières heures de ce sommeil, les chances d’être réveillé par un bruit sont divisées par deux. Un patient réveillé pendant ce temps doit réussir un <strong>Test de Résistance Intermédiaire (+0)</strong> ou subir trois États @Conditions[Exténué]. Après quatre heures, les effets de l’herbe se dissipent, et le patient dort normalement.</p>\n<p>Une potion de schlafenkraut marche de la même façon, mais fait effet plus rapidement et moins longtemps. Elle provoque un sommeil normal [[/r 1d10]] minutes après ingestion, mais les chances d’être réveillé ne sont divisées par deux que pendant les deux premières heures de sommeil.</p>\n<p>Un Personnage peut résister aux effets de la potion en faisant un <strong>Test de Calme Intermédiaire (+0)</strong>. Même s’il est réussi, un Test de Résistance est nécessaire pour échapper à l’État Exténué. Le Trait @UUID[Compendium.wfrp4e-core.items.3wCtgMDNnu8MFmyk]{Immunité (Poison)} annule complètement les effets de la schlafenkraut.</p>"
+		},
+		"Sign of the Beast": {
+			"name": "Signe de la bête",
+			"description": "<p>Votre visage change subtilement, affichant la marque de Tzeentch et les signes de votre nature bestiale. Les hommes- bêtes de Tzeentch vous considèrent comme un ami et un allié. Vous gagnez +20 à tous les Tests de Sociabilité lorsque vous traitez avec ces créatures. Tous les adeptes ou créatures de Khorne ou Slaanesh expriment de l’Animosité à votre égard, tandis que ceux de Nurgle vous considèrent avec Haine.</p><p>\n\n <b>Domaine:</b> Aucun<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Slave to Chaos": {
+			"name": "Esclave du Chaos",
+			"description": "<p>Vous transférez votre conscience dans une autre créature vivante, qui peut tenter un Test de <strong>Force Mentale Intermédiaire (+0)</strong> pour résister à votre intrusion. Si le Test est raté, vous contrôlez les actions du sujet pour la durée du sort. Si vous ordonnez au sujet d’agir de manière suicidaire, il doit effectuer un autre Test de <strong>Force Mentale</strong> pour briser l’effet. Lorsque vous contrôlez un autre corps, votre propre corps est plongé dans un profond sommeil. Une fois que le sort prend fin, le sujet doit effectuer un <strong>Test de Force Mentale Intermédiaire (+0)</strong> ou gagner une mutation de la colonne @Table[expandedmutatephys]{Tzeentch du Tableau de L’Ennemi dans l’Ombre - Compagnon}. </p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Slowmind": {
+			"name": "Cervolent",
+			"description": "<h3>Cervolent</h3>\n<p>Je sais que certaines personnes ne considèrent cette plante que comme un simple poison, mais elle s’avère très utile dans des cas extrêmes d’hystérie nerveuse, pour empêcher un patient de se blesser, par exemple, ou bien lorsqu’une douleur ou infection empêche le patient de dormir. Si la dose est rigoureusement contrôlée, et que la température et la respiration du patient sont surveillées, j’estime que le danger est négligeable. Cette plante pousse dans les zones marécageuses et abonde souvent près des nénuphars. Pour l’utiliser, il faut d’abord tremper la racine dans de l’eau salée pendant trois jours et trois nuits pour en laver toute impureté, puis la sécher dans une casserole près du feu pendant deux jours, ou jusqu’à ce qu’elle résonne comme du bois lorsqu’on la frappe avec une fourchette. Il faut alors la râper finement, la mélanger avec un peu de noix de muscade si possible, puis la placer dans un petit sac de tissu et l’accrocher dans la cheminée pour la fumer pendant deux jours. La poudre ainsi obtenue doit alors être infusée pendant deux jours dans un volume d’eau auquel on aura ajouté un filet de vinaigre. Le liquide doit ensuite être filtré, et peut désormais être ajouté en petite quantité à du thé sucré ou du vin chaud.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Marais</p>\n<p><strong>Saison</strong>: Automne</p>\n<p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#infusions]{Infusion}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}</p>\n<p>Le cervolent est une neurotoxine très légère. Son infusion a un goût amer, et, si elle est ajoutée à une boisson, son goût pourra être détecté par un <strong>Test de Perception Complexe (–10)</strong>. Un Personnage qui boit une infusion de cervolent doit réussir un <strong>Test de Résistance Intermédiaire (+0)</strong> ou subir un malus de –10 à ses jets d’Intelligence et de Force mentale pendant [[/r 2d10+4]] heures. Une personne ne peut recevoir qu’une dose à la fois ; toute dose supplémentaire est sans effet. Le Trait Immunité (Poison) annule complètement les effets du cervolent.</p>\n<p>Un cataplasme obtenu à partir de cette plante a un effet complètement différent : appliquée à une blessure récente, elle permet d’annuler un @Condition[Bleeding]{État Hémorragique}. Cependant, à partir de deux doses, il faut faire un <strong>Test de Résistance Intermédiaire (+0)</strong> pour éviter les mêmes effets néfastes qu’avec une infusion de cervolent, comme décrit ci-dessus.&nbsp;</p>"
+		},
+		"Smoothing": {
+			"name": "Lissage",
+			"description": "<p>Moins radical qu’une coque de course, ce procédé consiste à lisser la coque d’un bateau à l’aide de sable et de pierres abrasives, afin d’éliminer les irrégularités qui risqueraient d’augmenter la traînée. Un premier lissage nécessite au moins une semaine de travail dans un chantier naval et ajoute au bateau +1 M.</p>\n<p>@JournalEntry[Repairing Boats]{Toute réparation} effectuée sur une coque lissée coûte 50 % plus cher que pour une coque normale; opter pour des réparations moins coûteuses, c’est perdre les avantages conférés par le lissage.</em></p>\n</blockquote>",
+			"gmdescription": ""
+		},
+		"Speckled Rustwort": {
+			"name": "Rouille Mouchetée",
+			"description": "<h3>Vérolé</h3>\n<p>Cette herbe se distingue des autres plantes utilisées pour soigner la vérole : elle est la seule qui doit être mangée, et non appliquée sur les rougeurs comme un onguent. Beaucoup ont essayé de s’en servir ainsi, sans succès. Les feuilles ont un goût amer, et il est possible d’ajouter une cuillère de miel à une dose, surtout si le patient est un enfant. Éviter le surdosage, qui peut provoquer des constipations.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Collines</p>\n<p><strong>Saison</strong>: Printemps</p>\n<p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#raw]{Cru}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#draughts]{Potion}</p>\n<p>Cette plante peut être utilisée pour traiter la @UUID[Compendium.wfrp4e-core.items.BC4QyBeYAiw8cRuM]{Vérole du Tanneur}. Si le patient reçoit une dose par jour jusqu’à ce qu’il soit guéri, il bénéficie d’un bonus de +10 à tous les Tests en lien avec la maladie.</p>\n<p>Une potion de rouille mouchetée ne permet pas de prévenir l’arrivée de la Vérole du Tanneur, mais elle peut être utilisée pour la traiter une fois qu’elle est là. Chaque dose réduit la durée de la maladie de [[/r 1d10]] jours. Prendre plus d’une dose par jour provoque des Nausées pendant les [[/r 1d10]] heures suivantes.&nbsp;</p>"
+		},
+		"Spellwort": {
+			"name": "Aromage",
+			"description": "<h3>L'amie du répurgateur</h3>\n<p>Dans le Moot, on appelle cette plante Aromage. Elle est aussi connue sous les noms de <em>Unzauber</em>, fléau du sorcier, feuille contraire et l’amie du répurgateur. En apparence, elle ressemble à une feuille de mage, et les deux peuvent aisément être confondues par un œil profane. Une fois séchées, ses feuilles peuvent être consommées sous forme d’infusion, et aident le patient à résister à toute blessure ayant une cause magique. Il convient d’entreposer l’aromage séché séparément d’autres ingrédients magiques comme la racine de tombe ou la feuille de mage, car la proximité avec cette plante peut leur faire perdre de leur pouvoir.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Forêt</p><p><strong>Saison</strong>: Eté</p><p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#infusions]{Infusion}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#draughts]{Potion}</p><p>L’aromage appartient à la même famille que la @UUID[Compendium.wfrp4e-dotr.items.GYkqqFzrDLaBvKux]{feuille de mage}, mais ses effets sont légèrement différents. Au lieu d’augmenter l’énergie magique, elle la diminue. Un lanceur de sorts qui boit une infusion d’aromage subit un malus de –10 à tous ses Tests d’Incantation pendant un nombre d’heures égal à 10 moins son Bonus d’Endurance. Il bénéficie cependant d’un bonus de +10 à ses Tests pour résister aux effets magiques dirigés contre lui.</p><p>Une potion d’aromage a les mêmes avantages et inconvénients qu’une infusion, mais ses effets ne durent qu’une heure. Cependant, pendant cette heure, toute personne ayant consommé une potion d’aromage apparaîtra complètement banale pour les Personnages doués de @UUID[Compendium.wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconde vue}, et toute trace de magie qu’elle portait sur elle avant deviendra indétectable. Cet effet cesse si elle fait quoi que ce soit de magique pendant ce temps. Les répurgateurs de tout l’Empire ont essayé de faire oublier à tous cette propriété de l’aromage, avec un succès mitigé. </p>"
+		},
+		"Spiderleaf": {
+			"name": "Feuille d'Araignée",
+			"description": "<h3>Feuille d'Araignée</h3>\n<p>Cette herbe tient son nom de la forme et la disposition de ses longues feuilles étroites. Le tout ressemble à une araignée empalée sur une tige, les pattes en l’air. Dans toutes les régions du Vieux Monde, on l’appelle par un nom qui veut dire « feuille d’araignée ». Dans des contrées reculées, certains guérisseurs (des humains, pour la plupart) enroulent même la plante dans des toiles d’araignée avant de l’appliquer sur une blessure, persuadés qu’une espèce d’affinité magique entre la plante et l’animal renforcera la puissance du traitement. D’après mon expérience, il n’en est rien.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Coniferous forest</p><p><strong>Saison</strong>: Automne</p><p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}, @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#raw]{Cru}</p><p>Un cataplasme de feuille d’araignée maintenu contre une plaie avec un bandage serré retire un État Hémorragique par DR obtenu au <strong>Test de Guérison</strong> qu’a dû faire la personne qui a posé le bandage.</p><p>Cette plante est moins efficace crue. Une simple feuille d’araignée placée sous un bandage retire un État Hémorragique si le <strong>Test de Guérison</strong> est réussi.</p>"
+		},
+		"Spoons": {
+			"name": "Cuillères",
+			"description": "<p>Les avirons standards sont dotés de pelles longues et fines, qui conviennent à la plupart des usages. Les cuillères, comme leur nom l’indique, possèdent une pelle plus courte, plus large et courbée, qui exerce donc plus de pression sur l’eau. Cependant, leur bon maniement requiert davantage de force. Avec une cuillère, un rameur peut avoir à faire un Test de <strong>Force</strong> si l’on souhaite que le bateau aille plus vite, et s’il réussit, il peut ajouter son Bonus de Force en mètres à la vitesse de Mouvement du bateau pour ce Round.</p>",
+			"gmdescription": ""
+		},
+		"Steam": {
+			"name": "Vapeur",
+			"description": "<p>La Guilde des ingénieurs nains et l’École impériale d’ingénierie ont toutes deux développé des moteurs à vapeur, et un de ces modèles pourrait être adapté pour propulser un bateau. Cependant, un moteur à vapeur est énorme et très lourd, et prendrait une place considérable, qui aurait pu autrement être utilisée pour transporter des marchandises et/ou des passagers : le moteur occuperait environ la moitié de la capacité de Contenu du bateau. Cette valeur inclut le stockage du charbon nécessaire pour faire avancer le bateau pendant une semaine, ou du bois pour deux jours.</p>\n<p>Un bateau propulsé par un moteur à vapeur conserve sa vitesse de Mouvement standard tant qu’il est approvisionné en carburant, sans tenir compte de la direction du vent. Il nécessite d’être manœuvré par un ingénieur qualifié, qui réalisera des Tests de <strong>Métier (Ingénieur)</strong> plutôt que les habituels Tests de <strong>Navigation</strong>. Malgré tout, les moteurs à vapeur ne sont pas toujours fiables, et en dépit de leur taille et de leur grosse machinerie, leurs mécanismes sont assez fragiles. En cas d’échec au Test de <strong>Métier (Ingénieur)</strong>, si un double est obtenu au jet de dé ou si l’échec est Stupéfiant, ou en cas de Coup Critique à la coque du bateau, lancez [[/r 1d100]] selon le tableau Défaillance de Moteur à Vapeur.</p>",
+			"gmdescription": ""
+		},
+		"Steering": {
+			"name": "Gouvernail",
+			"description": "<p>Le gouvernail vole en éclat, et les échardes infligent +5 Dégâts au timonier. Tant qu’il n’est pas réparé, tous les Tests de <strong>Navigation</strong> pour diriger le bateau sont <strong>Très Difficiles (–30)</strong>.</p>",
+			"gmdescription": ""
+		},
+		"Stripped (Fishing Skiff)": {
+			"name": "Allègement (Esquif de pêche)",
+			"description": "<p>Un bateau peut être débarrassé de toutes ses cabines et superstructures afin de le rendre plus léger ou de maximiser l’espace de chargement. Réaliser ce procédé sur un bateau standard coûte le prix indiqué ci-dessus ; construire un bateau dénué de cabines ou superstructures coûte 75 % du prix d’un bateau normal. Le poids du bateau est réduit comme indiqué ci-dessus, et l’espace de chargement est augmenté de 75 % par rapport à la capacité normale.</p>",
+			"gmdescription": ""
+		},
+		"Stripped (Large Barge)": {
+			"name": "Allègement (Grande barge)",
+			"description": "<p>Un bateau peut être débarrassé de toutes ses cabines et superstructures afin de le rendre plus léger ou de maximiser l’espace de chargement. Réaliser ce procédé sur un bateau standard coûte le prix indiqué ci-dessus ; construire un bateau dénué de cabines ou superstructures coûte 75 % du prix d’un bateau normal. Le poids du bateau est réduit comme indiqué ci-dessus, et l’espace de chargement est augmenté de 75 % par rapport à la capacité normale.</p>",
+			"gmdescription": ""
+		},
+		"Stripped (Row Boat)": {
+			"name": "Allègement (Barque)",
+			"description": "<p>Un bateau peut être débarrassé de toutes ses cabines et superstructures afin de le rendre plus léger ou de maximiser l’espace de chargement. Réaliser ce procédé sur un bateau standard coûte le prix indiqué ci-dessus ; construire un bateau dénué de cabines ou superstructures coûte 75 % du prix d’un bateau normal. Le poids du bateau est réduit comme indiqué ci-dessus, et l’espace de chargement est augmenté de 75 % par rapport à la capacité normale.</p>",
+			"gmdescription": ""
+		},
+		"Stripped (Typical Barge or Patrol Boat)": {
+			"name": "Allègement (Barge moyenne ou bateaude patrouille)",
+			"description": "<p>Un bateau peut être débarrassé de toutes ses cabines et superstructures afin de le rendre plus léger ou de maximiser l’espace de chargement. Réaliser ce procédé sur un bateau standard coûte le prix indiqué ci-dessus ; construire un bateau dénué de cabines ou superstructures coûte 75 % du prix d’un bateau normal. Le poids du bateau est réduit comme indiqué ci-dessus, et l’espace de chargement est augmenté de 75 % par rapport à la capacité normale.</p>",
+			"gmdescription": ""
+		},
+		"Subvert Strength": {
+			"name": "Force viciée",
+			"description": "<p>Votre main brille d’étranges taches bleues. Le prochain objet inanimé non-magique que vous touchez perd sa dureté pour devenir mou et malléable. L’acier plie, le verre fond, la roche ramollit. Si vous lancez ce sort sur une arme, elle se plie ou même se brise si elle est utilisée en combat. Une armure affectée par ce sort cesse d’offrir une protection, perdant tous les Points d’Armure à l’endroit touché (si elle subit un coup, l’armure est détruite à cet endroit). Vous ne pouvez modifier les objets que de 1,5 m 3 maximum. Vous pouvez façonner les matériaux comme vous le souhaitez, mais le MJ peut exiger un <strong>Test de Métier</strong> approprié.</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Superstructure": {
+			"name": "Superstructure",
+			"description": "<p>Si le bateau dispose d’une cale, et que cette dernière est touchée, tous les Personnages qui s’y trouvent doivent faire un Test d’<strong>Initiative</strong> ou subir +5 Dégâts à cause des éclats d’échardes. À part ça, le bateau n’est pas affecté.</p>",
+			"gmdescription": ""
+		},
+		"Swivel Gun": {
+			"name": "Pierriers",
+			"description": "<p>Un pierrier est comparable à un tromblon, en plus imposant. En raison de son poids, le pierrier est souvent monté sur un pivot ou un trépied, mais on sait aussi que certains mercenaires ogres les utilisent à la main.</p>",
+			"gmdescription": ""
+		},
+		"Tarrabeth": {
+			"name": "Tarrabeth",
+			"description": "<h3>Tarrabeth</h3>\n<p>Tarrabeth est un nom elfique, et l’herbe abonde surtout dans les profondeurs des forêts qui abritent les elfes des bois. Cette plante a très peu d’autres noms, même si j’ai déjà entendu des personnes l’appeler « herbe de l’Empereur » dans certaines villes. La plupart du temps, c’était des humains qui se l’étaient procurée par des moyens malhonnêtes, et utilisaient un nom humain pour ne pas attirer l’attention sur eux. Pour tirer le meilleur de cette plante, il faut faire bouillir ses feuilles jusqu’à leur dissolution complète, puis filtrer la mixture, et la faire réduire jusqu’à ce qu’elle atteigne une consistance de fromage fondu, et la laisser refroidir.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Forêts mixtes</p><p><strong>Saison</strong>: Eté</p><p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#poultices]{Cataplasme}</p><p>Appliqué à une blessure, un cataplasme de tarrabeth provoque un sommeil de 24 heures chez le patient. Le Test de Résistance effectué pour regagner des Points de Blessure est <strong>Très Facile (+60)</strong> ce jour-là.></p><p>Étalée sur une lame, ou, comme c’est plus souvent le cas, sur la pointe d’une flèche, la dose sera trop petite pour provoquer un lourd sommeil, utilisation pour laquelle la plante est connue. Cependant, les personnes blessées par une arme ainsi préparée se sentiront quand même terriblement fatiguées, et devront réussir un Test de Résistance Intermédiaire (+0) ou subir un @Condition[extenué]{État Exténué}. Une dose de tarrabeth peut être appliquée sur une seule arme, ou trois flèches ou carreaux.</p>"
+		},
+		"The Gripe": {
+			"name": "Colique",
+			"description": "<p>Le patient est saisi par les douleurs abdominales aiguës qui donnent son nom à cette maladie. Elles surviennent de manière irrégulière, sans prévenir et peuvent être accompagnées de Fièvre, d’Intoxication alimentaire et de Vomissement.</p>\n<p>Presque tous les herboristes et les vieilles mégères des campagnes de l’Empire prétendent avoir un remède infaillible ; ils prennent tous la forme d’un bouillon ou d’un thé, et bien que les ingrédients varient, aucun ne semble être plus efficace que l’autre. Le seul véritable traitement de cette maladie consiste à s’hydrater, pour compenser la perte de liquides, et à s’armer de patience.</p>",
+			"gmdescription": "",
+			"durationValue": "2d10 ",
+			"durationUnit": "jours",
+			"contraction": " exposition à de l’eau sale ; effectuez les Tests comme indiqué dans la description",
+			"incubationValue": "2",
+			"incubationUnit": "heures",
+			"symptoms": "Crampes abdominales, Fièvre, Intoxication alimentaire (Modérée), Nausée.",
+			"permanent": ""
+		},
+		"Transformation of the Beast": {
+			"name": "Transformation de la Bête",
+			"description": "<p>Vous focalisez le pouvoir de Tzeentch et votre corps se transforme en celui d’un @Compendium[wfrp4e-core.bestiary.R37OtN5gmPWCYOP3]{Gor}. Vous bénéficiez des avantages temporaires suivants :</p>\n<p><strong>Caractéristiques</strong>:  utilisez votre propre caractéristique ou celle d’un Gor, en prenant en compte la meilleure valeur.</p>\n<p><strong>Traits</strong>: vous gagnez @Compendium[wfrp4e-core.items.VUJUZVN3VYhOaPjj]{Armure 1}, @Compendium[wfrp4e-core.items.fjd1u9VAgiYzhBRp]{Rage}, et @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Cornes +3}</p>\n<p><strong>Compétences</strong>: vous gagnez Langue bestiale mais perdez la capacité de parler intelligiblement dans toute autre langue.</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Force Mentale Rounds"
+		},
+		"Tremor": {
+			"name": "Tremblement",
+			"description": "<p>Un de vos pieds se transforme brièvement en un grand sabot enveloppé de flammes violettes. Le sol tremble lorsque vous tapez du pied et toutes les créatures situées dans un rayon égal à votre Bonus de Force Mentale en mètres (sauf vous) doivent effectuer un Test d’<strong>Agilité</strong> ou tomber, ce qui leur confère l’État À Terre.</p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner +1 Point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu’elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+			"gmdescription": "",
+			"durationValue": "Instantané"
+		},
+		"Trinkwort": {
+			"name": "Sobriandre",
+			"description": "<h3>Sobriandre</h3>\n<p>Selon la tradition halfling, la connaissance de cette plante nous a été accordée par la déesse Esméralda elle-même, après que son premier mari Bibogenitus nous a fait cadeau de ses connaissances sur les techniques de brassage et de vinification. Dans le Moot, on l’appelle la racine de sobriété, et les elfes l’appellent corrylliamid. Elle se trouve au plus profond de la forêt, et pousse souvent entre les racines des arbres lornalims, ou aux pieds de chênes centenaires. La racine doit être épluchée et rôtie doucement dans un four à basse température, jusqu’à ce qu’elle soit aussi moelleuse que des panais bien cuits. Elle peut alors être mangée.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Forêts</p>\n<p><strong>Saison</strong>: Automne</p>\n<p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#raw]{Cru}</p>\n<p>La sobriandre est un tubercule au goût amer qui a l’étrange pouvoir de supprimer les effets de l’alcool. Un Personnage qui en mange gagne un bonus de +20 à tous ses <strong>Tests de Résistance à l’Alcool</strong> pendant les 24 heures suivantes.</p>"
+		},
+		"Valerian": {
+			"name": "Valériane",
+			"description": "<h3>Thé corsé</h3>\n<p>La valériane est appelée thé corsé dans le Moot, ce qui a tendance à embrouiller les visiteurs étrangers. Cependant, selon le contexte, tous les halflings savent immédiatement si c’est de la plante ou du thé dont on parle. Les elfes l’appellent <em>Taillegas</em> et les Bretonniens <em>Thé du Médecin</em>.</p>\n<p>Il est important de laisser sécher les feuilles à l’air libre, dans un endroit frais et sec. Avant de les faire infuser, inspectez minutieusement chaque feuille pour vous assurer qu’elles ne sont pas contaminées par de l’oïdium, un champignon particulièrement friand de valériane. La moindre trace peut rendre le thé inefficace, voire toxique.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Forêts mixtes</p><p><strong>Saison</strong>: Printemps</p><p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#infusion]{Infusion}</p><p>Une tasse d’infusion de valériane permet de restaurer un Point de Blessure. On peut en boire une dose par jour, mais elle n’a aucun effet sur les Blessures critiques.</p>"
+		},
+		"Vanera": {
+			"name": "Varena",
+			"description": "<h3>La cadeau de la déesse</h3>\n<p>Certains herboristes de l’Empire et de Tilée croient que cette plante tient son nom de la déesse humaine Verena. Moi-même, je n’adhère pas à cette théorie : elle est aussi appelée de la même façon en Norsca et à Kislev, où le culte d’Ulric est bien plus répandu que celui de Verena. Cette plante pousse sur le versant sud de collines de craie, où il y a beaucoup de soleil et peu de vent. Les feuilles sont cueillies, nettoyées, trempées dans de l’eau salée pendant deux semaines, avant d’être bouillies et servies comme des épinards. Un peu de beurre et de poivre noir améliorent grandement leur goût. À titre personnel, je ne m’en sers pas sur mes patients en convalescence, car le mal de tête qu’il provoque quand l’effet stimulant s’estompe peut facilement annuler tous les bienfaits que le patient aura reçus. Je le conseille néanmoins à ceux qui doivent monter la garde, ou passer la nuit à chercher des voyageurs disparus : en somme, à toute personne qui doit rester éveillée à une heure où elle dort habituellement, et qui peut se permettre d’en payer le prix plus tard.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Collines</p>\n<p><strong>Saison</strong>: Printemps</p>\n<p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#raw]{Cru}</p>\n<p>La varena est un stimulant qui rend inutile le besoin de repos. Elle est surtout utilisée lors des convalescences où le patient, pour une raison ou pour une autre, ne peut pas se reposer. Pendant [[/r 1d10]] heures après en avoir consommé une dose, le Personnage est considéré comme En repos, mais peut continuer à vaquer à ses activités. Si le Personnage se repose, les bénéfices en sont doublés. Quand les effets s’estompent, il souffre d’un mal de tête atroce, et subit un État Exténué pendant une heure.</p>"
+		},
+		"Cavity Worms": {
+			"name": "Vers de Carie",
+			"description": "<p>Le ver de carie est un parasite inquiétant qui infeste les eaux sales et les denrées alimentaires avariées. D’une longueur d’environ 2,5 cm et d’une largeur de 6 mm, ce ver a une peau marbrée vert-brun qui forme un étrange motif de crâne au niveau de sa tête. Les mères racontent des histoires sur les vers de carie pour effrayer leurs enfants et les inciter à garder la bouche propre. La plupart des habitants du Vieux Monde considèrent donc ces créatures comme de simples mises en garde. Malheureusement, ils se trompent lourdement.</p>\n<h4>Effets des Vers de Carie</h4>\n<p>Une fois ingéré, le ver de carie s’enfonce dans les tissus mous de la bouche ou de la gorge. Il sécrète un liquide anesthésiant qui engourdit instantanément la zone affectée. Chaque jour, la victime peut effectuer un Test de Perception Intermédiaire (+0) pour remarquer la croissance du ver. En cas de succès, sa présence est remarquée. Un Médecin ou un autre Personnage qualifié peut réaliser un Test de Guérison Accessible (+20) pour retirer le ver. Les Personnages non qualifiés doivent effectuer un Test de Dextérité Intermédiaire (+0). Les Personnages qui tentent de se soigner eux–mêmes ont besoin d’un miroir et subissent une pénalité de –10. Si le Test échoue, la personne atteinte gagne l’État Hémorragique.</p>\n<p>Une fois installé dans la bouche de sa victime, le ver de carie se nourrit de son souffle : l’essence de l’esprit. Tant que ce parasite demeure, son hôte subit une pénalité de –10 à tous les Tests.</p><p>Au bout d’une semaine, le parasite se dirige vers le cerveau de sa victime. Chaque jour, cette dernière peut effectuer un Test de Perception Accessible (+20), qui lui permet de remarquer qu’une petite quantité de sang s’écoule de sa bouche. À ce stade, l’élimination du ver de carie nécessite un Test de Guérison Complexe (–10) effectué par un Personnage possédant le Talent Chirurgie.</p>Si le ver de carie n’est pas éliminé dans les trois jours qui suivent, il n’est plus possible de le retirer sans tuer l’hôte. À mesure que le ver s’enfonce dans le cerveau et se prépare à pondre ses œufs, la victime doit effectuer un Test d’Endurance Accessible (+20) chaque jour. Chaque jour où le Test est raté, lancez 1d10, et consultez le tableau @Table[cavityworms]</p>\n<p>Les œufs du ver de carie éclosent [[/r 1d10]] jours après avoir été pondus, suintant des narines de la victime à la recherche d’un nouvel hôte. Pour ceux qui survivent à ce processus, toutes les pénalités sont permanentes et ne peuvent être annulées que par des moyens magiques ou miraculeux.</p>",
+			"gmdescription": "",
+			"durationValue": "8 ",
+			"durationUnit": "jours",
+			"contraction": "exposition à de l’eau sale ou à des aliments avariés ; effectuez les Tests selon la description.",
+			"incubationValue": "5 + 1d10",
+			"incubationUnit": "jours",
+			"symptoms": "spéciaux (voir description)",
+			"permanent": ""
+		},
+		"Vigwort": {
+			"name": "Herbuste",
+			"description": "<h3>Ma petite chouchoutte</h3>\n<p>Aussi connu sous le nom de sautille, plante gigote, et folia vitae, cette plante pousse dans les grandes plaines ensoleillées, surtout celles qui ont été laissées en jachère après avoir servi l’année précédente. On sèche la racine, on la râpe, puis on la laisse infuser dans du vinaigre dilué pendant dix jours. Ensuite, on fait bouillir la mixture, on la filtre, avant de la laisser reposer quatre jours dans un endroit sombre et frais. Sucrée avec du miel ou ajoutée à du thé ou du vin chaud, cette préparation apporte un soulagement temporaire aux patients qui souffrent de maux de tête, de somnolence ou de léthargie. Utilisez-la avec parcimonie : ses effets ne durent pas sur le long terme, et quand ils s’estompent, l’état du patient est souvent pire qu’au départ.</p>",
+			"gmdescription": "<p><strong>Emplacement</strong>: Prairies</p><p><strong>Saison</strong>: Eté</p><p><strong>Preparations</strong>: @UUID[Compendium.wfrp4e-dotr.journals.JhZ4qkEf569rEcsY.JournalEntryPage.uxIVUGe1gSkqbo8m#infusions]{Infusion}</p><p>Cette herbe est un léger stimulant, et une tasse d’herbuste permet d’augmenter le score d’Initiative d’un Personnage de +10 pendant [[/r 1d10+4]] minutes. Après ce laps de temps, le Personnage doit faire un <strong>Test de Résistance Accessible (+20) ou subir un État Exténué par niveau d’échec. Ceux qui disposent du Trait Immunité (Poison) peuvent profiter des bénéfices de l’herbuste sans jamais devenir Exténué.</p>"
+		},
+		"Volley Gun": {
+			"name": "Fusils à Salve",
+			"description": "<p>Un fusil à salve est assez semblable à un pistolet à répétition, mais contrairement à ce dernier, tous ses canons tirent en même temps. Il comporte généralement sept canons : un au milieu, et six autres disposés tout autour, formant un hexagone. Bien que mortel pour ceux qui se trouvent du mauvais côté de ses canons, le fusil à salve n’est pas sans danger pour l’utilisateur inexpérimenté. Chaque fois qu’il tire, l’utilisateur doit faire un Test de <strong>Résistance Accessible (+20)</strong>, et le violent recul de l’arme contre son épaule lui inflige 1 Blessure pour chaque DR négatif. S’il fait un Échec Stupéfiant, il se voit infliger un Coup Critique à l’épaule : utilisez le tableau des Blessures critiques au bras, en ajustant au besoin quelques détails, pour illustrer la blessure subie à l’épaule.</p>",
+			"gmdescription": ""
+		},
+		"Zone of Sanctuary": {
+			"name": "Zone de Sanctuaire",
+			"description": "<p>Vous appelez la grâce divine de Sigmar pour juger les corrompus afin de les bannir hors de votre vue. Les personnages dans l'aire d'effet du Miracle gagnent un bonus de +20 pour résister à la Peur et à la Terreur. Aucune créature mort-vivante ou Démoniaque ne peut entrer dans cette zone ou ne peut attaquer quelqu'un dans la zone. Ces créatures dans la portée du Miracle lorsqu'il est incanté doivent quitter la zone. Ce Miracle est centré sur le Personnage qui l'a invoqué, qui ne peut rien faire aucune autre action que déclamer des litanies contres la corruption pendant la durée du Miracle.</p>",
+			"gmdescription": "",
+			"durationValue": "Bonus de Sociabilité Rounds"
+		}
+	}
+}

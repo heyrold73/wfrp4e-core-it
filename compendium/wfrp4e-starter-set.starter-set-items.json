@@ -1,0 +1,241 @@
+{
+  "label": "Items Starter Set",
+	"mapping": {
+    "gmdescription": "system.gmdescription.value",
+    "duration": "system.duration.value",
+    "contraction": "system.contraction.value",
+    "incubation": "system.incubation.value",
+    "symptoms": "system.symptoms.value",
+    "permanent": "system.permanent.value",
+    "special":  "system.special.value",
+    "qualities": {
+      "path": "system.qualities.value",
+      "converter": "trapping_qualities_flaws"
+    },
+    "flaws": {
+      "path": "system.flaws.value",
+      "converter": "trapping_qualities_flaws"
+    },
+    "sduration": {
+      "path": "system.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "srange": {
+      "path": "system.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "starget": {
+      "path": "system.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },    
+    "sdamage": {
+      "path": "system.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    }
+  },	
+	"entries": [
+		{
+			"id": "Ameliorative Elixir",
+			"name": "Elixir d'Amélioration",
+			"description": "",
+			"gmdescription": "<p><span style=\"color: #231f20; font-family: Calibri; font-size: 14.6667px;\">Contenant de la Mystracine, cette potion terreuse et épaisse apporte une sensation d'euphorie et d'agréables hallucinations. La potion donne un bonus de +10 aux tests de Force Mentale, mais une pénalité de –10 aux tests d'Agilité, d'Initiative et d'Intelligence.</span></p>\n<p><span style=\"box-sizing: border-box; user-select: text; color: #231f20; font-family: Calibri; font-size: 14.6667px; font-weight: bold;\">Durée:&nbsp;</span><span style=\"box-sizing: border-box; user-select: text; color: #231f20; font-family: Calibri; font-size: 14.6667px;\">[[/r 1d10 * 10]]&nbsp;</span><span style=\"color: #231f20; font-family: Calibri; font-size: 14.6667px;\">minutes.</span></p>",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Basilisk's Baleful Bile",
+			"name": "Bile Funeste de Basilic",
+			"description": "<p>Ce poison est créé en combinant des liquides oculaires et les glandes de poison d'un basilic recemment tué. C’est un poison nauséabond, et quiconque ingère de la nourriture ou une boisson contenant cette bile devra passer un test de <strong> Perception Facile (+40) </strong>. Le succès indique que la souillure est detectée et que quelque chose qui ne va pas. La victime subit des eﬀets digestifs, et gagne l'état Sonné pendant un round, alors que la victime vomit. S'il le poison est ingéré, le mélange inflige 2 états @Condition[Empoisonné]. Il est possible d'y résister avec un Test Difficile (-10) de Résistance</strong>. Si la victime échoue à son Test de Résistance, elle est définitivement changée en pierre.</strong>",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Bronze Fever",
+			"name": "Fièvre Jaune",
+			"description": "<p>La Fièvre Jaune est commune dans le Sud du Vieux Monde, dans les climats chauds et humides, où elle est diffusée par les piqures d'insectes. La plupart des malades se rétabliront en quelques jours, mais en de rares occasions cela peut conduire à des complications, voir à la mort.</p>",
+			"gmdescription": "",
+			"duration": "10 jours",
+			"contraction": "Si vous échouez un test Accessible (+20) de Résistance après une piqûre de moustique. Si du sang infecté est injecté ou absorbé, a Fièvre Jaune est contractée naturellement.",
+			"incubation": "1d10 jours",
+			"symptoms": "Fièvre, Malaise (Facile), Malaise, Nausée",
+			"permanent": "",
+			"sduration": "10 jours",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Clutch of Eyes",
+			"name": "Etreinte des Yeux",
+			"description": "<p>Des kystes tremblants bouillonnent sous la chair, puis des pustules sanglantes sortent, fleurissent, s'ouvrent et révèlent une poignée d'horribles nouveaux yeux. </p> <p> & nbsp; </p> <p > Lancez sur @Table[hitloc] pour déterminer l'endroit où vos nouveaux yeux poussent. Vous pouvez maintenant voir à partir de cet zone corporelle. Augmentez votre caractéristique d'Initiative de +[[/r 1d10]]. Si vous 'avez pas de caractéristique Initiative, gagnez tout de même +[[/r 2d10]]. Tous les coups sur l'emplacement de vos nouveaux yeux inﬂigent également un état @Condition[Aveuglé]{Aveuglé}. </p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Doppelganger",
+			"name": "Doppelganger",
+			"description": "<p>Le PNJ peut prendre la forme de n'importe quelle créature ressemblant à un humain de taille moyenne. Il doit atteindre +5 SL sur un test de <strong> Perception étendue </strong> en observant sa cible. Il faut ensuite 2 rounds pour prendre la forme de la cible. Les vêtements et les petits objets de la cible sont également reproduits; ils font partie de la créature et ne peuvent pas être supprimés. Les ornements plus grands, tels que les épées et les sacs à dos, ne sont pas copiés. Lorsque ceux qui connaissent la victime rencontrent la créature transformée, ils effectuent un test d '<strong> Intuition difficile (−20%) </strong>. S'ils réussissent, ils savent que quelque chose se passe. S'ils échouent, ils sont convaincus que la créature est leur connaissance. </p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Einauge's Heavy Crossbow",
+			"name": "Arbalète Lourde d'Einauge",
+			"description": "<p> L'arbalète lourde et sophistiquée d'Einauge Splatmann, modifiée avec un double jeu de cordes, lui permet de tirer deux fois avant de recharger. </p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"special": "",
+			"qualities": "Dévastatrice,Répétition 2",
+			"flaws": "Recharge 4",
+			"sduration": "undefined ",
+			"srange": "100 ",
+			"starget": "undefined ",
+			"sdamage": "+9 "
+		},
+		{
+			"id": "Focusing Philtre",
+			"name": "Philtre de Concentration",
+			"description": "",
+			"gmdescription": "<p> <span style = \"box-sizing: border-box; user-select: text; font-family: Calibri; font-size: 14.6667px; color: # 231f20; \">Ayant l'apparence d'un bouillon sombre et amer, ce philtre concentre l'esprit et facilite la concentration. Il donne un bonus de +20 aux tests d'Intelligence et d'Endurance. Lorsque ses effets s'atténuent, gagnez 1 état @Condition[Extenué] & nbsp; </span> <span style = \"box-sizing: border-box; user-select: text; font-family: Calibri; font-size: 14.6667 px; color: # 231f20; \"> état qui dure au moins un jour. & nbsp; </span> </p> <p> <span style = \" box-sizing: border-box; user- select: text; font-family: Calibri; font-size: 14.6667px; font-weight: bold; color: # 231f20; \"> Durée: & nbsp; </span> [[/r 1d10]] <span style = \"box-sizing: border-box; user-select: text; font-family: Calibri; font-size: 14.6667px; color: # 231f20; \"> & nbsp; heures. & nbsp; </span> </ p >",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Itchy Nuisance",
+			"name": "Nuisance Démangeuse",
+			"description": "<p> Vous agitez vos doigts et de petites spores fongiques qui démangent jaillissent de leurs extrémités, s'enfonçant dans les zones sensibles de la cible. Ces spores se développent rapidement, provoquant des démangeaisons insupportables. La cible subit -10% à tous ses Tests et divise par deux son mouvement pendant la durée du Sort. </p>",
+			"gmdescription": "",
+			"duration": "Bonus de Force Mentale Rounds",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Katya's Cordial",
+			"name": "Cordial de Katya",
+			"description": "",
+			"gmdescription": "<p> <span style = \"color: # 231f20; font-family: Calibri; font-size: 14.6667px; \">Une suspension parfumée avec une couleur rose nacre  et un goût sauvage. Cette potion renforce subtilement l’attractivité du buveur, avec une contrepartie. Sous son inﬂuence, le buveur bénéficie du talent Attractif. Cependant, après la fin de l'effet, le buveur subit une pénalité de -20 à tous les tests de Sociabilité pour & nbsp; <span style = \"font-size: 14.6667px; \"> [[/r 1d10]] & nbsp; </span> jours, pendant lesquels la peau et les yeux excrètent lentement un liquide jaunâtre nauséabonde. & nbsp; </span> </p> <p> <span style = \"box-sizing: border-box; user-select: text; color: # 231f20; font-family: Calibri; font-size: 14.6667px; font-weight: bold; \"> Durée: & nbsp; </span> <span style = \" color: # 231f20; font-family: Calibri; font-size: 14,6667px; \"> [[/r 1d10]] heures & nbsp; </span> </p>",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Liquor of Luck",
+			"name": "Liqueur de Chance",
+			"description": "",
+			"gmdescription": "<p> <span style = \"box-sizing: border-box; user-select: text; font-family: Calibri; font-size: 14.6667px; color: # 231f20; \">Ce liquide est bleu vif avec un léger parfum de liqueur. Le consommer donne +1 Point de Chance. De plus, sous son influence, lorsque vous dépensez un point de Chance, lancez & nbsp; <span style = \"font-size: 14.6667px; \"> [[/r 1d100]] </span>. Si vous obtenez un double, vous récupérez un Point de Chance. Lorsque l'effet disparaît, perdez tous vos Points de Chance et gagnez 1 état & nbsp; <em style = \"box-sizing: border-box; user-select: text; \"> @Condition [Extenué] & nbsp; </em> </ span> <span style = \"box-sizing: border-box; user-select: text; font-family: Calibri; font-size: 14.6667px; color: # 231f20; \">, etat qui dure au moins un jour. & nbsp; </span> </p> <p> <span style = \"box-sizing: border-box; user-select: text; font-family: Calibri; font-size: 14,6667px; font-weight: bold; color: # 231f20; \"> Durée: & nbsp; </span> <span style = \" box-sizing: border-box; user-select: text; font-family: Calibri; font- size: 14,6667px; color: # 231f20; \"> <span style = \" font-size: 14,6667px; \"> [[/r 1d10]] </span> minutes. </span> </p>",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Massive Intellect",
+			"name": "Intellligence Massive",
+			"description": "<p> Du sang, des os broyés et de la chair torturée coulent de vos orifices alors que votre cerveau est extirpé. Lentement, au fil des semaines, un nouvel intellect se développe à sa place, provoquant un étirement douloureux de votre tête en de larges plis translucides autour de votre tête.</p>  <p> & nbsp; </p> <p> Augmentez votre caractéristique d'Intelligence de +[[/r 2d10]]. Si vous n'avez aucune caractéristique d'Intelligence, gagnez tout de même +[[/r 2d10]]. Tous les coups à la tête provoquent automatiquement un @Table[crithead]{Coup Critique}, sauf si le jet en produit un naturellement. </p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Reactionary Restorative",
+			"name": "Infusion de Réactivité",
+			"description": "",
+			"gmdescription": "<p>Cette infusion épaisse et de couleur rouge sang, au goût désagréable, renforce les réactions du buveur face au danger. Sous son effet, vous ne gagnez jamais l'état Surpris. Lorsque l'effet se dissipe, gagnez +1 état Exténué qui dure au moins un jour. & Nbsp; </p> <p> <strong> Durée </strong>: [[/r 1d10]] heures.",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Saif al-Janub",
+			"name": "Saif al-Janub",
+			"description": "<p>Offerte à Lohner pour avoir pris des mesures décisives lors de la défense de Sudenburg contre des morts-vivnts en 2498 IC, cette lame incurvée a été fabriquée par le célèbre philosophe-artisan Hataq al-Kundi en 1445 IC. Cette lame exquise vaut dix fois son prix en Arabie. </p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"special": "",
+			"qualities": "Défensive,Fine 4,Incassable",
+			"flaws": "",
+			"sduration": "undefined ",
+			"srange": "",
+			"starget": "undefined ",
+			"sdamage": "SB+5 "
+		},
+		{
+			"id": "Slippery Skin",
+			"name": "Peau Glissante",
+			"description": "<p> Vous transpirez constamment, votre peau exsudant un mucus fin et visqueux semblable à celui produit par la myxine. Ce suintement est désagréable au toucher, et pénétre dans vos vêtements en une heure ou deux et rend vos prises en main incertaines. </p> <p> & nbsp; </p> <p> Tous les tests qui vous obligent à tenir ce qui est entre vos mains (comme une arme) subissent une pénalité de -20, et vous souffrez également d'une pénalité de -20 sur les tests de Sociabilité appropriés. Lorsque vous essayez d'échapper à une empoignande ou une tentative d'immobilisation, si vous réussissez votre Test Opposé, vous pouvez choisir d'utiliser votre DR obtenu ou le nombre obtenu sur le dé de votre unité. Ainsi, un résultat réussi de 28 pourrait être utilisé pour +8 DR.</p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Sneaky Stabbin'",
+			"name": "Attak Sournoize",
+			"description": "<p>Vous ensorcelez les lames de vos alliés pour qu’elles recherchent les points faibles des armures de leurs ennemis. Vos cibles gagnent un Avantage de +1, et leurs attaques gagnent la qualité d'arme Pénétrante, qui dure aussi longtemps qu'elles ont l'avantage.</p>",
+			"gmdescription": "",
+			"duration": "Special ",
+			"sduration": "Special ",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Sociabilité Goblins",
+			"sdamage": ""
+		},
+		{
+			"id": "Telepathy",
+			"name": "Télépathie",
+			"description": "<p>Votre esprit se libère de ses chaînes matérielles, s'emplissant de satisfaction à mesure qu'il s'imposer aux autres êtres alentours. </p><p> & nbsp; </p> <p> Avec un <strong> Test de Force Mentale </strong> vous pouvez communiquer avec n'importe quelle créature sensible dans un rayon de Force Mentale mètres et en ligne de vue. La durée est égale à votre Initiative en minutes. Vous pouvez également lire les pensées de surface de toute créature avec laquelle vous communiquez par télépathie, avec un autre Test Opposé de <strong> Force Mentale</strong>. Si vous échouez au test, vous ne pourrez pas lire dans les pensées du sujet pendant les [[/r 1d10]] prochains jours. Lorsque vous utilisez la télépathie, vos yeux brillent étrangement. Chaque fois que cette mutation est développée, la portée est doublée. </p> <p> & nbsp; </p> <p> & nbsp; </p>",
+			"gmdescription": "",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "The Marvelous Medicinal Mixture",
+			"name": "Le Merveilleux Mélange Médecinal",
+			"description": "",
+			"gmdescription": "<p>Un liquide écoeurant parfumé au poisson, qui oblige toute personne souhaitant prendre cette concoction à devoir d'abord réussir un Test de <strong>Calme Accessible (+20)</strong>. Ceci fait, le buveur reçoit 1 état @Condition[Extenué], qui ne peut être retiré qu'après une bonne nuit de repos. La potion n'offre aucun autre effet. Cependant, elle a si mauvais goût que les clients de Von Holzenauer restent convaincus de son efficacité pour guérir presque tous les malaises. </p>",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		},
+		{
+			"id": "Tonic of Sight Beyond Sight",
+			"name": "Tonique d'Outre-Vision",
+			"description": "",
+			"gmdescription": "<p>Cette potion vert foncée, présentée avec une étiquette montrant un grand globe oculaire rouge, promet d'améliorer la vision du buveur. Boire la potion vous procurera les avantages d'un ou plusieurs Talents comme suit ([[/r 1d10]]): </p> <p> 1-2: @Compendium[wfrp4e-core.talents.9h82z72XGo9tfgQS]{Sens Aiguisé (Vue)}; </p>  <p> 3-4: @Compendium [wfrp4e-core.talents.Nj3tC8A5fZ3zEdMR]{Vision Sacrée}; </p> <p> 5-6:@Compendium [wfrp4e-core.talents.6w30u0VPsAicrqb5]{Sens de la Magie}; </p>  <p> 7-8: @Compendium[wfrp4e-core.talents.OEjUvJKi0xmBwbS2]{Seconde Vue}; </p> <p> 9-10: Tout les Talents ci-dessus. & nbsp; </p> <p> Durée: & nbsp; [[/r 1d10]] minutes. </p>",
+			"duration": "undefined ",
+			"sduration": "undefined ",
+			"srange": "undefined ",
+			"starget": "undefined ",
+			"sdamage": "undefined "
+		}
+	]
+}
