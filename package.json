@@ -1,0 +1,17 @@
+{
+  "name": "foundryvtt-wh4-lang-fr-fr",
+  "version": "1.0.0",
+  "description": "WH4 Translation",
+  "main": "babele-register.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scriptPacker.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.uberwald.me/gitea/public/foundryvtt-wh4-lang-fr-fr.git"
+  },
+  "author": "LeRatierBretonnien",
+  "license": "ISC"
+}
