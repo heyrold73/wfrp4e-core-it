@@ -1,0 +1,1 @@
+this.script.scriptNotification(`Ne peut saisir ${this.effect.name}!`);
