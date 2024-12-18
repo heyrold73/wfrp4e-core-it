@@ -1,0 +1,1 @@
+return !["Crochetage", "Escamotage", "Focalisation (Ulgu)"].includes(args.skill?.name)
