@@ -8,7 +8,7 @@
     }
   ],
   "url": "https://github.com/heyrold73/wfrp4e-core-it",
-  "version": "8.3.0",
+  "version": "1.0.1",
   "esmodules": [
     "modules/babele-register.js",
     "modules/addon-register.js",
