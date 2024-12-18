@@ -1,0 +1,1 @@
+return this.actor.attacker && (args.skill?.name.includes("Corps à corps (Bas)") || (args.type == "weapon" && args.item?.system.weaponGroup.value == "basic"))
