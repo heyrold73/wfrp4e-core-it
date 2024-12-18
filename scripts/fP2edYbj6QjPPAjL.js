@@ -1,0 +1,1 @@
+return ["Emprise sur les animaux", "Résistance", "Survie en extérieur"].includes(args.skill?.name)

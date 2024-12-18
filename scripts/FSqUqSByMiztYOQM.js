@@ -1,0 +1,2 @@
+if (args.totalWoundLoss > 0)
+     this.script.scriptMessage(`<b>Infecté: ${args.actor.name}</b> doit réussir un Test de <b>Résistance Facile (+40) </b> ou recevoir une @UUID[Compendium.wfrp4e-core.items.kKccDTGzWzSXCBOb]{Blessure Purulente}`, {whisper: ChatMessage.getWhisperRecipients("GM") })

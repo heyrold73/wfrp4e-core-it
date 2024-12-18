@@ -1,0 +1,1 @@
+this.script.scriptNotification(`Ne peut entrer ${this.effect.name}!`); this.actor.addCondition("broken");
