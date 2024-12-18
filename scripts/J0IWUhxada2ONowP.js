@@ -1,0 +1,1 @@
+        return args.skill?.name == "Divertissement (Chant)" || args.skill?.name == "Divertissement (Chanter)" || (args.skill?.name.includes("Langue") && (args.skill?.name.includes("Magick") || args.skill?.name.includes("Elthárin") || args.skill?.name.includes("Cathayan")))

@@ -1,0 +1,3 @@
+const speaker = ChatMessage.getSpeaker({actor: this.actor});
+
+this.script.scriptMessage(`<p><b>${speaker.alias}</b> est immergé dans la Elémentair de Mer et subit la @UUID[Compendium.wfrp4e-core.journals.JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#drowning-and-suffocation]{Suffocation}</p><p>Il peut essayer de s'échapperen s"évadant de l'Etat @Condition[Entravé} comme si il était @UUID[Compendium.wfrp4e-core.journals.JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA#grappling]{Grappled} par l'Elémentaire de Mer, en réalisant un  <b>Test Opposé de Force</b> contre une Force de 59.</p>`);
