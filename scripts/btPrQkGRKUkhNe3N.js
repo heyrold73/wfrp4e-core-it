@@ -1,0 +1,1 @@
+return args.skill?.name == "Métier (Apothicaire)"

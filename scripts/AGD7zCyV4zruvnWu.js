@@ -1,0 +1,1 @@
+return args.type != "cast" || !["mort", "nécromancie", "vie", "lumière", "cieux"].includes(args.spell?.system.lore.value)
