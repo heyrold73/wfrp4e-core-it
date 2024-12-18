@@ -1,0 +1,1 @@
+this.script.scriptMessage(`Revendiquer le Bonus de <strong>${this.effect.name}</strong> `);
