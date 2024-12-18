@@ -1,0 +1,1 @@
+return args.skill?.name == "Chevaucher (Cheval)" || (args.options.dodge && this.actor.isMounted);
