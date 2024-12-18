@@ -1,0 +1,1 @@
+this.actor.setupSkill(game.i18n.localize("NAME.Cool"), {appendTitle: ` - ${this.effect.name}`, context: { failure : "Ne peut fuir les combats"}}).then(test => test.roll())

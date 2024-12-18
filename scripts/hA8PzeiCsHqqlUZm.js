@@ -1,0 +1,2 @@
+this.actor.createEmbeddedDocuments("ActiveEffect", [game.wfrp4e.config.symptomEffects["nausea"]])
+this.script.scriptMessage(`Gaine de @Condition[Nausée] pour [[1d10]] heures`, {whisper: ChatMessage.getWhisperRecipients("GM")})

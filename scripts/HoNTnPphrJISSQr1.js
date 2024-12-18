@@ -1,0 +1,1 @@
+ChatMessage.create({content : "<em>Parle et fais toi connaître</em>", speaker : ChatMessage.getSpeaker({token: this.actor.getActiveTokens()[0]?.document, actor: this.actor})}, {chatBubble : true})

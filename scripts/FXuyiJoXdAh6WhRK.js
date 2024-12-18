@@ -1,0 +1,1 @@
+return args.skill?.name == "Chevaucher (Cheval)" && game.combat?.active
