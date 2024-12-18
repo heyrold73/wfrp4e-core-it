@@ -1,0 +1,1 @@
+return args.skill?.name.includes("Focalisation") || args.type == "channelling"
